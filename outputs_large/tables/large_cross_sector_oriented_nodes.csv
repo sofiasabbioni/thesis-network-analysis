@@ -1,0 +1,10 @@
+ticker,company,official_sector,degree,same_sector_neighbors,cross_sector_neighbors,same_sector_share,dominant_neighbor_sector,dominant_neighbor_sector_share,expected_same_sector_share,same_sector_share_ratio,dominant_neighbor_sectors_tied,n_dominant_tied_sectors,dominant_sector_is_tied,official_in_dominant_tie,n_neighbor_sectors
+AMZN,Amazon,Consumer Discretionary,25,0,25,0.000000,Information Technology,0.680000,0.095137,0.000000,Information Technology,1,False,False,3
+HSIC,Henry Schein,Health Care,6,0,6,0.000000,Financials,0.666667,0.118393,0.000000,Financials,1,False,False,2
+SYY,Sysco,Consumer Staples,120,1,119,0.008333,Financials,0.308333,0.071882,0.115931,Financials,1,False,False,11
+GRMN,Garmin,Consumer Discretionary,55,1,54,0.018182,Financials,0.363636,0.095137,0.191111,Financials,1,False,False,7
+UHS,Universal Health Services,Health Care,80,5,75,0.062500,Financials,0.312500,0.118393,0.527902,Financials,1,False,False,10
+TDY,Teledyne Technologies,Information Technology,131,10,121,0.076336,Financials,0.328244,0.133192,0.573125,Financials,1,False,False,11
+PAYC,Paycom,Industrials,22,3,19,0.136364,Information Technology,0.500000,0.154334,0.883562,Information Technology,1,False,False,3
+SYK,Stryker Corporation,Health Care,138,15,123,0.108696,Financials,0.289855,0.118393,0.918090,Financials,1,False,False,10
+ADM,Archer Daniels Midland,Consumer Staples,14,1,13,0.071429,Financials,0.500000,0.071882,0.993697,Financials,1,False,False,5

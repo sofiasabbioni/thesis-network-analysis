@@ -1,0 +1,48 @@
+ticker,company,sector,degree,component,is_isolated,is_articulation_point,network_role,is_mst_leaf
+AAPL,Apple,Technology,11,0,False,False,Hub / central,True
+ABBV,AbbVie,Healthcare,0,2,True,False,Isolated,True
+ADBE,Adobe,Technology,7,0,False,False,Peripheral,False
+AEP,American Electric Power,Utilities,8,0,False,False,Peripheral,True
+AMT,American Tower,Real Estate,7,0,False,False,Intermediate,False
+AMZN,Amazon,Consumer Discretionary,7,0,False,False,Peripheral,True
+BA,Boeing,Industrials,8,0,False,False,Peripheral,True
+BAC,Bank of America,Financials,16,0,False,False,Hub / central,False
+CAT,Caterpillar,Industrials,13,0,False,False,Peripheral,True
+COP,ConocoPhillips,Energy,12,0,False,False,Intermediate,False
+COST,Costco,Consumer Staples,4,0,False,True,Bridge,False
+CRM,Salesforce,Technology,7,0,False,False,Peripheral,True
+CVX,Chevron,Energy,13,0,False,False,Hub / central,False
+DIS,Walt Disney,Communication Services,7,0,False,False,Peripheral,True
+DUK,Duke Energy,Utilities,11,0,False,False,Intermediate,False
+EOG,EOG Resources,Energy,7,0,False,False,Peripheral,True
+GE,GE Aerospace,Industrials,9,0,False,False,Peripheral,True
+GOOGL,Alphabet,Communication Services,7,0,False,False,Peripheral,True
+GS,Goldman Sachs,Financials,17,0,False,False,Hub / central,True
+HD,Home Depot,Consumer Discretionary,13,0,False,False,Hub / central,False
+HON,Honeywell,Industrials,20,0,False,False,Hub / central,False
+JNJ,Johnson & Johnson,Healthcare,7,0,False,True,Bridge,False
+JPM,JPMorgan Chase,Financials,17,0,False,False,Hub / central,False
+KO,Coca-Cola,Consumer Staples,10,0,False,False,Intermediate,False
+MCD,McDonald's,Consumer Discretionary,7,0,False,False,Intermediate,False
+META,Meta Platforms,Communication Services,7,0,False,False,Peripheral,True
+MRK,Merck,Healthcare,1,0,False,False,Peripheral,False
+MS,Morgan Stanley,Financials,20,0,False,False,Hub / central,False
+MSFT,Microsoft,Technology,10,0,False,False,Intermediate,False
+NEE,NextEra Energy,Utilities,8,0,False,False,Peripheral,True
+NKE,Nike,Consumer Discretionary,3,0,False,False,Peripheral,True
+NVDA,NVIDIA,Technology,7,0,False,False,Peripheral,True
+PEP,PepsiCo,Consumer Staples,11,0,False,False,Intermediate,False
+PFE,Pfizer,Healthcare,1,0,False,False,Peripheral,True
+PG,Procter & Gamble,Consumer Staples,7,0,False,False,Peripheral,True
+PLD,Prologis,Real Estate,10,0,False,False,Hub / central,False
+SBUX,Starbucks,Consumer Discretionary,8,0,False,False,Intermediate,False
+SLB,SLB (Schlumberger),Energy,12,0,False,False,Peripheral,True
+SO,Southern Company,Utilities,11,0,False,False,Intermediate,False
+SPG,Simon Property Group,Real Estate,13,0,False,False,Intermediate,False
+T,AT&T,Communication Services,3,0,False,True,Bridge,False
+UNH,UnitedHealth,Healthcare,0,1,True,False,Isolated,True
+UNP,Union Pacific,Industrials,12,0,False,False,Intermediate,False
+VZ,Verizon,Communication Services,1,0,False,False,Peripheral,True
+WFC,Wells Fargo,Financials,14,0,False,False,Hub / central,True
+WMT,Walmart,Consumer Staples,1,0,False,False,Peripheral,True
+XOM,Exxon Mobil,Energy,11,0,False,False,Peripheral,True

@@ -1,0 +1,475 @@
+ticker,company,sector,degree,component,is_isolated,is_articulation_point,network_role,is_mst_leaf
+A,Agilent Technologies,Health Care,68,0,False,False,Intermediate,False
+AAPL,Apple Inc.,Information Technology,72,0,False,False,Intermediate,False
+ABBV,AbbVie,Health Care,0,18,True,False,Isolated,True
+ABT,Abbott Laboratories,Health Care,25,0,False,False,Intermediate,False
+ACGL,Arch Capital Group,Financials,113,0,False,False,Intermediate,False
+ACN,Accenture,Information Technology,142,0,False,True,Central bridge,False
+ADBE,Adobe Inc.,Information Technology,44,0,False,False,Intermediate,False
+ADI,Analog Devices,Information Technology,144,0,False,False,Hub / central,False
+ADM,Archer Daniels Midland,Consumer Staples,14,0,False,False,Intermediate,False
+ADP,Automatic Data Processing,Industrials,179,0,False,False,Hub / central,False
+ADSK,Autodesk,Information Technology,81,0,False,False,Intermediate,False
+AEE,Ameren,Utilities,57,0,False,False,Intermediate,False
+AEP,American Electric Power,Utilities,43,0,False,False,Peripheral,True
+AES,AES Corporation,Utilities,17,0,False,False,Intermediate,False
+AFL,Aflac,Financials,173,0,False,False,Hub / central,True
+AIG,American International Group,Financials,187,0,False,False,Hub / central,False
+AIZ,Assurant,Financials,53,0,False,False,Peripheral,True
+AJG,Arthur J. Gallagher & Co.,Financials,87,0,False,False,Intermediate,False
+AKAM,Akamai Technologies,Information Technology,0,36,True,False,Isolated,True
+ALB,Albemarle Corporation,Materials,1,0,False,False,Peripheral,True
+ALGN,Align Technology,Health Care,2,0,False,False,Peripheral,True
+ALL,Allstate,Financials,57,0,False,False,Intermediate,False
+ALLE,Allegion,Industrials,164,0,False,False,Hub / central,True
+AMAT,Applied Materials,Information Technology,81,0,False,False,Intermediate,False
+AMCR,Amcor,Materials,69,0,False,False,Peripheral,True
+AMD,Advanced Micro Devices,Information Technology,28,0,False,False,Peripheral,True
+AME,Ametek,Industrials,236,0,False,False,Hub / central,False
+AMGN,Amgen,Health Care,1,0,False,False,Peripheral,False
+AMP,Ameriprise Financial,Financials,265,0,False,False,Hub / central,False
+AMT,American Tower,Real Estate,49,0,False,False,Intermediate,False
+AMZN,Amazon,Consumer Discretionary,25,0,False,True,Bridge,False
+ANET,Arista Networks,Information Technology,11,0,False,False,Peripheral,True
+AON,Aon plc,Financials,22,0,False,False,Intermediate,False
+AOS,A. O. Smith,Industrials,50,0,False,False,Peripheral,True
+APA,APA Corporation,Energy,36,0,False,False,Peripheral,True
+APD,Air Products,Materials,38,0,False,False,Peripheral,True
+APH,Amphenol,Information Technology,176,0,False,False,Hub / central,False
+APO,Apollo Global Management,Financials,119,0,False,False,Peripheral,True
+APTV,Aptiv,Consumer Discretionary,134,0,False,False,Intermediate,False
+ARE,Alexandria Real Estate Equities,Real Estate,62,0,False,False,Intermediate,False
+ARES,Ares Management,Financials,122,0,False,False,Peripheral,True
+ATO,Atmos Energy,Utilities,53,0,False,False,Peripheral,True
+AVGO,Broadcom,Information Technology,43,0,False,False,Intermediate,False
+AVY,Avery Dennison,Materials,139,0,False,False,Hub / central,False
+AWK,American Water Works,Utilities,51,0,False,False,Intermediate,False
+AXON,Axon Enterprise,Industrials,0,35,True,False,Isolated,True
+AXP,American Express,Financials,219,0,False,False,Hub / central,False
+AZO,AutoZone,Consumer Discretionary,4,0,False,False,Peripheral,False
+BA,Boeing,Industrials,84,0,False,False,Peripheral,True
+BAC,Bank of America,Financials,199,0,False,False,Hub / central,False
+BALL,Ball Corporation,Materials,0,40,True,False,Isolated,True
+BAX,Baxter International,Health Care,0,19,True,False,Isolated,True
+BBY,Best Buy,Consumer Discretionary,43,0,False,True,Bridge,False
+BDX,Becton Dickinson,Health Care,0,20,True,False,Isolated,True
+BEN,Franklin Resources,Financials,118,0,False,False,Peripheral,True
+BF-B,Brown–Forman,Consumer Staples,3,0,False,False,Peripheral,False
+BG,Bunge Global,Consumer Staples,12,0,False,False,Peripheral,True
+BIIB,Biogen,Health Care,0,21,True,False,Isolated,True
+BKNG,Booking Holdings,Consumer Discretionary,101,0,False,False,Intermediate,False
+BKR,Baker Hughes,Energy,66,0,False,False,Peripheral,True
+BLDR,Builders FirstSource,Industrials,95,0,False,False,Peripheral,True
+BLK,BlackRock,Financials,235,0,False,False,Hub / central,False
+BMY,Bristol Myers Squibb,Health Care,0,22,True,False,Isolated,True
+BR,Broadridge Financial Solutions,Industrials,78,0,False,False,Peripheral,True
+BRK-B,Berkshire Hathaway,Financials,238,0,False,False,Hub / central,False
+BRO,Brown & Brown,Financials,73,0,False,False,Intermediate,False
+BSX,Boston Scientific,Health Care,59,0,False,False,Peripheral,True
+BX,Blackstone Inc.,Financials,179,0,False,False,Hub / central,False
+BXP,"BXP, Inc.",Real Estate,123,0,False,False,Peripheral,True
+C,Citigroup,Financials,206,0,False,False,Hub / central,True
+CAG,Conagra Brands,Consumer Staples,3,0,False,False,Peripheral,True
+CAH,Cardinal Health,Health Care,2,2,False,False,Peripheral,True
+CAT,Caterpillar Inc.,Industrials,121,0,False,False,Intermediate,False
+CB,Chubb Limited,Financials,99,0,False,False,Intermediate,False
+CBOE,Cboe Global Markets,Financials,1,0,False,False,Peripheral,True
+CBRE,CBRE Group,Real Estate,188,0,False,False,Hub / central,True
+CCI,Crown Castle,Real Estate,48,0,False,False,Peripheral,True
+CCL,Carnival,Consumer Discretionary,85,0,False,False,Intermediate,False
+CDNS,Cadence Design Systems,Information Technology,69,0,False,False,Intermediate,False
+CDW,CDW Corporation,Information Technology,154,0,False,False,Hub / central,True
+CF,CF Industries,Materials,21,0,False,False,Intermediate,False
+CFG,Citizens Financial Group,Financials,190,0,False,False,Hub / central,False
+CHD,Church & Dwight,Consumer Staples,8,0,False,False,Peripheral,False
+CHRW,C.H. Robinson,Industrials,1,0,False,False,Peripheral,True
+CHTR,Charter Communications,Communication Services,1,0,False,False,Peripheral,True
+CI,Cigna,Health Care,6,1,False,False,Intermediate,False
+CINF,Cincinnati Financial,Financials,88,0,False,False,Peripheral,True
+CL,Colgate-Palmolive,Consumer Staples,35,0,False,False,Peripheral,True
+CLX,Clorox,Consumer Staples,3,0,False,False,Peripheral,True
+CMCSA,Comcast,Communication Services,10,0,False,True,Bridge,False
+CME,CME Group,Financials,24,0,False,True,Bridge,False
+CMG,Chipotle Mexican Grill,Consumer Discretionary,1,0,False,False,Peripheral,True
+CMI,Cummins,Industrials,126,0,False,False,Intermediate,False
+CMS,CMS Energy,Utilities,49,0,False,False,Intermediate,False
+CNC,Centene Corporation,Health Care,4,1,False,False,Peripheral,False
+CNP,CenterPoint Energy,Utilities,73,0,False,False,Peripheral,True
+COF,Capital One,Financials,198,0,False,False,Hub / central,False
+COO,Cooper Companies (The),Health Care,15,0,False,False,Peripheral,True
+COP,ConocoPhillips,Energy,64,0,False,False,Intermediate,False
+COR,Cencora,Health Care,2,2,False,False,Intermediate,False
+COST,Costco,Consumer Staples,5,0,False,True,Bridge,False
+CPAY,Corpay,Financials,149,0,False,False,Hub / central,True
+CPB,Campbell's Company (The),Consumer Staples,8,0,False,False,Peripheral,True
+CPRT,Copart,Industrials,106,0,False,False,Peripheral,True
+CPT,Camden Property Trust,Real Estate,115,0,False,False,Intermediate,False
+CRH,CRH plc,Materials,150,0,False,False,Hub / central,False
+CRL,Charles River Laboratories,Health Care,24,0,False,False,Peripheral,True
+CRM,Salesforce,Information Technology,28,0,False,False,Peripheral,True
+CSCO,Cisco,Information Technology,53,0,False,False,Peripheral,True
+CSGP,CoStar Group,Real Estate,12,0,False,False,Peripheral,True
+CSX,CSX Corporation,Industrials,175,0,False,False,Hub / central,False
+CTAS,Cintas,Industrials,190,0,False,False,Hub / central,True
+CTSH,Cognizant,Information Technology,110,0,False,False,Peripheral,True
+CVNA,Carvana,Consumer Discretionary,0,7,True,False,Isolated,True
+CVS,CVS Health,Health Care,3,1,False,False,Peripheral,True
+CVX,Chevron Corporation,Energy,97,0,False,False,Intermediate,False
+D,Dominion Energy,Utilities,47,0,False,False,Peripheral,True
+DAL,Delta Air Lines,Industrials,104,0,False,False,Intermediate,False
+DD,DuPont,Materials,146,0,False,False,Hub / central,True
+DE,Deere & Company,Industrials,87,0,False,False,Peripheral,True
+DECK,Deckers Brands,Consumer Discretionary,8,0,False,False,Peripheral,True
+DELL,Dell Technologies,Information Technology,18,0,False,False,Peripheral,True
+DG,Dollar General,Consumer Staples,0,11,True,False,Isolated,True
+DGX,Quest Diagnostics,Health Care,1,0,False,False,Peripheral,True
+DHI,D. R. Horton,Consumer Discretionary,32,0,False,False,Peripheral,True
+DHR,Danaher Corporation,Health Care,30,0,False,False,Intermediate,False
+DIS,Walt Disney Company (The),Communication Services,84,0,False,False,Peripheral,True
+DLR,Digital Realty,Real Estate,15,0,False,False,Peripheral,True
+DLTR,Dollar Tree,Consumer Staples,0,12,True,False,Isolated,False
+DOC,Healthpeak Properties,Real Estate,108,0,False,False,Intermediate,False
+DOV,Dover Corporation,Industrials,263,0,False,False,Hub / central,False
+DOW,Dow Inc.,Materials,120,0,False,False,Intermediate,False
+DPZ,Domino's,Consumer Discretionary,0,8,True,False,Isolated,True
+DRI,Darden Restaurants,Consumer Discretionary,109,0,False,False,Intermediate,False
+DTE,DTE Energy,Utilities,115,0,False,False,Intermediate,False
+DUK,Duke Energy,Utilities,66,0,False,False,Intermediate,False
+DVA,DaVita,Health Care,0,23,True,False,Isolated,True
+DVN,Devon Energy,Energy,54,0,False,False,Intermediate,False
+DXCM,Dexcom,Health Care,0,24,True,False,Isolated,True
+EBAY,eBay Inc.,Consumer Discretionary,0,9,True,False,Isolated,True
+ECL,Ecolab,Materials,172,0,False,False,Hub / central,True
+ED,Consolidated Edison,Utilities,42,0,False,False,Peripheral,True
+EFX,Equifax,Industrials,43,0,False,False,Peripheral,True
+EG,Everest Group,Financials,40,0,False,False,Peripheral,True
+EIX,Edison International,Utilities,37,0,False,False,Intermediate,False
+EL,Estée Lauder Companies (The),Consumer Staples,3,0,False,False,Peripheral,True
+ELV,Elevance Health,Health Care,6,1,False,False,Intermediate,False
+EME,Emcor,Industrials,70,0,False,False,Intermediate,False
+EMR,Emerson Electric,Industrials,208,0,False,False,Hub / central,False
+EOG,EOG Resources,Energy,40,0,False,False,Intermediate,False
+EPAM,EPAM Systems,Information Technology,1,0,False,False,Peripheral,True
+EQIX,Equinix,Real Estate,23,0,False,False,Intermediate,False
+EQT,EQT Corporation,Energy,0,16,True,False,Isolated,True
+ERIE,Erie Indemnity,Financials,0,17,True,False,Isolated,True
+ES,Eversource Energy,Utilities,44,0,False,False,Peripheral,True
+ESS,Essex Property Trust,Real Estate,116,0,False,False,Peripheral,True
+ETN,Eaton Corporation,Industrials,175,0,False,False,Hub / central,False
+ETR,Entergy,Utilities,63,0,False,False,Intermediate,False
+EVRG,Evergy,Utilities,60,0,False,False,Peripheral,True
+EW,Edwards Lifesciences,Health Care,4,0,False,False,Peripheral,True
+EXC,Exelon,Utilities,75,0,False,False,Intermediate,False
+EXPD,Expeditors International,Industrials,37,0,False,True,Bridge,False
+EXPE,Expedia Group,Consumer Discretionary,47,0,False,False,Peripheral,True
+EXR,Extra Space Storage,Real Estate,22,0,False,False,Peripheral,True
+F,Ford Motor Company,Consumer Discretionary,76,0,False,False,Peripheral,True
+FANG,Diamondback Energy,Energy,43,0,False,False,Intermediate,False
+FAST,Fastenal,Industrials,71,0,False,False,Peripheral,True
+FCX,Freeport-McMoRan,Materials,99,0,False,True,Bridge,False
+FDS,FactSet,Financials,30,0,False,False,Peripheral,True
+FDX,FedEx,Industrials,33,0,False,False,Intermediate,False
+FE,FirstEnergy,Utilities,32,0,False,False,Peripheral,True
+FFIV,"F5, Inc.",Information Technology,27,0,False,False,Peripheral,True
+FICO,Fair Isaac,Information Technology,25,0,False,False,Peripheral,True
+FIS,Fidelity National Information Services,Financials,18,0,False,False,Peripheral,True
+FISV,Fiserv,Financials,6,0,False,False,Peripheral,True
+FITB,Fifth Third Bancorp,Financials,205,0,False,False,Hub / central,False
+FIX,Comfort Systems USA,Industrials,42,0,False,False,Peripheral,True
+FOX,Fox Corporation (Class B),Communication Services,32,0,False,False,Intermediate,False
+FOXA,Fox Corporation (Class A),Communication Services,18,0,False,False,Peripheral,True
+FRT,Federal Realty Investment Trust,Real Estate,153,0,False,False,Hub / central,False
+FSLR,First Solar,Information Technology,0,37,True,False,Isolated,True
+FTNT,Fortinet,Information Technology,8,0,False,False,Peripheral,False
+FTV,Fortive,Industrials,202,0,False,False,Hub / central,True
+GD,General Dynamics,Industrials,150,0,False,False,Hub / central,False
+GDDY,GoDaddy,Information Technology,11,0,False,False,Peripheral,True
+GE,GE Aerospace,Industrials,94,0,False,False,Peripheral,True
+GEN,Gen Digital,Information Technology,0,38,True,False,Isolated,True
+GILD,Gilead Sciences,Health Care,0,25,True,False,Isolated,True
+GIS,General Mills,Consumer Staples,14,0,False,False,Peripheral,False
+GL,Globe Life,Financials,10,0,False,False,Peripheral,True
+GLW,Corning Inc.,Information Technology,142,0,False,False,Hub / central,True
+GM,General Motors,Consumer Discretionary,124,0,False,False,Intermediate,False
+GNRC,Generac,Industrials,7,0,False,False,Peripheral,True
+GOOG,Alphabet Inc. (Class C),Communication Services,37,0,False,False,Peripheral,True
+GOOGL,Alphabet Inc. (Class A),Communication Services,38,0,False,False,Intermediate,False
+GPC,Genuine Parts Company,Consumer Discretionary,108,0,False,False,Intermediate,False
+GPN,Global Payments,Financials,118,0,False,False,Intermediate,False
+GRMN,Garmin,Consumer Discretionary,55,0,False,False,Peripheral,True
+GS,Goldman Sachs,Financials,203,0,False,False,Hub / central,True
+GWW,W. W. Grainger,Industrials,83,0,False,False,Intermediate,False
+HAL,Halliburton,Energy,84,0,False,False,Intermediate,False
+HAS,Hasbro,Consumer Discretionary,6,0,False,False,Peripheral,True
+HBAN,Huntington Bancshares,Financials,166,0,False,False,Hub / central,False
+HCA,HCA Healthcare,Health Care,28,0,False,False,Peripheral,True
+HD,Home Depot (The),Consumer Discretionary,148,0,False,False,Hub / central,False
+HIG,Hartford (The),Financials,125,0,False,False,Intermediate,False
+HII,Huntington Ingalls Industries,Industrials,8,0,False,False,Peripheral,True
+HLT,Hilton Worldwide,Consumer Discretionary,119,0,False,False,Intermediate,False
+HON,Honeywell,Industrials,226,0,False,False,Hub / central,True
+HPE,Hewlett Packard Enterprise,Information Technology,94,0,False,False,Intermediate,False
+HPQ,HP Inc.,Information Technology,78,0,False,False,Peripheral,True
+HRL,Hormel Foods,Consumer Staples,3,0,False,False,Peripheral,True
+HSIC,Henry Schein,Health Care,6,0,False,False,Peripheral,True
+HST,Host Hotels & Resorts,Real Estate,136,0,False,False,Intermediate,False
+HSY,Hershey Company (The),Consumer Staples,13,0,False,False,Peripheral,True
+HUBB,Hubbell Incorporated,Industrials,144,0,False,False,Hub / central,True
+HUM,Humana,Health Care,4,1,False,False,Peripheral,True
+HWM,Howmet Aerospace,Industrials,141,0,False,False,Peripheral,True
+IBKR,Interactive Brokers,Financials,32,0,False,False,Peripheral,True
+IBM,IBM,Information Technology,35,0,False,False,Peripheral,True
+ICE,Intercontinental Exchange,Financials,61,0,False,False,Intermediate,False
+IDXX,Idexx Laboratories,Health Care,20,0,False,False,Peripheral,True
+IEX,IDEX Corporation,Industrials,152,0,False,False,Hub / central,True
+IFF,International Flavors & Fragrances,Materials,3,0,False,False,Peripheral,True
+INCY,Incyte,Health Care,0,26,True,False,Isolated,True
+INTC,Intel,Information Technology,11,0,False,False,Peripheral,True
+INTU,Intuit,Information Technology,89,0,False,False,Intermediate,False
+INVH,Invitation Homes,Real Estate,103,0,False,False,Peripheral,True
+IP,International Paper,Materials,77,0,False,False,Intermediate,False
+IQV,IQVIA,Health Care,132,0,False,False,Hub / central,False
+IR,Ingersoll Rand,Industrials,154,0,False,False,Hub / central,True
+IRM,Iron Mountain,Real Estate,21,0,False,False,Peripheral,True
+ISRG,Intuitive Surgical,Health Care,72,0,False,False,Intermediate,False
+IT,Gartner,Information Technology,14,0,False,False,Peripheral,True
+ITW,Illinois Tool Works,Industrials,225,0,False,False,Hub / central,False
+IVZ,Invesco,Financials,172,0,False,False,Hub / central,False
+J,Jacobs Solutions,Industrials,120,0,False,False,Peripheral,True
+JBHT,J.B. Hunt,Industrials,30,0,False,False,Intermediate,False
+JBL,Jabil,Information Technology,131,0,False,False,Peripheral,True
+JCI,Johnson Controls,Industrials,139,0,False,False,Peripheral,True
+JKHY,Jack Henry & Associates,Financials,7,0,False,False,Peripheral,True
+JNJ,Johnson & Johnson,Health Care,21,0,False,True,Bridge,False
+JPM,JPMorgan Chase,Financials,192,0,False,False,Hub / central,True
+KDP,Keurig Dr Pepper,Consumer Staples,1,0,False,False,Peripheral,True
+KEY,KeyCorp,Financials,169,0,False,False,Hub / central,True
+KEYS,Keysight Technologies,Information Technology,61,0,False,False,Peripheral,True
+KHC,Kraft Heinz,Consumer Staples,7,0,False,False,Peripheral,True
+KIM,Kimco Realty,Real Estate,149,0,False,False,Hub / central,False
+KKR,KKR & Co.,Financials,177,0,False,False,Hub / central,False
+KLAC,KLA Corporation,Information Technology,81,0,False,False,Intermediate,False
+KMB,Kimberly-Clark,Consumer Staples,14,0,False,False,Peripheral,True
+KMI,Kinder Morgan,Energy,108,0,False,False,Intermediate,False
+KO,Coca-Cola Company (The),Consumer Staples,84,0,False,False,Hub / central,False
+KR,Kroger,Consumer Staples,0,13,True,False,Isolated,True
+L,Loews Corporation,Financials,221,0,False,False,Hub / central,False
+LDOS,Leidos,Industrials,3,0,False,False,Peripheral,True
+LEN,Lennar,Consumer Discretionary,43,0,False,False,Intermediate,False
+LH,Labcorp,Health Care,39,0,False,True,Bridge,False
+LHX,L3Harris,Industrials,12,0,False,False,Intermediate,False
+LII,Lennox International,Industrials,43,0,False,False,Peripheral,True
+LIN,Linde plc,Materials,155,0,False,False,Hub / central,False
+LLY,Lilly (Eli),Health Care,0,27,True,False,Isolated,True
+LMT,Lockheed Martin,Industrials,6,0,False,False,Peripheral,False
+LNT,Alliant Energy,Utilities,60,0,False,False,Intermediate,False
+LOW,Lowe's,Consumer Discretionary,106,0,False,False,Intermediate,False
+LRCX,Lam Research,Information Technology,89,0,False,False,Intermediate,False
+LULU,Lululemon Athletica,Consumer Discretionary,1,0,False,False,Peripheral,True
+LUV,Southwest Airlines,Industrials,68,0,False,False,Peripheral,True
+LVS,Las Vegas Sands,Consumer Discretionary,17,0,False,False,Peripheral,True
+LW,Lamb Weston,Consumer Staples,0,14,True,False,Isolated,True
+LYB,LyondellBasell,Materials,152,0,False,False,Hub / central,False
+LYV,Live Nation Entertainment,Communication Services,60,0,False,False,Peripheral,True
+MA,Mastercard,Financials,186,0,False,False,Hub / central,False
+MAA,Mid-America Apartment Communities,Real Estate,115,0,False,False,Intermediate,False
+MAR,Marriott International,Consumer Discretionary,121,0,False,False,Intermediate,False
+MAS,Masco,Industrials,123,0,False,False,Intermediate,False
+MCD,McDonald's,Consumer Discretionary,70,0,False,False,Intermediate,False
+MCHP,Microchip Technology,Information Technology,132,0,False,False,Intermediate,False
+MCK,McKesson Corporation,Health Care,2,2,False,False,Peripheral,True
+MCO,Moody's Corporation,Financials,195,0,False,False,Hub / central,False
+MDLZ,Mondelez International,Consumer Staples,55,0,False,False,Intermediate,False
+MDT,Medtronic,Health Care,92,0,False,False,Peripheral,True
+MET,MetLife,Financials,220,0,False,False,Hub / central,False
+META,Meta Platforms,Communication Services,11,0,False,False,Peripheral,True
+MGM,MGM Resorts,Consumer Discretionary,142,0,False,False,Intermediate,False
+MKC,McCormick & Company,Consumer Staples,16,0,False,False,Peripheral,True
+MLM,Martin Marietta Materials,Materials,148,0,False,False,Hub / central,False
+MMM,3M,Industrials,63,0,False,False,Peripheral,True
+MNST,Monster Beverage,Consumer Staples,7,0,False,False,Peripheral,True
+MO,Altria,Consumer Staples,2,0,False,False,Peripheral,True
+MOH,Molina Healthcare,Health Care,5,1,False,False,Peripheral,True
+MOS,Mosaic Company (The),Materials,38,0,False,False,Peripheral,True
+MPC,Marathon Petroleum,Energy,90,0,False,False,Peripheral,True
+MPWR,Monolithic Power Systems,Information Technology,60,0,False,False,Intermediate,False
+MRK,Merck & Co.,Health Care,1,0,False,False,Peripheral,False
+MRNA,Moderna,Health Care,0,28,True,False,Isolated,True
+MS,Morgan Stanley,Financials,218,0,False,False,Hub / central,False
+MSCI,MSCI Inc.,Financials,74,0,False,False,Peripheral,True
+MSFT,Microsoft,Information Technology,85,0,False,True,Bridge,False
+MSI,Motorola Solutions,Information Technology,45,0,False,False,Peripheral,True
+MTB,M&T Bank,Financials,133,0,False,False,Peripheral,True
+MTCH,Match Group,Communication Services,0,3,True,False,Isolated,True
+MTD,Mettler Toledo,Health Care,65,0,False,False,Peripheral,True
+MU,Micron Technology,Information Technology,37,0,False,False,Intermediate,False
+NCLH,Norwegian Cruise Line Holdings,Consumer Discretionary,66,0,False,False,Peripheral,True
+NDAQ,"Nasdaq, Inc.",Financials,94,0,False,False,Intermediate,False
+NDSN,Nordson Corporation,Industrials,205,0,False,False,Hub / central,True
+NEE,NextEra Energy,Utilities,39,0,False,False,Peripheral,True
+NEM,Newmont,Materials,0,41,True,False,Isolated,True
+NFLX,Netflix,Communication Services,1,0,False,False,Peripheral,True
+NI,NiSource,Utilities,66,0,False,False,Intermediate,False
+NKE,"Nike, Inc.",Consumer Discretionary,20,0,False,True,Bridge,False
+NOC,Northrop Grumman,Industrials,5,0,False,False,Peripheral,True
+NOW,ServiceNow,Information Technology,39,0,False,False,Intermediate,False
+NRG,NRG Energy,Utilities,4,0,False,False,Peripheral,True
+NSC,Norfolk Southern,Industrials,163,0,False,False,Hub / central,False
+NTAP,NetApp,Information Technology,35,0,False,False,Peripheral,True
+NTRS,Northern Trust,Financials,169,0,False,False,Hub / central,True
+NUE,Nucor,Materials,83,0,False,False,Peripheral,True
+NVDA,Nvidia,Information Technology,46,0,False,False,Intermediate,False
+NVR,"NVR, Inc.",Consumer Discretionary,49,0,False,False,Peripheral,True
+NWS,News Corp (Class B),Communication Services,84,0,False,False,Peripheral,True
+NWSA,News Corp (Class A),Communication Services,78,0,False,False,Intermediate,False
+NXPI,NXP Semiconductors,Information Technology,141,0,False,False,Hub / central,False
+O,Realty Income,Real Estate,98,0,False,False,Intermediate,False
+ODFL,Old Dominion,Industrials,35,0,False,False,Peripheral,True
+OKE,Oneok,Energy,96,0,False,False,Intermediate,False
+OMC,Omnicom Group,Communication Services,96,0,False,False,Intermediate,False
+ON,ON Semiconductor,Information Technology,81,0,False,False,Peripheral,True
+ORCL,Oracle Corporation,Information Technology,2,0,False,False,Peripheral,True
+ORLY,O’Reilly Automotive,Consumer Discretionary,7,0,False,False,Peripheral,True
+OXY,Occidental Petroleum,Energy,36,0,False,False,Peripheral,True
+PANW,Palo Alto Networks,Information Technology,2,0,False,False,Peripheral,True
+PAYC,Paycom,Industrials,22,0,False,False,Peripheral,True
+PAYX,Paychex,Industrials,181,0,False,False,Hub / central,False
+PCAR,Paccar,Industrials,107,0,False,False,Peripheral,True
+PCG,PG&E Corporation,Utilities,0,43,True,False,Isolated,True
+PEG,Public Service Enterprise Group,Utilities,58,0,False,False,Peripheral,True
+PEP,PepsiCo,Consumer Staples,58,0,False,True,Bridge,False
+PFE,Pfizer,Health Care,1,0,False,False,Peripheral,True
+PFG,Principal Financial Group,Financials,233,0,False,False,Hub / central,True
+PG,Procter & Gamble,Consumer Staples,33,0,False,False,Intermediate,False
+PGR,Progressive Corporation,Financials,8,0,False,False,Peripheral,True
+PH,Parker Hannifin,Industrials,248,0,False,False,Hub / central,False
+PHM,PulteGroup,Consumer Discretionary,68,0,False,False,Intermediate,False
+PKG,Packaging Corporation of America,Materials,77,0,False,False,Intermediate,False
+PLD,Prologis,Real Estate,129,0,False,False,Hub / central,False
+PM,Philip Morris International,Consumer Staples,6,0,False,False,Peripheral,False
+PNC,PNC Financial Services,Financials,206,0,False,False,Hub / central,False
+PNR,Pentair,Industrials,197,0,False,False,Hub / central,False
+PNW,Pinnacle West Capital,Utilities,67,0,False,False,Intermediate,False
+PODD,Insulet Corporation,Health Care,0,29,True,False,Isolated,False
+POOL,Pool Corporation,Consumer Discretionary,30,0,False,False,Peripheral,True
+PPG,PPG Industries,Materials,181,0,False,False,Hub / central,False
+PPL,PPL Corporation,Utilities,104,0,False,False,Intermediate,False
+PRU,Prudential Financial,Financials,233,0,False,False,Hub / central,False
+PSA,Public Storage,Real Estate,40,0,False,False,Intermediate,False
+PSKY,Paramount Skydance Corporation,Communication Services,3,0,False,False,Peripheral,True
+PSX,Phillips 66,Energy,79,0,False,False,Intermediate,False
+PTC,PTC Inc.,Information Technology,25,0,False,False,Peripheral,True
+PWR,Quanta Services,Industrials,65,0,False,False,Peripheral,True
+PYPL,PayPal,Financials,27,0,False,False,Peripheral,True
+QCOM,Qualcomm,Information Technology,42,0,False,False,Peripheral,True
+RCL,Royal Caribbean Group,Consumer Discretionary,85,0,False,False,Intermediate,False
+REG,Regency Centers,Real Estate,138,0,False,False,Hub / central,True
+REGN,Regeneron Pharmaceuticals,Health Care,0,30,True,False,Isolated,True
+RF,Regions Financial Corporation,Financials,193,0,False,False,Hub / central,True
+RJF,Raymond James Financial,Financials,173,0,False,False,Hub / central,False
+RL,Ralph Lauren Corporation,Consumer Discretionary,94,0,False,False,Peripheral,True
+RMD,ResMed,Health Care,0,31,True,False,Isolated,True
+ROK,Rockwell Automation,Industrials,132,0,False,False,Peripheral,True
+ROL,"Rollins, Inc.",Industrials,2,0,False,False,Peripheral,True
+ROP,Roper Technologies,Information Technology,125,0,False,False,Peripheral,True
+ROST,Ross Stores,Consumer Discretionary,75,0,False,False,Intermediate,False
+RSG,Republic Services,Industrials,101,0,False,False,Intermediate,False
+RTX,RTX Corporation,Industrials,127,0,False,False,Hub / central,True
+RVTY,Revvity,Health Care,14,0,False,False,Peripheral,True
+SBAC,SBA Communications,Real Estate,30,0,False,False,Peripheral,True
+SBUX,Starbucks,Consumer Discretionary,52,0,False,False,Intermediate,False
+SCHW,Charles Schwab Corporation,Financials,56,0,False,False,Peripheral,True
+SHW,Sherwin-Williams,Materials,72,0,False,False,Peripheral,True
+SJM,J.M. Smucker Company (The),Consumer Staples,6,0,False,False,Peripheral,True
+SLB,Schlumberger,Energy,72,0,False,False,Intermediate,False
+SMCI,Supermicro,Information Technology,0,39,True,False,Isolated,True
+SNA,Snap-on,Industrials,154,0,False,False,Hub / central,True
+SNPS,Synopsys,Information Technology,32,0,False,False,Peripheral,True
+SO,Southern Company,Utilities,63,0,False,False,Intermediate,False
+SPG,Simon Property Group,Real Estate,149,0,False,False,Hub / central,False
+SPGI,S&P Global,Financials,139,0,False,False,Hub / central,False
+SRE,Sempra,Utilities,64,0,False,False,Intermediate,False
+STE,Steris,Health Care,32,0,False,False,Peripheral,True
+STLD,Steel Dynamics,Materials,96,0,False,False,Intermediate,False
+STT,State Street Corporation,Financials,174,0,False,False,Hub / central,False
+STX,Seagate Technology,Information Technology,14,0,False,False,Peripheral,True
+STZ,Constellation Brands,Consumer Staples,6,0,False,False,Peripheral,True
+SW,Smurfit Westrock,Materials,0,42,True,False,Isolated,True
+SWK,Stanley Black & Decker,Industrials,188,0,False,False,Hub / central,False
+SWKS,Skyworks Solutions,Information Technology,72,0,False,False,Peripheral,True
+SYF,Synchrony Financial,Financials,201,0,False,False,Hub / central,True
+SYK,Stryker Corporation,Health Care,138,0,False,False,Hub / central,False
+SYY,Sysco,Consumer Staples,120,0,False,False,Intermediate,False
+T,AT&T,Communication Services,7,0,False,True,Bridge,False
+TAP,Molson Coors Beverage Company,Consumer Staples,4,0,False,False,Peripheral,True
+TDG,TransDigm Group,Industrials,136,0,False,False,Peripheral,True
+TDY,Teledyne Technologies,Information Technology,131,0,False,False,Peripheral,True
+TECH,Bio-Techne,Health Care,9,0,False,False,Peripheral,False
+TEL,TE Connectivity,Information Technology,238,0,False,False,Hub / central,False
+TER,Teradyne,Information Technology,46,0,False,False,Peripheral,True
+TFC,Truist Financial,Financials,182,0,False,False,Hub / central,False
+TGT,Target Corporation,Consumer Staples,1,0,False,False,Peripheral,False
+TJX,TJX Companies,Consumer Discretionary,122,0,False,False,Intermediate,False
+TKO,TKO Group Holdings,Communication Services,0,4,True,False,Isolated,True
+TMO,Thermo Fisher Scientific,Health Care,15,0,False,False,Peripheral,False
+TMUS,T-Mobile US,Communication Services,0,5,True,False,Isolated,True
+TPL,Texas Pacific Land Corporation,Energy,17,0,False,False,Peripheral,True
+TPR,"Tapestry, Inc.",Consumer Discretionary,101,0,False,False,Intermediate,False
+TRGP,Targa Resources,Energy,57,0,False,False,Intermediate,False
+TRMB,Trimble Inc.,Information Technology,153,0,False,False,Hub / central,True
+TROW,T. Rowe Price,Financials,201,0,False,False,Hub / central,False
+TRV,Travelers Companies (The),Financials,89,0,False,False,Intermediate,False
+TSCO,Tractor Supply,Consumer Discretionary,3,0,False,False,Peripheral,True
+TSLA,"Tesla, Inc.",Consumer Discretionary,0,10,True,False,Isolated,True
+TSN,Tyson Foods,Consumer Staples,0,15,True,False,Isolated,True
+TT,Trane Technologies,Industrials,116,0,False,False,Intermediate,False
+TTD,Trade Desk (The),Communication Services,3,0,False,False,Peripheral,True
+TTWO,Take-Two Interactive,Communication Services,0,6,True,False,Isolated,True
+TXN,Texas Instruments,Information Technology,106,0,False,False,Peripheral,True
+TXT,Textron,Industrials,196,0,False,False,Hub / central,False
+TYL,Tyler Technologies,Information Technology,19,0,False,False,Peripheral,True
+UAL,United Airlines Holdings,Industrials,85,0,False,False,Intermediate,False
+UDR,"UDR, Inc.",Real Estate,133,0,False,False,Hub / central,False
+UHS,Universal Health Services,Health Care,80,0,False,False,Intermediate,False
+ULTA,Ulta Beauty,Consumer Discretionary,9,0,False,False,Peripheral,True
+UNH,UnitedHealth Group,Health Care,6,1,False,False,Intermediate,False
+UNP,Union Pacific Corporation,Industrials,144,0,False,False,Hub / central,True
+UPS,United Parcel Service,Industrials,5,0,False,False,Peripheral,True
+URI,United Rentals,Industrials,189,0,False,False,Hub / central,False
+USB,U.S. Bancorp,Financials,168,0,False,False,Hub / central,True
+V,Visa Inc.,Financials,182,0,False,False,Hub / central,True
+VICI,Vici Properties,Real Estate,139,0,False,False,Hub / central,False
+VLO,Valero Energy,Energy,66,0,False,False,Intermediate,False
+VMC,Vulcan Materials Company,Materials,95,0,False,False,Peripheral,True
+VRSK,Verisk Analytics,Industrials,58,0,False,False,Peripheral,True
+VRSN,Verisign,Information Technology,45,0,False,False,Peripheral,True
+VRTX,Vertex Pharmaceuticals,Health Care,0,32,True,False,Isolated,False
+VST,Vistra Corp.,Utilities,4,0,False,False,Peripheral,False
+VTR,Ventas,Real Estate,69,0,False,False,Peripheral,True
+VTRS,Viatris,Health Care,0,33,True,False,Isolated,True
+VZ,Verizon,Communication Services,1,0,False,False,Peripheral,True
+WAB,Wabtec,Industrials,176,0,False,False,Hub / central,True
+WAT,Waters Corporation,Health Care,14,0,False,False,Peripheral,True
+WBD,Warner Bros. Discovery,Communication Services,3,0,False,False,Peripheral,False
+WDAY,"Workday, Inc.",Information Technology,18,0,False,False,Peripheral,True
+WDC,Western Digital,Information Technology,44,0,False,False,Intermediate,False
+WEC,WEC Energy Group,Utilities,44,0,False,False,Intermediate,False
+WELL,Welltower,Real Estate,70,0,False,False,Intermediate,False
+WFC,Wells Fargo,Financials,150,0,False,False,Hub / central,True
+WM,Waste Management,Industrials,62,0,False,False,Peripheral,True
+WMB,Williams Companies,Energy,61,0,False,False,Intermediate,False
+WMT,Walmart,Consumer Staples,1,0,False,False,Peripheral,False
+WRB,W. R. Berkley Corporation,Financials,94,0,False,False,Peripheral,True
+WSM,"Williams-Sonoma, Inc.",Consumer Discretionary,12,0,False,False,Peripheral,True
+WST,West Pharmaceutical Services,Health Care,0,34,True,False,Isolated,True
+WTW,Willis Towers Watson,Financials,32,0,False,False,Peripheral,True
+WY,Weyerhaeuser,Real Estate,222,0,False,False,Hub / central,True
+WYNN,Wynn Resorts,Consumer Discretionary,71,0,False,False,Intermediate,False
+XEL,Xcel Energy,Utilities,46,0,False,False,Peripheral,True
+XOM,ExxonMobil,Energy,67,0,False,False,Intermediate,False
+XYL,Xylem Inc.,Industrials,171,0,False,False,Hub / central,True
+XYZ,"Block, Inc.",Financials,36,0,False,False,Intermediate,False
+YUM,Yum! Brands,Consumer Discretionary,48,0,False,False,Intermediate,False
+ZBH,Zimmer Biomet,Health Care,18,0,False,False,Peripheral,True
+ZBRA,Zebra Technologies,Information Technology,76,0,False,False,Peripheral,True
+ZTS,Zoetis,Health Care,39,0,False,False,Intermediate,False

@@ -1,0 +1,192 @@
+2026-08-28 18:54:39 | INFO    | 
+2026-08-28 18:54:39 | INFO    | ==============================================================================
+2026-08-28 18:54:39 | INFO    | LARGE-NETWORK EXTENSION OF THE STOCK CORRELATION ANALYSIS
+2026-08-28 18:54:39 | INFO    | ==============================================================================
+2026-08-28 18:54:39 | INFO    | 
+2026-08-28 18:54:39 | INFO    | --- Stock universe --------------------------------------------------------
+2026-08-28 18:54:39 | INFO    |   constituent file         : data\reference\sp500_constituents_2025_12_22.csv
+2026-08-28 18:54:39 | INFO    |   membership snapshot      : 2025-12-22
+2026-08-28 18:54:39 | INFO    |   constituents requested   : 503 across 11 GICS sectors
+2026-08-28 18:54:39 | INFO    |   sample period            : 2019-01-01 to 2026-01-01
+2026-08-28 18:54:39 | INFO    |   thresholds               : 0.3, 0.4, 0.5, 0.6, 0.7
+2026-08-28 18:54:39 | INFO    |   main threshold           : 0.5
+2026-08-28 18:54:39 | INFO    |   edge rule                : absolute (|C_ij| >= tau)
+2026-08-28 18:54:39 | INFO    | 
+2026-08-28 18:54:39 | INFO    | ==============================================================================
+2026-08-28 18:54:39 | INFO    | STAGE 1 - DATA COLLECTION
+2026-08-28 18:54:39 | INFO    | ==============================================================================
+2026-08-28 18:54:39 | INFO    | Requesting 503 tickers from Yahoo Finance (2019-01-01 to 2026-01-01)
+2026-08-28 18:54:39 | INFO    |   splitting into 6 batches of at most 100 tickers
+2026-08-28 18:54:39 | INFO    |   batch 1/6: 100 tickers (CHTR ... PM)
+2026-08-28 18:54:53 | ERROR   | $EA: Data doesn't exist for startDate = 1546318800, endDate = 1767243600
+2026-08-28 18:54:54 | ERROR   | 
+1 Failed download:
+2026-08-28 18:54:54 | ERROR   | ['EA']: Data doesn't exist for startDate = 1546318800, endDate = 1767243600
+2026-08-28 18:54:54 | INFO    |   batch 2/6: 100 tickers (SJM ... USB)
+2026-08-28 18:54:59 | ERROR   | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: BK"}}}
+2026-08-28 18:54:59 | ERROR   | $BK: possibly delisted; no timezone found
+2026-08-28 18:55:01 | ERROR   | $MMC: possibly delisted; no timezone found
+2026-08-28 18:55:01 | ERROR   | $CTRA: possibly delisted; no timezone found
+2026-08-28 18:55:03 | ERROR   | 
+3 Failed downloads:
+2026-08-28 18:55:03 | ERROR   | ['BK', 'MMC', 'CTRA']: possibly delisted; no timezone found
+2026-08-28 18:55:03 | INFO    |   batch 3/6: 100 tickers (V ... HON)
+2026-08-28 18:55:05 | ERROR   | $HOLX: possibly delisted; no timezone found
+2026-08-28 18:55:06 | ERROR   | $DAY: possibly delisted; no timezone found
+2026-08-28 18:55:11 | ERROR   | 
+2 Failed downloads:
+2026-08-28 18:55:11 | ERROR   | ['HOLX', 'DAY']: possibly delisted; no timezone found
+2026-08-28 18:55:11 | INFO    |   batch 4/6: 100 tickers (HUBB ... ROP)
+2026-08-28 18:55:26 | ERROR   | Failed to get ticker 'GLW' reason: Failed to perform, curl: (28) Operation timed out after 10004 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-08-28 18:55:26 | ERROR   | $GLW: possibly delisted; no timezone found
+2026-08-28 18:55:27 | ERROR   | 
+1 Failed download:
+2026-08-28 18:55:27 | ERROR   | ['GLW']: possibly delisted; no timezone found
+2026-08-28 18:55:27 | INFO    |   batch 5/6: 100 tickers (SMCI ... SRE)
+2026-08-28 18:55:31 | ERROR   | $AVB: Data doesn't exist for startDate = 1546318800, endDate = 1767243600
+2026-08-28 18:55:35 | ERROR   | $EQR: Data doesn't exist for startDate = 1546318800, endDate = 1767243600
+2026-08-28 18:55:36 | ERROR   | 
+2 Failed downloads:
+2026-08-28 18:55:36 | ERROR   | ['AVB', 'EQR']: Data doesn't exist for startDate = 1546318800, endDate = 1767243600
+2026-08-28 18:55:36 | INFO    |   batch 6/6: 3 tickers (VST ... XEL)
+2026-08-28 18:55:37 | WARNING |   9 ticker(s) missing from the batch response: EA, CTRA, BK, MMC, HOLX, DAY, GLW, AVB, EQR
+2026-08-28 18:55:37 | ERROR   | $EA: Data doesn't exist for startDate = 1546318800, endDate = 1767243600
+2026-08-28 18:55:38 | ERROR   | $CTRA: possibly delisted; no timezone found
+2026-08-28 18:55:38 | ERROR   | $BK: possibly delisted; no timezone found
+2026-08-28 18:55:39 | ERROR   | $MMC: possibly delisted; no timezone found
+2026-08-28 18:55:39 | ERROR   | $HOLX: possibly delisted; no timezone found
+2026-08-28 18:55:40 | ERROR   | $DAY: possibly delisted; no timezone found
+2026-08-28 18:55:41 | ERROR   | $AVB: Data doesn't exist for startDate = 1546318800, endDate = 1767243600
+2026-08-28 18:55:41 | ERROR   | $EQR: Data doesn't exist for startDate = 1546318800, endDate = 1767243600
+2026-08-28 18:55:41 | INFO    |   recovered 1 ticker(s) individually: GLW
+2026-08-28 18:55:41 | INFO    | 
+2026-08-28 18:55:41 | INFO    | Download report
+2026-08-28 18:55:41 | INFO    |   tickers requested        : 503
+2026-08-28 18:55:41 | INFO    |   tickers downloaded       : 495
+2026-08-28 18:55:41 | INFO    |   tickers unavailable      : 8 -> EA, CTRA, BK, MMC, HOLX, DAY, AVB, EQR
+2026-08-28 18:55:41 | INFO    |   first trading day        : 2019-01-02
+2026-08-28 18:55:41 | INFO    |   last trading day         : 2025-12-31
+2026-08-28 18:55:41 | INFO    |   number of trading days   : 1760
+2026-08-28 18:55:41 | INFO    |   mean per-ticker coverage : 98.29% of trading days
+2026-08-28 18:55:41 | INFO    |   tickers with gaps        : Q (2.6%), SNDK (12.6%), GEV (25.2%), SOLV (25.2%), VLTO (32.0%), KVUE (38.0%), GEHC (43.4%), CEG (56.4%), HOOD (63.2%), APP (67.3%), COIN (67.4%), EXE (69.8%), ABNB (72.2%), DASH (72.2%), PLTR (75.0%), OTIS (82.7%), CARR (82.7%), DDOG (89.8%), CRWD (93.7%), CTVA (94.4%), UBER (94.9%), DOW (97.0%), FOX (97.3%), FOXA (97.3%), FISV (99.9%)
+2026-08-28 18:55:42 | INFO    |   raw prices -> data\large\raw\adjusted_close_prices.csv
+2026-08-28 18:55:42 | INFO    | 
+2026-08-28 18:55:42 | INFO    | ==============================================================================
+2026-08-28 18:55:42 | INFO    | STAGE 2 - PREPROCESSING AND LOG RETURNS
+2026-08-28 18:55:42 | INFO    | ==============================================================================
+2026-08-28 18:55:42 | INFO    | 
+2026-08-28 18:55:42 | INFO    | --- Aligning and cleaning the price panel ---------------------------------
+2026-08-28 18:55:42 | WARNING |   dropping 21 ticker(s) with >5% missing prices: ABNB (27.8%), DASH (27.8%), KVUE (62.0%), EXE (30.2%), COIN (32.6%), HOOD (36.8%), GEHC (56.6%), SOLV (74.8%), CARR (17.3%), GEV (74.8%), OTIS (17.3%), UBER (5.1%), VLTO (68.0%), APP (32.7%), CRWD (6.3%), DDOG (10.2%), PLTR (25.0%), Q (97.4%), SNDK (87.4%), CTVA (5.6%), CEG (43.6%)
+2026-08-28 18:55:43 | INFO    |   raw panel                : 1760 days x 495 tickers
+2026-08-28 18:55:43 | INFO    |   forward-filled gaps      : up to 5 consecutive day(s)
+2026-08-28 18:55:43 | INFO    |   rows dropped (unaligned) : 53
+2026-08-28 18:55:43 | INFO    |   aligned panel            : 1707 days x 474 tickers
+2026-08-28 18:55:43 | INFO    |   common calendar          : 2019-03-20 to 2025-12-31
+2026-08-28 18:55:43 | INFO    | 
+2026-08-28 18:55:43 | INFO    | --- Computing logarithmic returns -----------------------------------------
+2026-08-28 18:55:43 | INFO    |   log returns              : 1706 observations x 474 stocks
+2026-08-28 18:55:46 | INFO    |   clean prices -> data\large\processed\clean_adjusted_close_prices.csv
+2026-08-28 18:55:46 | INFO    |   log returns  -> data\large\processed\log_returns.csv
+2026-08-28 18:55:46 | INFO    | 
+2026-08-28 18:55:46 | INFO    | --- Descriptive statistics of daily log returns ---------------------------
+2026-08-28 18:55:47 | INFO    |   table  -> outputs_large\tables\return_summary_statistics.csv  (474 rows x 13 cols)
+2026-08-28 18:55:47 | INFO    |   cross-sectional mean of annualised volatility : 34.64%
+2026-08-28 18:55:47 | INFO    |   most volatile stock  : CVNA (104.60% p.a.)
+2026-08-28 18:55:47 | INFO    |   least volatile stock : JNJ (19.35% p.a.)
+2026-08-28 18:55:47 | INFO    |   tickers removed in total : 21 -> ABNB, DASH, KVUE, EXE, COIN, HOOD, GEHC, SOLV, CARR, GEV, OTIS, UBER, VLTO, APP, CRWD, DDOG, PLTR, Q, SNDK, CTVA, CEG
+2026-08-28 18:55:47 | INFO    | 
+2026-08-28 18:55:47 | INFO    | ==============================================================================
+2026-08-28 18:55:47 | INFO    | STAGE 3 - CORRELATION MATRIX
+2026-08-28 18:55:47 | INFO    | ==============================================================================
+2026-08-28 18:55:49 | INFO    |   correlation matrix       : 474 x 474 (112101 distinct pairs)
+2026-08-28 18:55:50 | INFO    |   table  -> outputs_large\tables\large_correlation_matrix.csv  (474 rows x 474 cols)
+2026-08-28 18:55:56 | INFO    |   table  -> outputs_large\tables\large_sector_correlation_matrix.csv  (11 rows x 11 cols)
+2026-08-28 18:55:56 | INFO    | 
+2026-08-28 18:55:56 | INFO    | ==============================================================================
+2026-08-28 18:55:56 | INFO    | STAGES 4 AND 5 - THRESHOLD GRAPHS AND NETWORK METRICS
+2026-08-28 18:55:56 | INFO    | ==============================================================================
+2026-08-28 18:57:43 | INFO    |   tau = 0.30 : 474 nodes, 77187 edges, density 0.6885, giant 472 (99.6%), isolated 2, assortativity +0.0182
+2026-08-28 18:58:38 | INFO    |   tau = 0.40 : 474 nodes, 44626 edges, density 0.3981, giant 466 (98.3%), isolated 8, assortativity +0.0487
+2026-08-28 18:58:58 | INFO    |   tau = 0.50 : 474 nodes, 17106 edges, density 0.1526, giant 423 (89.2%), isolated 41, assortativity +0.1371
+2026-08-28 18:59:05 | INFO    |   tau = 0.60 : 474 nodes, 4041 edges, density 0.0360, giant 338 (71.3%), isolated 103, assortativity +0.4572
+2026-08-28 18:59:08 | INFO    |   tau = 0.70 : 474 nodes, 947 edges, density 0.0084, giant 97 (20.5%), isolated 212, assortativity +0.9350
+2026-08-28 18:59:08 | INFO    |   table  -> outputs_large\tables\large_threshold_network_metrics.csv  (5 rows x 12 cols)
+2026-08-28 18:59:08 | INFO    |   table  -> outputs_large\tables\large_threshold_network_metrics_full.csv  (5 rows x 25 cols)
+2026-08-28 18:59:08 | INFO    | 
+2026-08-28 18:59:08 | INFO    | ==============================================================================
+2026-08-28 18:59:08 | INFO    | STAGES 6 AND 7 - SECTOR METADATA AS AN EXTERNAL REFERENCE
+2026-08-28 18:59:08 | INFO    | ==============================================================================
+2026-08-28 18:59:08 | INFO    | 
+2026-08-28 18:59:08 | INFO    | --- Sector alignment of the large network (tau = 0.50) --------------------
+2026-08-28 18:59:08 | INFO    |   table  -> outputs_large\tables\large_node_sector_alignment.csv  (433 rows x 18 cols)
+2026-08-28 18:59:08 | INFO    |   table  -> outputs_large\tables\large_sector_alignment_summary.csv  (1 rows x 15 cols)
+2026-08-28 18:59:08 | INFO    |   table  -> outputs_large\tables\large_sector_alignment_by_sector.csv  (11 rows x 10 cols)
+2026-08-28 18:59:08 | INFO    |   table  -> outputs_large\tables\large_cross_sector_oriented_nodes.csv  (9 rows x 16 cols)
+2026-08-28 18:59:08 | INFO    |   nodes with neighbours    : 433 (of 474; 41 isolated)
+2026-08-28 18:59:08 | INFO    |   same-sector edge share   : 28.3%  (random benchmark 10.8%, ratio 2.63x)
+2026-08-28 18:59:08 | INFO    |   sector assortativity     : +0.1371
+2026-08-28 18:59:08 | INFO    |   same-sector share, mean  : 0.4087
+2026-08-28 18:59:08 | INFO    |   same-sector share, median: 0.3133
+2026-08-28 18:59:08 | INFO    |   own sector also dominant : 264 of 433 (61.0%)  [counts ties in which the official sector is among the leaders]
+2026-08-28 18:59:08 | INFO    |   dominant-sector ties     : 17 (13 of them include the official sector)
+2026-08-28 18:59:08 | INFO    |   cross-sector-oriented    : 9 node(s)  (degree >= 5, same-sector share <= 1.00x chance, dominant sector differs)
+2026-08-28 18:59:08 | INFO    |       AMZN   Amazon                   Consumer Discretionary   share 0.000 (0.00x chance), neighbours mostly Information Technology
+2026-08-28 18:59:08 | INFO    |       HSIC   Henry Schein             Health Care              share 0.000 (0.00x chance), neighbours mostly Financials
+2026-08-28 18:59:08 | INFO    |       SYY    Sysco                    Consumer Staples         share 0.008 (0.12x chance), neighbours mostly Financials
+2026-08-28 18:59:08 | INFO    |       GRMN   Garmin                   Consumer Discretionary   share 0.018 (0.19x chance), neighbours mostly Financials
+2026-08-28 18:59:08 | INFO    |       UHS    Universal Health Service Health Care              share 0.062 (0.53x chance), neighbours mostly Financials
+2026-08-28 18:59:08 | INFO    | 
+2026-08-28 18:59:08 | INFO    | ==============================================================================
+2026-08-28 18:59:08 | INFO    | STAGE 8 - NETWORK EXPORT
+2026-08-28 18:59:08 | INFO    | ==============================================================================
+2026-08-28 18:59:08 | INFO    | 
+2026-08-28 18:59:08 | INFO    | --- Rebuilding and exporting the network at tau = 0.50 --------------------
+2026-08-28 18:59:39 | INFO    |   nodes / edges            : 474 / 17106
+2026-08-28 18:59:39 | INFO    |   articulation points      : 14
+2026-08-28 18:59:39 | INFO    |   nodes  -> network_exports\large_network_nodes_threshold_0_5.csv  (474 rows)
+2026-08-28 18:59:39 | INFO    |   edges  -> network_exports\large_network_edges_threshold_0_5.csv  (17106 rows)
+2026-08-28 18:59:39 | INFO    | 
+2026-08-28 18:59:39 | INFO    | ==============================================================================
+2026-08-28 18:59:39 | INFO    | STAGE 9 - QUALITY CONTROL
+2026-08-28 18:59:39 | INFO    | ==============================================================================
+2026-08-28 18:59:39 | INFO    | 
+2026-08-28 18:59:39 | INFO    | --- Internal consistency checks -------------------------------------------
+2026-08-28 18:59:42 | INFO    |   node counts coherent across all thresholds        : OK
+2026-08-28 18:59:42 | INFO    |   edge counts match the constructed graphs          : OK
+2026-08-28 18:59:42 | INFO    |   component sizes sum to N at every threshold       : OK
+2026-08-28 18:59:42 | INFO    |   isolated nodes represented in the node export     : OK
+2026-08-28 18:59:42 | INFO    |   neighbour counts sum to degree in the alignment   : OK
+2026-08-28 18:59:42 | INFO    |   same-sector edge share matches the graph's edges  : OK
+2026-08-28 18:59:42 | INFO    |   edges unchanged under a sector-label permutation  : OK
+2026-08-28 18:59:42 | INFO    |     (sector metadata is used only AFTER construction)
+2026-08-28 18:59:42 | INFO    | 
+2026-08-28 18:59:42 | INFO    | ==============================================================================
+2026-08-28 18:59:42 | INFO    | STAGE 10 - DATA PROVENANCE REPORT
+2026-08-28 18:59:42 | INFO    | ==============================================================================
+2026-08-28 18:59:42 | INFO    |   report -> outputs_large\logs\large_data_source_report.txt  (4826 characters)
+2026-08-28 18:59:42 | INFO    | 
+2026-08-28 18:59:42 | INFO    | ==============================================================================
+2026-08-28 18:59:42 | INFO    | STAGE 11 - FIGURES
+2026-08-28 18:59:42 | INFO    | ==============================================================================
+2026-08-28 18:59:42 | INFO    | 
+2026-08-28 18:59:42 | INFO    | --- Figures ---------------------------------------------------------------
+2026-08-28 18:59:44 | INFO    |   figure -> outputs_large\figures\large_threshold_sensitivity.png
+2026-08-28 18:59:44 | INFO    |   figure -> outputs_large\figures\large_giant_component_vs_tau.png
+2026-08-28 18:59:45 | INFO    |   figure -> outputs_large\figures\large_sector_assortativity_vs_tau.png
+2026-08-28 18:59:45 | INFO    |   figure -> outputs_large\figures\large_same_sector_share_hist.png
+2026-08-28 18:59:46 | INFO    |   figure -> outputs_large\figures\large_sector_alignment_by_sector.png
+2026-08-28 18:59:54 | INFO    |   figure -> outputs_large\figures\large_network_by_sector.png
+2026-08-28 18:59:54 | INFO    |   6 figure(s) written to outputs_large\figures
+2026-08-28 18:59:54 | INFO    | 
+2026-08-28 18:59:54 | INFO    | ==============================================================================
+2026-08-28 18:59:54 | INFO    | RUN COMPLETE
+2026-08-28 18:59:54 | INFO    | ==============================================================================
+2026-08-28 18:59:54 | INFO    | Constituents requested : 503
+2026-08-28 18:59:54 | INFO    | Stocks in the network  : 474
+2026-08-28 18:59:54 | INFO    | Return observations    : 1706
+2026-08-28 18:59:54 | INFO    | Tables                 : outputs_large\tables
+2026-08-28 18:59:54 | INFO    | Figures                : outputs_large\figures
+2026-08-28 18:59:54 | INFO    | Network export         : network_exports
+2026-08-28 18:59:54 | INFO    | Elapsed                : 315.0 seconds
+2026-08-28 18:59:54 | INFO    | 
+2026-08-28 18:59:54 | INFO    | DATA SOURCE: REAL YAHOO FINANCE DATA

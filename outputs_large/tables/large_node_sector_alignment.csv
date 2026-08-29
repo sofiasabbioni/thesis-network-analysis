@@ -1,0 +1,434 @@
+ticker,company,official_sector,degree,same_sector_neighbors,cross_sector_neighbors,same_sector_share,expected_same_sector_share,same_sector_share_ratio,dominant_neighbor_sector,dominant_neighbor_sector_share,dominant_neighbor_sectors_tied,n_dominant_tied_sectors,dominant_sector_is_tied,official_in_dominant_tie,dominant_equals_official,n_neighbor_sectors,meets_cross_sector_rule
+AMZN,Amazon,Consumer Discretionary,25,0,25,0.000000,0.095137,0.000000,Information Technology,0.680000,Information Technology,1,False,False,False,3,True
+CSGP,CoStar Group,Real Estate,12,0,12,0.000000,0.059197,0.000000,Financials,0.416667,"Financials, Information Technology",2,True,False,False,3,False
+HSIC,Henry Schein,Health Care,6,0,6,0.000000,0.118393,0.000000,Financials,0.666667,Financials,1,False,False,False,2,True
+EL,Estée Lauder Companies (The),Consumer Staples,3,0,3,0.000000,0.071882,0.000000,Consumer Discretionary,0.666667,Consumer Discretionary,1,False,False,False,2,False
+TTD,Trade Desk (The),Communication Services,3,0,3,0.000000,0.044397,0.000000,Information Technology,0.666667,Information Technology,1,False,False,False,2,False
+CMG,Chipotle Mexican Grill,Consumer Discretionary,1,0,1,0.000000,0.095137,0.000000,Information Technology,1.000000,Information Technology,1,False,False,False,1,False
+NFLX,Netflix,Communication Services,1,0,1,0.000000,0.044397,0.000000,Consumer Discretionary,1.000000,Consumer Discretionary,1,False,False,False,1,False
+TGT,Target Corporation,Consumer Staples,1,0,1,0.000000,0.071882,0.000000,Consumer Discretionary,1.000000,Consumer Discretionary,1,False,False,False,1,False
+SYY,Sysco,Consumer Staples,120,1,119,0.008333,0.071882,0.115931,Financials,0.308333,Financials,1,False,False,False,11,True
+GRMN,Garmin,Consumer Discretionary,55,1,54,0.018182,0.095137,0.191111,Financials,0.363636,Financials,1,False,False,False,7,True
+UHS,Universal Health Services,Health Care,80,5,75,0.062500,0.118393,0.527902,Financials,0.312500,Financials,1,False,False,False,10,True
+TDY,Teledyne Technologies,Information Technology,131,10,121,0.076336,0.133192,0.573125,Financials,0.328244,Financials,1,False,False,False,11,True
+PAYC,Paycom,Industrials,22,3,19,0.136364,0.154334,0.883562,Information Technology,0.500000,Information Technology,1,False,False,False,3,True
+SYK,Stryker Corporation,Health Care,138,15,123,0.108696,0.118393,0.918090,Financials,0.289855,Financials,1,False,False,False,10,True
+ADM,Archer Daniels Midland,Consumer Staples,14,1,13,0.071429,0.071882,0.993697,Financials,0.500000,Financials,1,False,False,False,5,True
+MDT,Medtronic,Health Care,92,11,81,0.119565,0.118393,1.009899,Financials,0.358696,Financials,1,False,False,False,9,False
+LUV,Southwest Airlines,Industrials,68,11,57,0.161765,0.154334,1.048147,Financials,0.441176,Financials,1,False,False,False,7,False
+MCD,McDonald's,Consumer Discretionary,70,7,63,0.100000,0.095137,1.051111,Financials,0.285714,Financials,1,False,False,False,9,False
+IBM,IBM,Information Technology,35,5,30,0.142857,0.133192,1.072562,Financials,0.542857,Financials,1,False,False,False,3,False
+IQV,IQVIA,Health Care,132,17,115,0.128788,0.118393,1.087798,Industrials,0.257576,Industrials,1,False,False,False,7,False
+F,Ford Motor Company,Consumer Discretionary,76,8,68,0.105263,0.095137,1.106433,Financials,0.447368,Financials,1,False,False,False,6,False
+LYV,Live Nation Entertainment,Communication Services,60,3,57,0.050000,0.044397,1.126190,Financials,0.366667,Financials,1,False,False,False,7,False
+ROP,Roper Technologies,Information Technology,125,19,106,0.152000,0.133192,1.141206,Industrials,0.320000,Industrials,1,False,False,False,9,False
+WM,Waste Management,Industrials,62,11,51,0.177419,0.154334,1.149580,Utilities,0.354839,Utilities,1,False,False,False,9,False
+RSG,Republic Services,Industrials,101,18,83,0.178218,0.154334,1.154754,Financials,0.257426,Financials,1,False,False,False,9,False
+BG,Bunge Global,Consumer Staples,12,1,11,0.083333,0.071882,1.159314,Energy,0.333333,Energy,1,False,False,False,5,False
+GPC,Genuine Parts Company,Consumer Discretionary,108,12,96,0.111111,0.095137,1.167901,Industrials,0.370370,Industrials,1,False,False,False,9,False
+MSI,Motorola Solutions,Information Technology,45,7,38,0.155556,0.133192,1.167901,Industrials,0.422222,Industrials,1,False,False,False,7,False
+GOOGL,Alphabet Inc. (Class A),Communication Services,38,2,36,0.052632,0.044397,1.185464,Information Technology,0.684211,Information Technology,1,False,False,False,5,False
+GOOG,Alphabet Inc. (Class C),Communication Services,37,2,35,0.054054,0.044397,1.217503,Information Technology,0.675676,Information Technology,1,False,False,False,5,False
+VRSK,Verisk Analytics,Industrials,58,11,47,0.189655,0.154334,1.228862,Financials,0.241379,Financials,1,False,False,False,9,False
+VMC,Vulcan Materials Company,Materials,95,6,89,0.063158,0.050740,1.244737,Industrials,0.368421,Industrials,1,False,False,False,8,False
+LH,Labcorp,Health Care,39,6,33,0.153846,0.118393,1.299451,Industrials,0.307692,Industrials,1,False,False,False,8,False
+BA,Boeing,Industrials,84,17,67,0.202381,0.154334,1.311318,Financials,0.380952,Financials,1,False,False,False,9,False
+TEL,TE Connectivity,Information Technology,238,42,196,0.176471,0.133192,1.324930,Industrials,0.252101,Industrials,1,False,False,False,11,False
+DIS,Walt Disney Company (The),Communication Services,84,5,79,0.059524,0.044397,1.340703,Financials,0.464286,Financials,1,False,False,False,8,False
+GM,General Motors,Consumer Discretionary,124,16,108,0.129032,0.095137,1.356272,Financials,0.306452,Financials,1,False,False,False,8,False
+CTSH,Cognizant,Information Technology,110,20,90,0.181818,0.133192,1.365079,Financials,0.354545,Financials,1,False,False,False,7,False
+ECL,Ecolab,Materials,172,12,160,0.069767,0.050740,1.375000,Financials,0.290698,Financials,1,False,False,False,10,False
+PAYX,Paychex,Industrials,181,39,142,0.215470,0.154334,1.396125,Financials,0.292818,Financials,1,False,False,False,10,False
+OMC,Omnicom Group,Communication Services,96,6,90,0.062500,0.044397,1.407738,Financials,0.375000,Financials,1,False,False,False,8,False
+ADP,Automatic Data Processing,Industrials,179,39,140,0.217877,0.154334,1.411724,Financials,0.324022,Financials,1,False,False,False,9,False
+MSCI,MSCI Inc.,Financials,74,16,58,0.216216,0.150106,1.440426,Information Technology,0.364865,Information Technology,1,False,False,False,7,False
+TJX,TJX Companies,Consumer Discretionary,122,17,105,0.139344,0.095137,1.464663,Financials,0.336066,Financials,1,False,False,False,10,False
+CTAS,Cintas,Industrials,190,43,147,0.226316,0.154334,1.466402,Financials,0.294737,Financials,1,False,False,False,10,False
+DOV,Dover Corporation,Industrials,263,60,203,0.228137,0.154334,1.478202,Industrials,0.228137,Industrials,1,False,True,True,11,False
+XYZ,"Block, Inc.",Financials,36,8,28,0.222222,0.150106,1.480438,Information Technology,0.583333,Information Technology,1,False,False,False,5,False
+HCA,HCA Healthcare,Health Care,28,5,23,0.178571,0.118393,1.508291,Financials,0.285714,Financials,1,False,False,False,6,False
+PH,Parker Hannifin,Industrials,248,58,190,0.233871,0.154334,1.515356,Industrials,0.233871,Industrials,1,False,True,True,11,False
+HPE,Hewlett Packard Enterprise,Information Technology,94,19,75,0.202128,0.133192,1.517562,Financials,0.361702,Financials,1,False,False,False,7,False
+UAL,United Airlines Holdings,Industrials,85,20,65,0.235294,0.154334,1.524577,Financials,0.376471,Financials,1,False,False,False,8,False
+SPGI,S&P Global,Financials,139,32,107,0.230216,0.150106,1.533691,Industrials,0.244604,Industrials,1,False,False,False,8,False
+DAL,Delta Air Lines,Industrials,104,25,79,0.240385,0.154334,1.557561,Financials,0.326923,Financials,1,False,False,False,9,False
+BKNG,Booking Holdings,Consumer Discretionary,101,15,86,0.148515,0.095137,1.561056,Financials,0.386139,Financials,1,False,False,False,8,False
+TPR,"Tapestry, Inc.",Consumer Discretionary,101,15,86,0.148515,0.095137,1.561056,Financials,0.336634,Financials,1,False,False,False,7,False
+HD,Home Depot (The),Consumer Discretionary,148,22,126,0.148649,0.095137,1.562462,Industrials,0.277027,Industrials,1,False,False,False,9,False
+MAR,Marriott International,Consumer Discretionary,121,18,103,0.148760,0.095137,1.563636,Financials,0.305785,Financials,1,False,False,False,10,False
+RL,Ralph Lauren Corporation,Consumer Discretionary,94,14,80,0.148936,0.095137,1.565485,Financials,0.351064,Financials,1,False,False,False,7,False
+BSX,Boston Scientific,Health Care,59,11,48,0.186441,0.118393,1.574758,Financials,0.423729,Financials,1,False,False,False,7,False
+AMP,Ameriprise Financial,Financials,265,63,202,0.237736,0.150106,1.583790,Financials,0.237736,Financials,1,False,True,True,11,False
+BLK,BlackRock,Financials,235,56,179,0.238298,0.150106,1.587534,Industrials,0.246809,Industrials,1,False,False,False,10,False
+AME,Ametek,Industrials,236,58,178,0.245763,0.154334,1.592408,Financials,0.254237,Financials,1,False,False,False,11,False
+MCO,Moody's Corporation,Financials,195,47,148,0.241026,0.150106,1.605706,Financials,0.241026,Financials,1,False,True,True,10,False
+NWS,News Corp (Class B),Communication Services,84,6,78,0.071429,0.044397,1.608844,Financials,0.428571,Financials,1,False,False,False,7,False
+JNJ,Johnson & Johnson,Health Care,21,4,17,0.190476,0.118393,1.608844,Utilities,0.523810,Utilities,1,False,False,False,4,False
+SBUX,Starbucks,Consumer Discretionary,52,8,44,0.153846,0.095137,1.617094,Financials,0.384615,Financials,1,False,False,False,9,False
+HON,Honeywell,Industrials,226,57,169,0.252212,0.154334,1.634198,Industrials,0.252212,Industrials,1,False,True,True,11,False
+ISRG,Intuitive Surgical,Health Care,72,14,58,0.194444,0.118393,1.642361,Information Technology,0.361111,Information Technology,1,False,False,False,7,False
+SHW,Sherwin-Williams,Materials,72,6,66,0.083333,0.050740,1.642361,Industrials,0.402778,Industrials,1,False,False,False,7,False
+NDSN,Nordson Corporation,Industrials,205,52,153,0.253659,0.154334,1.643568,Industrials,0.253659,Industrials,1,False,True,True,9,False
+EMR,Emerson Electric,Industrials,208,53,155,0.254808,0.154334,1.651014,Industrials,0.254808,Industrials,1,False,True,True,11,False
+PRU,Prudential Financial,Financials,233,58,175,0.248927,0.150106,1.658345,Financials,0.248927,Financials,1,False,True,True,11,False
+TDG,TransDigm Group,Industrials,136,35,101,0.257353,0.154334,1.667506,Financials,0.294118,Financials,1,False,False,False,11,False
+ITW,Illinois Tool Works,Industrials,225,58,167,0.257778,0.154334,1.670259,Industrials,0.257778,Industrials,1,False,True,True,11,False
+HLT,Hilton Worldwide,Consumer Discretionary,119,19,100,0.159664,0.095137,1.678245,Financials,0.327731,Financials,1,False,False,False,9,False
+LOW,Lowe's,Consumer Discretionary,106,17,89,0.160377,0.095137,1.685744,Industrials,0.320755,Industrials,1,False,False,False,7,False
+PFG,Principal Financial Group,Financials,233,59,174,0.253219,0.150106,1.686937,Financials,0.253219,Financials,1,False,True,True,11,False
+FITB,Fifth Third Bancorp,Financials,205,52,153,0.253659,0.150106,1.689866,Financials,0.253659,Financials,1,False,True,True,11,False
+SYF,Synchrony Financial,Financials,201,51,150,0.253731,0.150106,1.690351,Financials,0.253731,Financials,1,False,True,True,10,False
+TROW,T. Rowe Price,Financials,201,51,150,0.253731,0.150106,1.690351,Industrials,0.273632,Industrials,1,False,False,False,8,False
+MGM,MGM Resorts,Consumer Discretionary,142,23,119,0.161972,0.095137,1.702504,Financials,0.267606,Financials,1,False,False,False,9,False
+IVZ,Invesco,Financials,172,44,128,0.255814,0.150106,1.704225,Industrials,0.290698,Industrials,1,False,False,False,9,False
+MS,Morgan Stanley,Financials,218,56,162,0.256881,0.150106,1.711332,Financials,0.256881,Financials,1,False,True,True,10,False
+C,Citigroup,Financials,206,53,153,0.257282,0.150106,1.714002,Financials,0.257282,Financials,1,False,True,True,11,False
+PNC,PNC Financial Services,Financials,206,53,153,0.257282,0.150106,1.714002,Financials,0.257282,Financials,1,False,True,True,11,False
+COF,Capital One,Financials,198,51,147,0.257576,0.150106,1.715962,Financials,0.257576,Financials,1,False,True,True,10,False
+L,Loews Corporation,Financials,221,57,164,0.257919,0.150106,1.718246,Financials,0.257919,Financials,1,False,True,True,11,False
+TXT,Textron,Industrials,196,52,144,0.265306,0.154334,1.719038,Financials,0.265306,"Financials, Industrials",2,True,True,True,11,False
+MET,MetLife,Financials,220,57,163,0.259091,0.150106,1.726056,Financials,0.259091,Financials,1,False,True,True,11,False
+NWSA,News Corp (Class A),Communication Services,78,6,72,0.076923,0.044397,1.732601,Financials,0.461538,Financials,1,False,False,False,7,False
+AXP,American Express,Financials,219,57,162,0.260274,0.150106,1.733938,Financials,0.260274,Financials,1,False,True,True,11,False
+BRK-B,Berkshire Hathaway,Financials,238,62,176,0.260504,0.150106,1.735472,Financials,0.260504,Financials,1,False,True,True,11,False
+HST,Host Hotels & Resorts,Real Estate,136,14,122,0.102941,0.059197,1.738971,Financials,0.301471,Financials,1,False,False,False,9,False
+GS,Goldman Sachs,Financials,203,53,150,0.261084,0.150106,1.739333,Financials,0.261084,Financials,1,False,True,True,10,False
+GLW,Corning Inc.,Information Technology,142,33,109,0.232394,0.133192,1.744802,Industrials,0.302817,Industrials,1,False,False,False,7,False
+BX,Blackstone Inc.,Financials,179,47,132,0.262570,0.150106,1.749233,Financials,0.262570,Financials,1,False,True,True,8,False
+WY,Weyerhaeuser,Real Estate,222,23,199,0.103604,0.059197,1.750161,Industrials,0.247748,Industrials,1,False,False,False,11,False
+HAS,Hasbro,Consumer Discretionary,6,1,5,0.166667,0.095137,1.751852,Industrials,0.500000,Industrials,1,False,False,False,3,False
+RF,Regions Financial Corporation,Financials,193,51,142,0.264249,0.150106,1.760417,Financials,0.264249,Financials,1,False,True,True,11,False
+FTV,Fortive,Industrials,202,55,147,0.272277,0.154334,1.764207,Industrials,0.272277,Industrials,1,False,True,True,9,False
+WAB,Wabtec,Industrials,176,48,128,0.272727,0.154334,1.767123,Industrials,0.272727,Industrials,1,False,True,True,10,False
+LIN,Linde plc,Materials,155,14,141,0.090323,0.050740,1.780108,Financials,0.348387,Financials,1,False,False,False,10,False
+SWK,Stanley Black & Decker,Industrials,188,52,136,0.276596,0.154334,1.792189,Industrials,0.276596,Industrials,1,False,True,True,9,False
+CBRE,CBRE Group,Real Estate,188,20,168,0.106383,0.059197,1.797112,Financials,0.260638,Financials,1,False,False,False,11,False
+APTV,Aptiv,Consumer Discretionary,134,23,111,0.171642,0.095137,1.804146,Financials,0.246269,"Financials, Industrials",2,True,False,False,10,False
+BAC,Bank of America,Financials,199,54,145,0.271357,0.150106,1.807771,Financials,0.271357,Financials,1,False,True,True,11,False
+TRMB,Trimble Inc.,Information Technology,153,37,116,0.241830,0.133192,1.815645,Financials,0.274510,Financials,1,False,False,False,8,False
+MTD,Mettler Toledo,Health Care,65,14,51,0.215385,0.118393,1.819231,Information Technology,0.307692,Information Technology,1,False,False,False,6,False
+CFG,Citizens Financial Group,Financials,190,52,138,0.273684,0.150106,1.823277,Financials,0.273684,Financials,1,False,True,True,11,False
+JBL,Jabil,Information Technology,131,32,99,0.244275,0.133192,1.834000,Industrials,0.282443,Industrials,1,False,False,False,8,False
+CRH,CRH plc,Materials,150,14,136,0.093333,0.050740,1.839444,Industrials,0.293333,Industrials,1,False,False,False,10,False
+KKR,KKR & Co.,Financials,177,49,128,0.276836,0.150106,1.844275,Financials,0.276836,Financials,1,False,True,True,8,False
+URI,United Rentals,Industrials,189,54,135,0.285714,0.154334,1.851272,Industrials,0.285714,Industrials,1,False,True,True,10,False
+CSX,CSX Corporation,Industrials,175,50,125,0.285714,0.154334,1.851272,Financials,0.285714,"Financials, Industrials",2,True,True,True,11,False
+ETN,Eaton Corporation,Industrials,175,50,125,0.285714,0.154334,1.851272,Industrials,0.285714,Industrials,1,False,True,True,10,False
+GNRC,Generac,Industrials,7,2,5,0.285714,0.154334,1.851272,Financials,0.571429,Financials,1,False,False,False,3,False
+AIG,American International Group,Financials,187,52,135,0.278075,0.150106,1.852527,Financials,0.278075,Financials,1,False,True,True,11,False
+ICE,Intercontinental Exchange,Financials,61,17,44,0.278689,0.150106,1.856615,Financials,0.278689,Financials,1,False,True,True,9,False
+A,Agilent Technologies,Health Care,68,15,53,0.220588,0.118393,1.863183,Information Technology,0.264706,Information Technology,1,False,False,False,7,False
+MLM,Martin Marietta Materials,Materials,148,14,134,0.094595,0.050740,1.864302,Industrials,0.331081,Industrials,1,False,False,False,9,False
+TFC,Truist Financial,Financials,182,51,131,0.280220,0.150106,1.866816,Financials,0.280220,Financials,1,False,True,True,11,False
+JPM,JPMorgan Chase,Financials,192,54,138,0.281250,0.150106,1.873680,Financials,0.281250,Financials,1,False,True,True,11,False
+PNR,Pentair,Industrials,197,57,140,0.289340,0.154334,1.874765,Industrials,0.289340,Industrials,1,False,True,True,8,False
+CF,CF Industries,Materials,21,2,19,0.095238,0.050740,1.876984,Energy,0.761905,Energy,1,False,False,False,4,False
+HWM,Howmet Aerospace,Industrials,141,41,100,0.290780,0.154334,1.884096,Financials,0.319149,Financials,1,False,False,False,9,False
+ALLE,Allegion,Industrials,164,48,116,0.292683,0.154334,1.896425,Industrials,0.292683,Industrials,1,False,True,True,10,False
+CDW,CDW Corporation,Information Technology,154,39,115,0.253247,0.133192,1.901361,Industrials,0.279221,Industrials,1,False,False,False,8,False
+NSC,Norfolk Southern,Industrials,163,48,115,0.294479,0.154334,1.908060,Financials,0.294479,"Financials, Industrials",2,True,True,True,11,False
+APH,Amphenol,Information Technology,176,45,131,0.255682,0.133192,1.919643,Industrials,0.272727,Industrials,1,False,False,False,9,False
+HPQ,HP Inc.,Information Technology,78,20,58,0.256410,0.133192,1.925112,Financials,0.358974,Financials,1,False,False,False,6,False
+KEY,KeyCorp,Financials,169,49,120,0.289941,0.150106,1.931578,Financials,0.289941,Financials,1,False,True,True,10,False
+MA,Mastercard,Financials,186,54,132,0.290323,0.150106,1.934121,Financials,0.290323,Financials,1,False,True,True,9,False
+STT,State Street Corporation,Financials,174,51,123,0.293103,0.150106,1.952647,Financials,0.293103,Financials,1,False,True,True,10,False
+CPRT,Copart,Industrials,106,32,74,0.301887,0.154334,1.956061,Industrials,0.301887,Industrials,1,False,True,True,7,False
+PPG,PPG Industries,Materials,181,18,163,0.099448,0.050740,1.959945,Industrials,0.270718,Industrials,1,False,False,False,9,False
+DHI,D. R. Horton,Consumer Discretionary,32,6,26,0.187500,0.095137,1.970833,Industrials,0.281250,Industrials,1,False,False,False,7,False
+CCL,Carnival,Consumer Discretionary,85,16,69,0.188235,0.095137,1.978562,Financials,0.388235,Financials,1,False,False,False,9,False
+RCL,Royal Caribbean Group,Consumer Discretionary,85,16,69,0.188235,0.095137,1.978562,Financials,0.376471,Financials,1,False,False,False,9,False
+USB,U.S. Bancorp,Financials,168,50,118,0.297619,0.150106,1.982730,Financials,0.297619,Financials,1,False,True,True,10,False
+AVY,Avery Dennison,Materials,139,14,125,0.100719,0.050740,1.985012,Financials,0.330935,Financials,1,False,False,False,9,False
+RTX,RTX Corporation,Industrials,127,39,88,0.307087,0.154334,1.989753,Financials,0.322835,Financials,1,False,False,False,10,False
+FCX,Freeport-McMoRan,Materials,99,10,89,0.101010,0.050740,1.990741,Financials,0.292929,Financials,1,False,False,False,7,False
+HBAN,Huntington Bancshares,Financials,166,50,116,0.301205,0.150106,2.006618,Financials,0.301205,Financials,1,False,True,True,9,False
+NTRS,Northern Trust,Financials,169,51,118,0.301775,0.150106,2.010418,Financials,0.301775,Financials,1,False,True,True,10,False
+IR,Ingersoll Rand,Industrials,154,48,106,0.311688,0.154334,2.019569,Industrials,0.311688,Industrials,1,False,True,True,9,False
+DD,DuPont,Materials,146,15,131,0.102740,0.050740,2.024829,Industrials,0.294521,Industrials,1,False,False,False,9,False
+UNP,Union Pacific Corporation,Industrials,144,45,99,0.312500,0.154334,2.024829,Industrials,0.312500,Industrials,1,False,True,True,10,False
+GD,General Dynamics,Industrials,150,47,103,0.313333,0.154334,2.030228,Industrials,0.313333,Industrials,1,False,True,True,11,False
+SPG,Simon Property Group,Real Estate,149,18,131,0.120805,0.059197,2.040748,Financials,0.261745,Financials,1,False,False,False,11,False
+XYL,Xylem Inc.,Industrials,171,54,117,0.315789,0.154334,2.046143,Industrials,0.315789,Industrials,1,False,True,True,9,False
+ACN,Accenture,Information Technology,142,39,103,0.274648,0.133192,2.062039,Financials,0.302817,Financials,1,False,False,False,8,False
+NCLH,Norwegian Cruise Line Holdings,Consumer Discretionary,66,13,53,0.196970,0.095137,2.070370,Financials,0.424242,Financials,1,False,False,False,8,False
+WYNN,Wynn Resorts,Consumer Discretionary,71,14,57,0.197183,0.095137,2.072613,Financials,0.323944,Financials,1,False,False,False,9,False
+LYB,LyondellBasell,Materials,152,16,136,0.105263,0.050740,2.074561,Financials,0.269737,"Financials, Industrials",2,True,False,False,10,False
+BR,Broadridge Financial Solutions,Industrials,78,25,53,0.320513,0.154334,2.076747,Industrials,0.320513,Industrials,1,False,True,True,7,False
+CAT,Caterpillar Inc.,Industrials,121,39,82,0.322314,0.154334,2.088418,Industrials,0.322314,Industrials,1,False,True,True,8,False
+CPAY,Corpay,Financials,149,47,102,0.315436,0.150106,2.101427,Financials,0.315436,Financials,1,False,True,True,9,False
+NKE,"Nike, Inc.",Consumer Discretionary,20,4,16,0.200000,0.095137,2.102222,Industrials,0.400000,Industrials,1,False,False,False,6,False
+AFL,Aflac,Financials,173,55,118,0.317919,0.150106,2.117968,Financials,0.317919,Financials,1,False,True,True,11,False
+RJF,Raymond James Financial,Financials,173,55,118,0.317919,0.150106,2.117968,Financials,0.317919,Financials,1,False,True,True,9,False
+DRI,Darden Restaurants,Consumer Discretionary,109,22,87,0.201835,0.095137,2.121509,Financials,0.266055,Financials,1,False,False,False,11,False
+V,Visa Inc.,Financials,182,58,124,0.318681,0.150106,2.123046,Financials,0.318681,Financials,1,False,True,True,10,False
+IEX,IDEX Corporation,Industrials,152,50,102,0.328947,0.154334,2.131399,Industrials,0.328947,Industrials,1,False,True,True,7,False
+IT,Gartner,Information Technology,14,4,10,0.285714,0.133192,2.145125,Industrials,0.357143,Industrials,1,False,False,False,4,False
+SNA,Snap-on,Industrials,154,51,103,0.331169,0.154334,2.145793,Industrials,0.331169,Industrials,1,False,True,True,9,False
+ROK,Rockwell Automation,Industrials,132,44,88,0.333333,0.154334,2.159817,Industrials,0.333333,Industrials,1,False,True,True,7,False
+PHM,PulteGroup,Consumer Discretionary,68,14,54,0.205882,0.095137,2.164052,Industrials,0.323529,Industrials,1,False,False,False,7,False
+NXPI,NXP Semiconductors,Information Technology,141,41,100,0.290780,0.133192,2.183159,Information Technology,0.290780,Information Technology,1,False,True,True,8,False
+HIG,Hartford (The),Financials,125,41,84,0.328000,0.150106,2.185127,Financials,0.328000,Financials,1,False,True,True,11,False
+BBY,Best Buy,Consumer Discretionary,43,9,34,0.209302,0.095137,2.200000,Industrials,0.372093,Industrials,1,False,False,False,7,False
+FRT,Federal Realty Investment Trust,Real Estate,153,20,133,0.130719,0.059197,2.208217,Financials,0.281046,Financials,1,False,False,False,11,False
+EXPE,Expedia Group,Consumer Discretionary,47,10,37,0.212766,0.095137,2.236407,Financials,0.425532,Financials,1,False,False,False,7,False
+JCI,Johnson Controls,Industrials,139,48,91,0.345324,0.154334,2.237509,Industrials,0.345324,Industrials,1,False,True,True,8,False
+ROST,Ross Stores,Consumer Discretionary,75,16,59,0.213333,0.095137,2.242370,Financials,0.280000,Financials,1,False,False,False,8,False
+HUBB,Hubbell Incorporated,Industrials,144,50,94,0.347222,0.154334,2.249810,Industrials,0.347222,Industrials,1,False,True,True,9,False
+WFC,Wells Fargo,Financials,150,51,99,0.340000,0.150106,2.265070,Financials,0.340000,Financials,1,False,True,True,9,False
+KIM,Kimco Realty,Real Estate,149,20,129,0.134228,0.059197,2.267498,Financials,0.288591,Financials,1,False,False,False,11,False
+GE,GE Aerospace,Industrials,94,33,61,0.351064,0.154334,2.274701,Financials,0.372340,Financials,1,False,False,False,7,False
+ARES,Ares Management,Financials,122,42,80,0.344262,0.150106,2.293466,Financials,0.344262,Financials,1,False,True,True,8,False
+MTB,M&T Bank,Financials,133,46,87,0.345865,0.150106,2.304141,Financials,0.345865,Financials,1,False,True,True,9,False
+CMI,Cummins,Industrials,126,45,81,0.357143,0.154334,2.314090,Industrials,0.357143,Industrials,1,False,True,True,9,False
+BEN,Franklin Resources,Financials,118,41,77,0.347458,0.150106,2.314753,Financials,0.347458,Financials,1,False,True,True,7,False
+BLDR,Builders FirstSource,Industrials,95,34,61,0.357895,0.154334,2.318962,Industrials,0.357895,Industrials,1,False,True,True,7,False
+NDAQ,"Nasdaq, Inc.",Financials,94,33,61,0.351064,0.150106,2.338777,Financials,0.351064,Financials,1,False,True,True,8,False
+ADI,Analog Devices,Information Technology,144,45,99,0.312500,0.133192,2.346230,Information Technology,0.312500,Information Technology,1,False,True,True,8,False
+ZBH,Zimmer Biomet,Health Care,18,5,13,0.277778,0.118393,2.346230,Financials,0.388889,Financials,1,False,False,False,6,False
+NVR,"NVR, Inc.",Consumer Discretionary,49,11,38,0.224490,0.095137,2.359637,Industrials,0.326531,Industrials,1,False,False,False,7,False
+PCAR,Paccar,Industrials,107,39,68,0.364486,0.154334,2.361669,Industrials,0.364486,Industrials,1,False,True,True,7,False
+MAS,Masco,Industrials,123,45,78,0.365854,0.154334,2.370531,Industrials,0.365854,Industrials,1,False,True,True,7,False
+DE,Deere & Company,Industrials,87,32,55,0.367816,0.154334,2.383247,Financials,0.367816,"Financials, Industrials",2,True,True,True,8,False
+MCHP,Microchip Technology,Information Technology,132,42,90,0.318182,0.133192,2.388889,Information Technology,0.318182,Information Technology,1,False,True,True,8,False
+EME,Emcor,Industrials,70,26,44,0.371429,0.154334,2.406654,Financials,0.428571,Financials,1,False,False,False,7,False
+YUM,Yum! Brands,Consumer Discretionary,48,11,37,0.229167,0.095137,2.408796,Financials,0.270833,Financials,1,False,False,False,9,False
+LEN,Lennar,Consumer Discretionary,43,10,33,0.232558,0.095137,2.444444,Industrials,0.348837,Industrials,1,False,False,False,7,False
+REG,Regency Centers,Real Estate,138,20,118,0.144928,0.059197,2.448240,Financials,0.304348,Financials,1,False,False,False,11,False
+POOL,Pool Corporation,Consumer Discretionary,30,7,23,0.233333,0.095137,2.452593,Industrials,0.500000,Industrials,1,False,False,False,5,False
+DOW,Dow Inc.,Materials,120,15,105,0.125000,0.050740,2.463542,Financials,0.283333,Financials,1,False,False,False,8,False
+STLD,Steel Dynamics,Materials,96,12,84,0.125000,0.050740,2.463542,Financials,0.312500,"Financials, Industrials",2,True,False,False,7,False
+PYPL,PayPal,Financials,27,10,17,0.370370,0.150106,2.467397,Information Technology,0.518519,Information Technology,1,False,False,False,5,False
+KO,Coca-Cola Company (The),Consumer Staples,84,15,69,0.178571,0.071882,2.484244,Utilities,0.297619,Utilities,1,False,False,False,10,False
+VRSN,Verisign,Information Technology,45,15,30,0.333333,0.133192,2.502646,Information Technology,0.333333,Information Technology,1,False,True,True,7,False
+APO,Apollo Global Management,Financials,119,45,74,0.378151,0.150106,2.519233,Financials,0.378151,Financials,1,False,True,True,8,False
+AJG,Arthur J. Gallagher & Co.,Financials,87,33,54,0.379310,0.150106,2.526955,Financials,0.379310,Financials,1,False,True,True,9,False
+J,Jacobs Solutions,Industrials,120,47,73,0.391667,0.154334,2.537785,Industrials,0.391667,Industrials,1,False,True,True,7,False
+IP,International Paper,Materials,77,10,67,0.129870,0.050740,2.559524,Financials,0.428571,Financials,1,False,False,False,7,False
+EFX,Equifax,Industrials,43,17,26,0.395349,0.154334,2.561644,Industrials,0.395349,Industrials,1,False,True,True,7,False
+MOS,Mosaic Company (The),Materials,38,5,33,0.131579,0.050740,2.593202,Energy,0.473684,Energy,1,False,False,False,6,False
+GPN,Global Payments,Financials,118,46,72,0.389831,0.150106,2.597040,Financials,0.389831,Financials,1,False,True,True,8,False
+TT,Trane Technologies,Industrials,116,47,69,0.405172,0.154334,2.625295,Industrials,0.405172,Industrials,1,False,True,True,7,False
+DECK,Deckers Brands,Consumer Discretionary,8,2,6,0.250000,0.095137,2.627778,Information Technology,0.500000,Information Technology,1,False,False,False,3,False
+FDS,FactSet,Financials,30,12,18,0.400000,0.150106,2.664789,Financials,0.400000,Financials,1,False,True,True,6,False
+ACGL,Arch Capital Group,Financials,113,46,67,0.407080,0.150106,2.711953,Financials,0.407080,Financials,1,False,True,True,10,False
+BRO,Brown & Brown,Financials,73,30,43,0.410959,0.150106,2.737797,Financials,0.410959,Financials,1,False,True,True,9,False
+TXN,Texas Instruments,Information Technology,106,39,67,0.367925,0.133192,2.762354,Information Technology,0.367925,Information Technology,1,False,True,True,8,False
+ON,ON Semiconductor,Information Technology,81,30,51,0.370370,0.133192,2.780717,Information Technology,0.370370,Information Technology,1,False,True,True,7,False
+COST,Costco,Consumer Staples,5,1,4,0.200000,0.071882,2.782353,Information Technology,0.400000,Information Technology,1,False,False,False,4,False
+PWR,Quanta Services,Industrials,65,28,37,0.430769,0.154334,2.791149,Industrials,0.430769,Industrials,1,False,True,True,5,False
+VICI,Vici Properties,Real Estate,139,23,116,0.165468,0.059197,2.795221,Financials,0.280576,Financials,1,False,False,False,11,False
+ZTS,Zoetis,Health Care,39,13,26,0.333333,0.118393,2.815476,Health Care,0.333333,Health Care,1,False,True,True,7,False
+CSCO,Cisco,Information Technology,53,20,33,0.377358,0.133192,2.833184,Information Technology,0.377358,Information Technology,1,False,True,True,4,False
+NUE,Nucor,Materials,83,12,71,0.144578,0.050740,2.849398,Financials,0.385542,Financials,1,False,False,False,6,False
+ZBRA,Zebra Technologies,Information Technology,76,29,47,0.381579,0.133192,2.864871,Information Technology,0.381579,Information Technology,1,False,True,True,7,False
+FDX,FedEx,Industrials,33,15,18,0.454545,0.154334,2.945205,Industrials,0.454545,Industrials,1,False,True,True,5,False
+BXP,"BXP, Inc.",Real Estate,123,22,101,0.178862,0.059197,3.021487,Financials,0.317073,Financials,1,False,False,False,10,False
+CB,Chubb Limited,Financials,99,45,54,0.454545,0.150106,3.028169,Financials,0.454545,Financials,1,False,True,True,10,False
+WRB,W. R. Berkley Corporation,Financials,94,43,51,0.457447,0.150106,3.047498,Financials,0.457447,Financials,1,False,True,True,8,False
+PKG,Packaging Corporation of America,Materials,77,12,65,0.155844,0.050740,3.071429,Financials,0.415584,Financials,1,False,False,False,7,False
+MMM,3M,Industrials,63,30,33,0.476190,0.154334,3.085453,Industrials,0.476190,Industrials,1,False,True,True,5,False
+STE,Steris,Health Care,32,12,20,0.375000,0.118393,3.167411,Health Care,0.375000,Health Care,1,False,True,True,5,False
+GWW,W. W. Grainger,Industrials,83,41,42,0.493976,0.154334,3.200693,Industrials,0.493976,Industrials,1,False,True,True,6,False
+T,AT&T,Communication Services,7,1,6,0.142857,0.044397,3.217687,Utilities,0.428571,Utilities,1,False,False,False,4,False
+TRV,Travelers Companies (The),Financials,89,43,46,0.483146,0.150106,3.218705,Financials,0.483146,Financials,1,False,True,True,10,False
+PLD,Prologis,Real Estate,129,25,104,0.193798,0.059197,3.273810,Real Estate,0.193798,Real Estate,1,False,True,True,9,False
+INTU,Intuit,Information Technology,89,39,50,0.438202,0.133192,3.289995,Information Technology,0.438202,Information Technology,1,False,True,True,8,False
+UDR,"UDR, Inc.",Real Estate,133,26,107,0.195489,0.059197,3.302363,Financials,0.368421,Financials,1,False,False,False,9,False
+FICO,Fair Isaac,Information Technology,25,11,14,0.440000,0.133192,3.303492,Information Technology,0.440000,Information Technology,1,False,True,True,5,False
+PEP,PepsiCo,Consumer Staples,58,14,44,0.241379,0.071882,3.358012,Utilities,0.396552,Utilities,1,False,False,False,9,False
+FIX,Comfort Systems USA,Industrials,42,22,20,0.523810,0.154334,3.393999,Industrials,0.523810,Industrials,1,False,True,True,5,False
+AMCR,Amcor,Materials,69,12,57,0.173913,0.050740,3.427536,Financials,0.362319,Financials,1,False,False,False,9,False
+LRCX,Lam Research,Information Technology,89,41,48,0.460674,0.133192,3.458712,Information Technology,0.460674,Information Technology,1,False,True,True,7,False
+TAP,Molson Coors Beverage Company,Consumer Staples,4,1,3,0.250000,0.071882,3.477941,Financials,0.750000,Financials,1,False,False,False,2,False
+ESS,Essex Property Trust,Real Estate,116,24,92,0.206897,0.059197,3.495074,Financials,0.310345,Financials,1,False,False,False,8,False
+WSM,"Williams-Sonoma, Inc.",Consumer Discretionary,12,4,8,0.333333,0.095137,3.503704,Industrials,0.500000,Industrials,1,False,False,False,3,False
+CRL,Charles River Laboratories,Health Care,24,10,14,0.416667,0.118393,3.519345,Health Care,0.416667,Health Care,1,False,True,True,4,False
+MDLZ,Mondelez International,Consumer Staples,55,14,41,0.254545,0.071882,3.541176,Utilities,0.381818,Utilities,1,False,False,False,9,False
+CINF,Cincinnati Financial,Financials,88,47,41,0.534091,0.150106,3.558099,Financials,0.534091,Financials,1,False,True,True,8,False
+CL,Colgate-Palmolive,Consumer Staples,35,9,26,0.257143,0.071882,3.577311,Utilities,0.571429,Utilities,1,False,False,False,5,False
+CME,CME Group,Financials,24,13,11,0.541667,0.150106,3.608568,Financials,0.541667,Financials,1,False,True,True,5,False
+ADSK,Autodesk,Information Technology,81,39,42,0.481481,0.133192,3.614932,Information Technology,0.481481,Information Technology,1,False,True,True,8,False
+KLAC,KLA Corporation,Information Technology,81,39,42,0.481481,0.133192,3.614932,Information Technology,0.481481,Information Technology,1,False,True,True,7,False
+APD,Air Products,Materials,38,7,31,0.184211,0.050740,3.630482,Industrials,0.421053,Industrials,1,False,False,False,5,False
+AAPL,Apple Inc.,Information Technology,72,35,37,0.486111,0.133192,3.649691,Information Technology,0.486111,Information Technology,1,False,True,True,9,False
+DTE,DTE Energy,Utilities,115,26,89,0.226087,0.061311,3.687556,Financials,0.234783,Financials,1,False,False,False,10,False
+MSFT,Microsoft,Information Technology,85,42,43,0.494118,0.133192,3.709804,Information Technology,0.494118,Information Technology,1,False,True,True,9,False
+ABT,Abbott Laboratories,Health Care,25,11,14,0.440000,0.118393,3.716429,Health Care,0.440000,Health Care,1,False,True,True,7,False
+FAST,Fastenal,Industrials,71,41,30,0.577465,0.154334,3.741655,Industrials,0.577465,Industrials,1,False,True,True,6,False
+SWKS,Skyworks Solutions,Information Technology,72,36,36,0.500000,0.133192,3.753968,Information Technology,0.500000,Information Technology,1,False,True,True,8,False
+ORCL,Oracle Corporation,Information Technology,2,1,1,0.500000,0.133192,3.753968,Industrials,0.500000,"Industrials, Information Technology",2,True,True,True,2,False
+AMAT,Applied Materials,Information Technology,81,41,40,0.506173,0.133192,3.800314,Information Technology,0.506173,Information Technology,1,False,True,True,7,False
+JKHY,Jack Henry & Associates,Financials,7,4,3,0.571429,0.150106,3.806841,Financials,0.571429,Financials,1,False,True,True,2,False
+MAA,Mid-America Apartment Communities,Real Estate,115,26,89,0.226087,0.059197,3.819255,Financials,0.226087,"Financials, Real Estate, Utilities",3,True,True,True,9,False
+ODFL,Old Dominion,Industrials,35,21,14,0.600000,0.154334,3.887671,Industrials,0.600000,Industrials,1,False,True,True,4,False
+LII,Lennox International,Industrials,43,26,17,0.604651,0.154334,3.917808,Industrials,0.604651,Industrials,1,False,True,True,6,False
+DHR,Danaher Corporation,Health Care,30,14,16,0.466667,0.118393,3.941667,Health Care,0.466667,Health Care,1,False,True,True,5,False
+TYL,Tyler Technologies,Information Technology,19,10,9,0.526316,0.133192,3.951546,Information Technology,0.526316,Information Technology,1,False,True,True,4,False
+O,Realty Income,Real Estate,98,23,75,0.234694,0.059197,3.964650,Financials,0.234694,"Financials, Real Estate",2,True,True,True,10,False
+CPT,Camden Property Trust,Real Estate,115,27,88,0.234783,0.059197,3.966149,Financials,0.278261,Financials,1,False,False,False,9,False
+DOC,Healthpeak Properties,Real Estate,108,26,82,0.240741,0.059197,4.066799,Financials,0.250000,Financials,1,False,False,False,9,False
+PPL,PPL Corporation,Utilities,104,26,78,0.250000,0.061311,4.077586,Utilities,0.250000,Utilities,1,False,True,True,10,False
+VST,Vistra Corp.,Utilities,4,1,3,0.250000,0.061311,4.077586,Industrials,0.750000,Industrials,1,False,False,False,2,False
+META,Meta Platforms,Communication Services,11,2,9,0.181818,0.044397,4.095238,Information Technology,0.636364,Information Technology,1,False,False,False,4,False
+KMI,Kinder Morgan,Energy,108,18,90,0.166667,0.040169,4.149123,Financials,0.324074,Financials,1,False,False,False,10,False
+KEYS,Keysight Technologies,Information Technology,61,34,27,0.557377,0.133192,4.184751,Information Technology,0.557377,Information Technology,1,False,True,True,4,False
+PG,Procter & Gamble,Consumer Staples,33,10,23,0.303030,0.071882,4.215686,Utilities,0.545455,Utilities,1,False,False,False,4,False
+IDXX,Idexx Laboratories,Health Care,20,10,10,0.500000,0.118393,4.223214,Health Care,0.500000,Health Care,1,False,True,True,3,False
+ALGN,Align Technology,Health Care,2,1,1,0.500000,0.118393,4.223214,Health Care,0.500000,"Health Care, Information Technology",2,True,True,True,2,False
+AON,Aon plc,Financials,22,14,8,0.636364,0.150106,4.239437,Financials,0.636364,Financials,1,False,True,True,4,False
+INVH,Invitation Homes,Real Estate,103,26,77,0.252427,0.059197,4.264216,Real Estate,0.252427,Real Estate,1,False,True,True,8,False
+CRM,Salesforce,Information Technology,28,16,12,0.571429,0.133192,4.290249,Information Technology,0.571429,Information Technology,1,False,True,True,5,False
+LHX,L3Harris,Industrials,12,8,4,0.666667,0.154334,4.319635,Industrials,0.666667,Industrials,1,False,True,True,2,False
+WELL,Welltower,Real Estate,70,18,52,0.257143,0.059197,4.343878,Financials,0.314286,Financials,1,False,False,False,11,False
+WTW,Willis Towers Watson,Financials,32,21,11,0.656250,0.150106,4.371919,Financials,0.656250,Financials,1,False,True,True,5,False
+EXPD,Expeditors International,Industrials,37,25,12,0.675676,0.154334,4.378008,Industrials,0.675676,Industrials,1,False,True,True,6,False
+AOS,A. O. Smith,Industrials,50,34,16,0.680000,0.154334,4.406027,Industrials,0.680000,Industrials,1,False,True,True,6,False
+VTR,Ventas,Real Estate,69,18,51,0.260870,0.059197,4.406832,Financials,0.260870,"Financials, Real Estate",2,True,True,True,10,False
+NOW,ServiceNow,Information Technology,39,23,16,0.589744,0.133192,4.427757,Information Technology,0.589744,Information Technology,1,False,True,True,7,False
+WDC,Western Digital,Information Technology,44,26,18,0.590909,0.133192,4.436508,Information Technology,0.590909,Information Technology,1,False,True,True,5,False
+FIS,Fidelity National Information Services,Financials,18,12,6,0.666667,0.150106,4.441315,Financials,0.666667,Financials,1,False,True,True,5,False
+NTAP,NetApp,Information Technology,35,21,14,0.600000,0.133192,4.504762,Information Technology,0.600000,Information Technology,1,False,True,True,3,False
+COO,Cooper Companies (The),Health Care,15,8,7,0.533333,0.118393,4.504762,Health Care,0.533333,Health Care,1,False,True,True,3,False
+CMCSA,Comcast,Communication Services,10,2,8,0.200000,0.044397,4.504762,Financials,0.500000,Financials,1,False,False,False,3,False
+ORLY,O’Reilly Automotive,Consumer Discretionary,7,3,4,0.428571,0.095137,4.504762,Consumer Discretionary,0.428571,"Consumer Discretionary, Industrials",2,True,True,True,3,False
+SCHW,Charles Schwab Corporation,Financials,56,38,18,0.678571,0.150106,4.520624,Financials,0.678571,Financials,1,False,True,True,3,False
+CDNS,Cadence Design Systems,Information Technology,69,42,27,0.608696,0.133192,4.570048,Information Technology,0.608696,Information Technology,1,False,True,True,6,False
+ADBE,Adobe Inc.,Information Technology,44,27,17,0.613636,0.133192,4.607143,Information Technology,0.613636,Information Technology,1,False,True,True,6,False
+CVX,Chevron Corporation,Energy,97,18,79,0.185567,0.040169,4.619642,Financials,0.350515,Financials,1,False,False,False,9,False
+MPWR,Monolithic Power Systems,Information Technology,60,37,23,0.616667,0.133192,4.629894,Information Technology,0.616667,Information Technology,1,False,True,True,6,False
+STZ,Constellation Brands,Consumer Staples,6,2,4,0.333333,0.071882,4.637255,Consumer Staples,0.333333,"Consumer Staples, Financials",2,True,True,True,4,False
+AIZ,Assurant,Financials,53,37,16,0.698113,0.150106,4.650811,Financials,0.698113,Financials,1,False,True,True,4,False
+OKE,Oneok,Energy,96,18,78,0.187500,0.040169,4.667763,Financials,0.281250,Financials,1,False,False,False,10,False
+MPC,Marathon Petroleum,Energy,90,17,73,0.188889,0.040169,4.702339,Financials,0.366667,Financials,1,False,False,False,8,False
+FFIV,"F5, Inc.",Information Technology,27,17,10,0.629630,0.133192,4.727219,Information Technology,0.629630,Information Technology,1,False,True,True,3,False
+JBHT,J.B. Hunt,Industrials,30,22,8,0.733333,0.154334,4.751598,Industrials,0.733333,Industrials,1,False,True,True,5,False
+GDDY,GoDaddy,Information Technology,11,7,4,0.636364,0.133192,4.777778,Information Technology,0.636364,Information Technology,1,False,True,True,2,False
+HII,Huntington Ingalls Industries,Industrials,8,6,2,0.750000,0.154334,4.859589,Industrials,0.750000,Industrials,1,False,True,True,2,False
+ALL,Allstate,Financials,57,42,15,0.736842,0.150106,4.908821,Financials,0.736842,Financials,1,False,True,True,5,False
+FOX,Fox Corporation (Class B),Communication Services,32,7,25,0.218750,0.044397,4.927083,Financials,0.625000,Financials,1,False,False,False,4,False
+LVS,Las Vegas Sands,Consumer Discretionary,17,8,9,0.470588,0.095137,4.946405,Consumer Discretionary,0.470588,Consumer Discretionary,1,False,True,True,6,False
+IBKR,Interactive Brokers,Financials,32,24,8,0.750000,0.150106,4.996479,Financials,0.750000,Financials,1,False,True,True,3,False
+WDAY,"Workday, Inc.",Information Technology,18,12,6,0.666667,0.133192,5.005291,Information Technology,0.666667,Information Technology,1,False,True,True,4,False
+UPS,United Parcel Service,Industrials,5,4,1,0.800000,0.154334,5.183562,Industrials,0.800000,Industrials,1,False,True,True,2,False
+NVDA,Nvidia,Information Technology,46,32,14,0.695652,0.133192,5.222912,Information Technology,0.695652,Information Technology,1,False,True,True,6,False
+TER,Teradyne,Information Technology,46,32,14,0.695652,0.133192,5.222912,Information Technology,0.695652,Information Technology,1,False,True,True,6,False
+HAL,Halliburton,Energy,84,18,66,0.214286,0.040169,5.334586,Financials,0.345238,Financials,1,False,False,False,8,False
+PTC,PTC Inc.,Information Technology,25,18,7,0.720000,0.133192,5.405714,Information Technology,0.720000,Information Technology,1,False,True,True,3,False
+AVGO,Broadcom,Information Technology,43,31,12,0.720930,0.133192,5.412698,Information Technology,0.720930,Information Technology,1,False,True,True,5,False
+WAT,Waters Corporation,Health Care,14,9,5,0.642857,0.118393,5.429847,Health Care,0.642857,Health Care,1,False,True,True,3,False
+EXC,Exelon,Utilities,75,25,50,0.333333,0.061311,5.436782,Utilities,0.333333,Utilities,1,False,True,True,8,False
+FISV,Fiserv,Financials,6,5,1,0.833333,0.150106,5.551643,Financials,0.833333,Financials,1,False,True,True,2,False
+EG,Everest Group,Financials,40,34,6,0.850000,0.150106,5.662676,Financials,0.850000,Financials,1,False,True,True,3,False
+PSX,Phillips 66,Energy,79,18,61,0.227848,0.040169,5.672219,Financials,0.392405,Financials,1,False,False,False,8,False
+QCOM,Qualcomm,Information Technology,42,32,10,0.761905,0.133192,5.720333,Information Technology,0.761905,Information Technology,1,False,True,True,5,False
+AES,AES Corporation,Utilities,17,6,11,0.352941,0.061311,5.756592,Utilities,0.352941,Utilities,1,False,True,True,6,False
+CNP,CenterPoint Energy,Utilities,73,26,47,0.356164,0.061311,5.809164,Utilities,0.356164,Utilities,1,False,True,True,8,False
+AMT,American Tower,Real Estate,49,17,32,0.346939,0.059197,5.860787,Utilities,0.448980,Utilities,1,False,False,False,6,False
+MNST,Monster Beverage,Consumer Staples,7,3,4,0.428571,0.071882,5.962185,Consumer Staples,0.428571,"Consumer Staples, Financials",2,True,True,True,3,False
+CCI,Crown Castle,Real Estate,48,17,31,0.354167,0.059197,5.982887,Utilities,0.458333,Utilities,1,False,False,False,5,False
+RVTY,Revvity,Health Care,14,10,4,0.714286,0.118393,6.033163,Health Care,0.714286,Health Care,1,False,True,True,3,False
+PNW,Pinnacle West Capital,Utilities,67,25,42,0.373134,0.061311,6.085950,Utilities,0.373134,Utilities,1,False,True,True,9,False
+MU,Micron Technology,Information Technology,37,30,7,0.810811,0.133192,6.087516,Information Technology,0.810811,Information Technology,1,False,True,True,3,False
+SNPS,Synopsys,Information Technology,32,26,6,0.812500,0.133192,6.100198,Information Technology,0.812500,Information Technology,1,False,True,True,6,False
+DUK,Duke Energy,Utilities,66,25,41,0.378788,0.061311,6.178161,Utilities,0.378788,Utilities,1,False,True,True,9,False
+NI,NiSource,Utilities,66,25,41,0.378788,0.061311,6.178161,Utilities,0.378788,Utilities,1,False,True,True,5,False
+TMO,Thermo Fisher Scientific,Health Care,15,11,4,0.733333,0.118393,6.194048,Health Care,0.733333,Health Care,1,False,True,True,4,False
+SLB,Schlumberger,Energy,72,18,54,0.250000,0.040169,6.223684,Financials,0.416667,Financials,1,False,False,False,5,False
+ARE,Alexandria Real Estate Equities,Real Estate,62,23,39,0.370968,0.059197,6.266705,Real Estate,0.370968,Real Estate,1,False,True,True,7,False
+SRE,Sempra,Utilities,64,25,39,0.390625,0.061311,6.371228,Utilities,0.390625,Utilities,1,False,True,True,7,False
+VLO,Valero Energy,Energy,66,17,49,0.257576,0.040169,6.412281,Financials,0.424242,Financials,1,False,False,False,8,False
+SO,Southern Company,Utilities,63,25,38,0.396825,0.061311,6.472359,Utilities,0.396825,Utilities,1,False,True,True,9,False
+LMT,Lockheed Martin,Industrials,6,6,0,1.000000,0.154334,6.479452,Industrials,1.000000,Industrials,1,False,True,True,1,False
+NOC,Northrop Grumman,Industrials,5,5,0,1.000000,0.154334,6.479452,Industrials,1.000000,Industrials,1,False,True,True,1,False
+LDOS,Leidos,Industrials,3,3,0,1.000000,0.154334,6.479452,Industrials,1.000000,Industrials,1,False,True,True,1,False
+ROL,"Rollins, Inc.",Industrials,2,2,0,1.000000,0.154334,6.479452,Industrials,1.000000,Industrials,1,False,True,True,1,False
+CHRW,C.H. Robinson,Industrials,1,1,0,1.000000,0.154334,6.479452,Industrials,1.000000,Industrials,1,False,True,True,1,False
+GL,Globe Life,Financials,10,10,0,1.000000,0.150106,6.661972,Financials,1.000000,Financials,1,False,True,True,1,False
+PGR,Progressive Corporation,Financials,8,8,0,1.000000,0.150106,6.661972,Financials,1.000000,Financials,1,False,True,True,1,False
+CBOE,Cboe Global Markets,Financials,1,1,0,1.000000,0.150106,6.661972,Financials,1.000000,Financials,1,False,True,True,1,False
+DELL,Dell Technologies,Information Technology,18,16,2,0.888889,0.133192,6.673721,Information Technology,0.888889,Information Technology,1,False,True,True,2,False
+XOM,ExxonMobil,Energy,67,18,49,0.268657,0.040169,6.688138,Financials,0.447761,Financials,1,False,False,False,5,False
+AMD,Advanced Micro Devices,Information Technology,28,25,3,0.892857,0.133192,6.703515,Information Technology,0.892857,Information Technology,1,False,True,True,3,False
+ETR,Entergy,Utilities,63,26,37,0.412698,0.061311,6.731253,Utilities,0.412698,Utilities,1,False,True,True,6,False
+SBAC,SBA Communications,Real Estate,30,12,18,0.400000,0.059197,6.757143,Utilities,0.533333,Utilities,1,False,False,False,3,False
+BKR,Baker Hughes,Energy,66,18,48,0.272727,0.040169,6.789474,Financials,0.424242,Financials,1,False,False,False,5,False
+EVRG,Evergy,Utilities,60,25,35,0.416667,0.061311,6.795977,Utilities,0.416667,Utilities,1,False,True,True,7,False
+LNT,Alliant Energy,Utilities,60,25,35,0.416667,0.061311,6.795977,Utilities,0.416667,Utilities,1,False,True,True,7,False
+ANET,Arista Networks,Information Technology,11,10,1,0.909091,0.133192,6.825397,Information Technology,0.909091,Information Technology,1,False,True,True,2,False
+PM,Philip Morris International,Consumer Staples,6,3,3,0.500000,0.071882,6.955882,Consumer Staples,0.500000,Consumer Staples,1,False,True,True,3,False
+COP,ConocoPhillips,Energy,64,18,46,0.281250,0.040169,7.001645,Financials,0.421875,Financials,1,False,False,False,5,False
+ULTA,Ulta Beauty,Consumer Discretionary,9,6,3,0.666667,0.095137,7.007407,Consumer Discretionary,0.666667,Consumer Discretionary,1,False,True,True,3,False
+AEE,Ameren,Utilities,57,25,32,0.438596,0.061311,7.153660,Utilities,0.438596,Utilities,1,False,True,True,6,False
+WMB,Williams Companies,Energy,61,18,43,0.295082,0.040169,7.345988,Financials,0.409836,Financials,1,False,False,False,9,False
+HSY,Hershey Company (The),Consumer Staples,13,7,6,0.538462,0.071882,7.490950,Consumer Staples,0.538462,Consumer Staples,1,False,True,True,4,False
+FOXA,Fox Corporation (Class A),Communication Services,18,6,12,0.333333,0.044397,7.507937,Financials,0.611111,Financials,1,False,False,False,3,False
+STX,Seagate Technology,Information Technology,14,14,0,1.000000,0.133192,7.507937,Information Technology,1.000000,Information Technology,1,False,True,True,1,False
+INTC,Intel,Information Technology,11,11,0,1.000000,0.133192,7.507937,Information Technology,1.000000,Information Technology,1,False,True,True,1,False
+FTNT,Fortinet,Information Technology,8,8,0,1.000000,0.133192,7.507937,Information Technology,1.000000,Information Technology,1,False,True,True,1,False
+PANW,Palo Alto Networks,Information Technology,2,2,0,1.000000,0.133192,7.507937,Information Technology,1.000000,Information Technology,1,False,True,True,1,False
+EPAM,EPAM Systems,Information Technology,1,1,0,1.000000,0.133192,7.507937,Information Technology,1.000000,Information Technology,1,False,True,True,1,False
+PEG,Public Service Enterprise Group,Utilities,58,27,31,0.465517,0.061311,7.592747,Utilities,0.465517,Utilities,1,False,True,True,8,False
+ATO,Atmos Energy,Utilities,53,25,28,0.471698,0.061311,7.693559,Utilities,0.471698,Utilities,1,False,True,True,7,False
+TRGP,Targa Resources,Energy,57,18,39,0.315789,0.040169,7.861496,Financials,0.368421,Financials,1,False,False,False,7,False
+KMB,Kimberly-Clark,Consumer Staples,14,8,6,0.571429,0.071882,7.949580,Consumer Staples,0.571429,Consumer Staples,1,False,True,True,2,False
+AWK,American Water Works,Utilities,51,25,26,0.490196,0.061311,7.995267,Utilities,0.490196,Utilities,1,False,True,True,5,False
+PSA,Public Storage,Real Estate,40,19,21,0.475000,0.059197,8.024107,Real Estate,0.475000,"Real Estate, Utilities",2,True,True,True,3,False
+NRG,NRG Energy,Utilities,4,2,2,0.500000,0.061311,8.155172,Utilities,0.500000,Utilities,1,False,True,True,3,False
+DVN,Devon Energy,Energy,54,18,36,0.333333,0.040169,8.298246,Financials,0.425926,Financials,1,False,False,False,5,False
+CMS,CMS Energy,Utilities,49,25,24,0.510204,0.061311,8.321605,Utilities,0.510204,Utilities,1,False,True,True,5,False
+TECH,Bio-Techne,Health Care,9,9,0,1.000000,0.118393,8.446429,Health Care,1.000000,Health Care,1,False,True,True,1,False
+CI,Cigna,Health Care,6,6,0,1.000000,0.118393,8.446429,Health Care,1.000000,Health Care,1,False,True,True,1,False
+ELV,Elevance Health,Health Care,6,6,0,1.000000,0.118393,8.446429,Health Care,1.000000,Health Care,1,False,True,True,1,False
+UNH,UnitedHealth Group,Health Care,6,6,0,1.000000,0.118393,8.446429,Health Care,1.000000,Health Care,1,False,True,True,1,False
+MOH,Molina Healthcare,Health Care,5,5,0,1.000000,0.118393,8.446429,Health Care,1.000000,Health Care,1,False,True,True,1,False
+CNC,Centene Corporation,Health Care,4,4,0,1.000000,0.118393,8.446429,Health Care,1.000000,Health Care,1,False,True,True,1,False
+EW,Edwards Lifesciences,Health Care,4,4,0,1.000000,0.118393,8.446429,Health Care,1.000000,Health Care,1,False,True,True,1,False
+HUM,Humana,Health Care,4,4,0,1.000000,0.118393,8.446429,Health Care,1.000000,Health Care,1,False,True,True,1,False
+CVS,CVS Health,Health Care,3,3,0,1.000000,0.118393,8.446429,Health Care,1.000000,Health Care,1,False,True,True,1,False
+CAH,Cardinal Health,Health Care,2,2,0,1.000000,0.118393,8.446429,Health Care,1.000000,Health Care,1,False,True,True,1,False
+COR,Cencora,Health Care,2,2,0,1.000000,0.118393,8.446429,Health Care,1.000000,Health Care,1,False,True,True,1,False
+MCK,McKesson Corporation,Health Care,2,2,0,1.000000,0.118393,8.446429,Health Care,1.000000,Health Care,1,False,True,True,1,False
+AMGN,Amgen,Health Care,1,1,0,1.000000,0.118393,8.446429,Health Care,1.000000,Health Care,1,False,True,True,1,False
+DGX,Quest Diagnostics,Health Care,1,1,0,1.000000,0.118393,8.446429,Health Care,1.000000,Health Care,1,False,True,True,1,False
+MRK,Merck & Co.,Health Care,1,1,0,1.000000,0.118393,8.446429,Health Care,1.000000,Health Care,1,False,True,True,1,False
+PFE,Pfizer,Health Care,1,1,0,1.000000,0.118393,8.446429,Health Care,1.000000,Health Care,1,False,True,True,1,False
+D,Dominion Energy,Utilities,47,25,22,0.531915,0.061311,8.675715,Utilities,0.531915,Utilities,1,False,True,True,5,False
+XEL,Xcel Energy,Utilities,46,25,21,0.543478,0.061311,8.864318,Utilities,0.543478,Utilities,1,False,True,True,4,False
+ES,Eversource Energy,Utilities,44,25,19,0.568182,0.061311,9.267241,Utilities,0.568182,Utilities,1,False,True,True,4,False
+WEC,WEC Energy Group,Utilities,44,25,19,0.568182,0.061311,9.267241,Utilities,0.568182,Utilities,1,False,True,True,5,False
+AEP,American Electric Power,Utilities,43,25,18,0.581395,0.061311,9.482759,Utilities,0.581395,Utilities,1,False,True,True,4,False
+EQIX,Equinix,Real Estate,23,13,10,0.565217,0.059197,9.548137,Real Estate,0.565217,Real Estate,1,False,True,True,5,False
+ED,Consolidated Edison,Utilities,42,25,17,0.595238,0.061311,9.708539,Utilities,0.595238,Utilities,1,False,True,True,5,False
+FANG,Diamondback Energy,Energy,43,18,25,0.418605,0.040169,10.421053,Energy,0.418605,Energy,1,False,True,True,5,False
+MKC,McCormick & Company,Consumer Staples,16,12,4,0.750000,0.071882,10.433824,Consumer Staples,0.750000,Consumer Staples,1,False,True,True,2,False
+AZO,AutoZone,Consumer Discretionary,4,4,0,1.000000,0.095137,10.511111,Consumer Discretionary,1.000000,Consumer Discretionary,1,False,True,True,1,False
+TSCO,Tractor Supply,Consumer Discretionary,3,3,0,1.000000,0.095137,10.511111,Consumer Discretionary,1.000000,Consumer Discretionary,1,False,True,True,1,False
+LULU,Lululemon Athletica,Consumer Discretionary,1,1,0,1.000000,0.095137,10.511111,Consumer Discretionary,1.000000,Consumer Discretionary,1,False,True,True,1,False
+NEE,NextEra Energy,Utilities,39,26,13,0.666667,0.061311,10.873563,Utilities,0.666667,Utilities,1,False,True,True,4,False
+EIX,Edison International,Utilities,37,25,12,0.675676,0.061311,11.020503,Utilities,0.675676,Utilities,1,False,True,True,4,False
+EOG,EOG Resources,Energy,40,18,22,0.450000,0.040169,11.202632,Energy,0.450000,Energy,1,False,True,True,4,False
+APA,APA Corporation,Energy,36,18,18,0.500000,0.040169,12.447368,Energy,0.500000,Energy,1,False,True,True,4,False
+OXY,Occidental Petroleum,Energy,36,18,18,0.500000,0.040169,12.447368,Energy,0.500000,Energy,1,False,True,True,4,False
+FE,FirstEnergy,Utilities,32,25,7,0.781250,0.061311,12.742457,Utilities,0.781250,Utilities,1,False,True,True,4,False
+GIS,General Mills,Consumer Staples,14,13,1,0.928571,0.071882,12.918067,Consumer Staples,0.928571,Consumer Staples,1,False,True,True,2,False
+EXR,Extra Space Storage,Real Estate,22,17,5,0.772727,0.059197,13.053571,Real Estate,0.772727,Real Estate,1,False,True,True,3,False
+CHD,Church & Dwight,Consumer Staples,8,8,0,1.000000,0.071882,13.911765,Consumer Staples,1.000000,Consumer Staples,1,False,True,True,1,False
+CPB,Campbell's Company (The),Consumer Staples,8,8,0,1.000000,0.071882,13.911765,Consumer Staples,1.000000,Consumer Staples,1,False,True,True,1,False
+KHC,Kraft Heinz,Consumer Staples,7,7,0,1.000000,0.071882,13.911765,Consumer Staples,1.000000,Consumer Staples,1,False,True,True,1,False
+SJM,J.M. Smucker Company (The),Consumer Staples,6,6,0,1.000000,0.071882,13.911765,Consumer Staples,1.000000,Consumer Staples,1,False,True,True,1,False
+BF-B,Brown–Forman,Consumer Staples,3,3,0,1.000000,0.071882,13.911765,Consumer Staples,1.000000,Consumer Staples,1,False,True,True,1,False
+CAG,Conagra Brands,Consumer Staples,3,3,0,1.000000,0.071882,13.911765,Consumer Staples,1.000000,Consumer Staples,1,False,True,True,1,False
+CLX,Clorox,Consumer Staples,3,3,0,1.000000,0.071882,13.911765,Consumer Staples,1.000000,Consumer Staples,1,False,True,True,1,False
+HRL,Hormel Foods,Consumer Staples,3,3,0,1.000000,0.071882,13.911765,Consumer Staples,1.000000,Consumer Staples,1,False,True,True,1,False
+MO,Altria,Consumer Staples,2,2,0,1.000000,0.071882,13.911765,Consumer Staples,1.000000,Consumer Staples,1,False,True,True,1,False
+KDP,Keurig Dr Pepper,Consumer Staples,1,1,0,1.000000,0.071882,13.911765,Consumer Staples,1.000000,Consumer Staples,1,False,True,True,1,False
+WMT,Walmart,Consumer Staples,1,1,0,1.000000,0.071882,13.911765,Consumer Staples,1.000000,Consumer Staples,1,False,True,True,1,False
+IRM,Iron Mountain,Real Estate,21,19,2,0.904762,0.059197,15.284014,Real Estate,0.904762,Real Estate,1,False,True,True,2,False
+DLR,Digital Realty,Real Estate,15,14,1,0.933333,0.059197,15.766667,Real Estate,0.933333,Real Estate,1,False,True,True,2,False
+IFF,International Flavors & Fragrances,Materials,3,3,0,1.000000,0.050740,19.708333,Materials,1.000000,Materials,1,False,True,True,1,False
+ALB,Albemarle Corporation,Materials,1,1,0,1.000000,0.050740,19.708333,Materials,1.000000,Materials,1,False,True,True,1,False
+PSKY,Paramount Skydance Corporation,Communication Services,3,3,0,1.000000,0.044397,22.523810,Communication Services,1.000000,Communication Services,1,False,True,True,1,False
+WBD,Warner Bros. Discovery,Communication Services,3,3,0,1.000000,0.044397,22.523810,Communication Services,1.000000,Communication Services,1,False,True,True,1,False
+CHTR,Charter Communications,Communication Services,1,1,0,1.000000,0.044397,22.523810,Communication Services,1.000000,Communication Services,1,False,True,True,1,False
+VZ,Verizon,Communication Services,1,1,0,1.000000,0.044397,22.523810,Communication Services,1.000000,Communication Services,1,False,True,True,1,False
+TPL,Texas Pacific Land Corporation,Energy,17,16,1,0.941176,0.040169,23.430341,Energy,0.941176,Energy,1,False,True,True,2,False

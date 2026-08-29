@@ -1,0 +1,11 @@
+# Core dependencies for "Analysis of Stock Correlation Networks
+# through Graph Traversal Algorithms".
+# Versions are lower bounds: any recent release should work.
+pandas>=1.5
+numpy>=1.23
+yfinance>=0.2.40
+networkx>=3.0
+matplotlib>=3.6
+seaborn>=0.12
+# Optional but used for a few descriptive statistics (skewness / kurtosis).
+scipy>=1.9

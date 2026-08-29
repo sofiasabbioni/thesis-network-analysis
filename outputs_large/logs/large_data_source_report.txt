@@ -1,0 +1,97 @@
+==============================================================================
+LARGE-NETWORK EXTENSION — DATA SOURCE REPORT
+==============================================================================
+
+DATA SOURCE: REAL YAHOO FINANCE DATA
+
+Run timestamp              : 2026-08-28 18:59:42
+Data source                : Yahoo Finance (yfinance)
+Synthetic data             : NO
+Reused a cached panel      : NO
+Output tree                : outputs_large
+
+------------------------------------------------------------------------------
+1. CONSTITUENT LIST
+------------------------------------------------------------------------------
+  File                     : data\reference\sp500_constituents_2025_12_22.csv
+  Source repository        : https://github.com/fja05680/sp500
+  Repository HEAD          : c31ac3cc56f28cf9a02b4e694eff7ceab596a0ff
+  Membership file          : S&P 500 Historical Components & Changes (Updated).csv
+  Membership snapshot date : 2025-12-22   (last index change on or before the sample end)
+  GICS metadata file       : sp500.csv
+     commit 58490ec8ea42  dated 2025-11-16  [primary (before sample end)]
+     commit c24b12e2b725  dated 2026-01-17  [fallback (after sample end)]
+  Classified from the pre-sample-end snapshot  : 498
+  Classified from the post-end fallback        : 5 -> ARES, CRH, CVNA, FIX, SNDK
+  Retrieved on             : 2026-08-28 15:53:41 UTC
+  Constituents in snapshot : 503
+  Excluded, no GICS record : 0
+  Sectors represented      : 11 (GICS)
+
+  UNIVERSE CONSTRUCTION - HOW TO DESCRIBE IT
+  The extension uses a point-in-time S&P 500 constituent universe observed
+  at the end of the sample period. Consequently, the analysis is conditional
+  on end-of-period index membership and should not be interpreted as a
+  survivorship-bias-free representation of the S&P 500 throughout 2019-2025.
+
+------------------------------------------------------------------------------
+2. SAMPLE PERIOD
+------------------------------------------------------------------------------
+  Start date (requested)   : 2019-01-01
+  End date (requested)     : 2026-01-01   (exclusive, as yfinance treats it)
+  First trading day        : 2019-01-02
+  Last trading day         : 2025-12-31
+  Raw trading days          : 1760
+  Aligned trading days      : 1707
+  Log-return observations   : 1706
+
+------------------------------------------------------------------------------
+3. TICKER ACCOUNTING
+------------------------------------------------------------------------------
+  Requested                : 503
+  Downloaded               : 495
+  Retained in the network  : 474
+  Excluded in total        : 29
+
+  [  8] not returned by Yahoo Finance
+        AVB, BK, CTRA, DAY, EA, EQR, HOLX, MMC
+  [  0] empty over the whole window
+  [ 21] more than 5% of prices missing after calendar alignment
+        ABNB, APP, CARR, CEG, COIN, CRWD, CTVA, DASH, DDOG, EXE
+        GEHC, GEV, HOOD, KVUE, OTIS, PLTR, Q, SNDK, SOLV, UBER
+        VLTO
+  [  0] fewer than 250 return observations
+
+  Note. The dominant exclusion reason is expected to be the missing-price
+  rule: a company that joined the index, listed or was spun off after
+  2019-01-02 has no price for the early part of the sample and therefore
+  cannot enter a correlation matrix estimated on one common calendar.
+  The rule is the thesis rule, applied unchanged; it was not relaxed to
+  retain more stocks.
+
+------------------------------------------------------------------------------
+4. CONFIGURATION
+------------------------------------------------------------------------------
+  Thresholds               : 0.3, 0.4, 0.5, 0.6, 0.7
+  Main threshold           : 0.5
+  Edge rule                : absolute  (|C_ij| >= tau)
+  Correlation              : Pearson, daily log returns
+  Max missing fraction     : 0.05
+  Max forward-fill days    : 5
+  Min observations         : 250
+  Cross-sector rule        : degree >= 5, same-sector share <= 1x the chance benchmark,
+                             and dominant neighbour sector differs from the official one
+
+------------------------------------------------------------------------------
+5. USE OF SECTOR METADATA
+------------------------------------------------------------------------------
+  Sector labels were NOT used in graph construction. An edge exists if and
+  only if |C_ij| >= tau. Sector metadata enters only afterwards, as an
+  external reference for interpretation and validation. It is an
+  approximate reference, not a statistical ground truth: GICS classifies a
+  company by its business activity, while an edge here records co-movement
+  of returns over one sample period.
+
+------------------------------------------------------------------------------
+These outputs were generated from real Yahoo Finance data.
+------------------------------------------------------------------------------

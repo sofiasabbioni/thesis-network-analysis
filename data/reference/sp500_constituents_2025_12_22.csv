@@ -1,0 +1,504 @@
+ticker,yahoo_ticker,company,gics_sector,gics_sub_industry,metadata_source,metadata_snapshot_role
+A,A,Agilent Technologies,Health Care,Life Sciences Tools & Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+AAPL,AAPL,Apple Inc.,Information Technology,"Technology Hardware, Storage & Peripherals",sp500.csv@58490ec8ea42 (2025-11-16),primary
+ABBV,ABBV,AbbVie,Health Care,Biotechnology,sp500.csv@58490ec8ea42 (2025-11-16),primary
+ABNB,ABNB,Airbnb,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",sp500.csv@58490ec8ea42 (2025-11-16),primary
+ABT,ABT,Abbott Laboratories,Health Care,Health Care Equipment,sp500.csv@58490ec8ea42 (2025-11-16),primary
+ACGL,ACGL,Arch Capital Group,Financials,Property & Casualty Insurance,sp500.csv@58490ec8ea42 (2025-11-16),primary
+ACN,ACN,Accenture,Information Technology,IT Consulting & Other Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+ADBE,ADBE,Adobe Inc.,Information Technology,Application Software,sp500.csv@58490ec8ea42 (2025-11-16),primary
+ADI,ADI,Analog Devices,Information Technology,Semiconductors,sp500.csv@58490ec8ea42 (2025-11-16),primary
+ADM,ADM,Archer Daniels Midland,Consumer Staples,Agricultural Products & Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+ADP,ADP,Automatic Data Processing,Industrials,Human Resource & Employment Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+ADSK,ADSK,Autodesk,Information Technology,Application Software,sp500.csv@58490ec8ea42 (2025-11-16),primary
+AEE,AEE,Ameren,Utilities,Multi-Utilities,sp500.csv@58490ec8ea42 (2025-11-16),primary
+AEP,AEP,American Electric Power,Utilities,Electric Utilities,sp500.csv@58490ec8ea42 (2025-11-16),primary
+AES,AES,AES Corporation,Utilities,Independent Power Producers & Energy Traders,sp500.csv@58490ec8ea42 (2025-11-16),primary
+AFL,AFL,Aflac,Financials,Life & Health Insurance,sp500.csv@58490ec8ea42 (2025-11-16),primary
+AIG,AIG,American International Group,Financials,Multi-line Insurance,sp500.csv@58490ec8ea42 (2025-11-16),primary
+AIZ,AIZ,Assurant,Financials,Multi-line Insurance,sp500.csv@58490ec8ea42 (2025-11-16),primary
+AJG,AJG,Arthur J. Gallagher & Co.,Financials,Insurance Brokers,sp500.csv@58490ec8ea42 (2025-11-16),primary
+AKAM,AKAM,Akamai Technologies,Information Technology,Internet Services & Infrastructure,sp500.csv@58490ec8ea42 (2025-11-16),primary
+ALB,ALB,Albemarle Corporation,Materials,Specialty Chemicals,sp500.csv@58490ec8ea42 (2025-11-16),primary
+ALGN,ALGN,Align Technology,Health Care,Health Care Supplies,sp500.csv@58490ec8ea42 (2025-11-16),primary
+ALL,ALL,Allstate,Financials,Property & Casualty Insurance,sp500.csv@58490ec8ea42 (2025-11-16),primary
+ALLE,ALLE,Allegion,Industrials,Building Products,sp500.csv@58490ec8ea42 (2025-11-16),primary
+AMAT,AMAT,Applied Materials,Information Technology,Semiconductor Materials & Equipment,sp500.csv@58490ec8ea42 (2025-11-16),primary
+AMCR,AMCR,Amcor,Materials,Paper & Plastic Packaging Products & Materials,sp500.csv@58490ec8ea42 (2025-11-16),primary
+AMD,AMD,Advanced Micro Devices,Information Technology,Semiconductors,sp500.csv@58490ec8ea42 (2025-11-16),primary
+AME,AME,Ametek,Industrials,Electrical Components & Equipment,sp500.csv@58490ec8ea42 (2025-11-16),primary
+AMGN,AMGN,Amgen,Health Care,Biotechnology,sp500.csv@58490ec8ea42 (2025-11-16),primary
+AMP,AMP,Ameriprise Financial,Financials,Asset Management & Custody Banks,sp500.csv@58490ec8ea42 (2025-11-16),primary
+AMT,AMT,American Tower,Real Estate,Telecom Tower REITs,sp500.csv@58490ec8ea42 (2025-11-16),primary
+AMZN,AMZN,Amazon,Consumer Discretionary,Broadline Retail,sp500.csv@58490ec8ea42 (2025-11-16),primary
+ANET,ANET,Arista Networks,Information Technology,Communications Equipment,sp500.csv@58490ec8ea42 (2025-11-16),primary
+AON,AON,Aon plc,Financials,Insurance Brokers,sp500.csv@58490ec8ea42 (2025-11-16),primary
+AOS,AOS,A. O. Smith,Industrials,Building Products,sp500.csv@58490ec8ea42 (2025-11-16),primary
+APA,APA,APA Corporation,Energy,Oil & Gas Exploration & Production,sp500.csv@58490ec8ea42 (2025-11-16),primary
+APD,APD,Air Products,Materials,Industrial Gases,sp500.csv@58490ec8ea42 (2025-11-16),primary
+APH,APH,Amphenol,Information Technology,Electronic Components,sp500.csv@58490ec8ea42 (2025-11-16),primary
+APO,APO,Apollo Global Management,Financials,Asset Management & Custody Banks,sp500.csv@58490ec8ea42 (2025-11-16),primary
+APP,APP,AppLovin,Information Technology,Application Software,sp500.csv@58490ec8ea42 (2025-11-16),primary
+APTV,APTV,Aptiv,Consumer Discretionary,Automotive Parts & Equipment,sp500.csv@58490ec8ea42 (2025-11-16),primary
+ARE,ARE,Alexandria Real Estate Equities,Real Estate,Office REITs,sp500.csv@58490ec8ea42 (2025-11-16),primary
+ARES,ARES,Ares Management,Financials,Asset Management & Custody Banks,sp500.csv@c24b12e2b725 (2026-01-17),fallback
+ATO,ATO,Atmos Energy,Utilities,Gas Utilities,sp500.csv@58490ec8ea42 (2025-11-16),primary
+AVB,AVB,AvalonBay Communities,Real Estate,Multi-Family Residential REITs,sp500.csv@58490ec8ea42 (2025-11-16),primary
+AVGO,AVGO,Broadcom,Information Technology,Semiconductors,sp500.csv@58490ec8ea42 (2025-11-16),primary
+AVY,AVY,Avery Dennison,Materials,Paper & Plastic Packaging Products & Materials,sp500.csv@58490ec8ea42 (2025-11-16),primary
+AWK,AWK,American Water Works,Utilities,Water Utilities,sp500.csv@58490ec8ea42 (2025-11-16),primary
+AXON,AXON,Axon Enterprise,Industrials,Aerospace & Defense,sp500.csv@58490ec8ea42 (2025-11-16),primary
+AXP,AXP,American Express,Financials,Consumer Finance,sp500.csv@58490ec8ea42 (2025-11-16),primary
+AZO,AZO,AutoZone,Consumer Discretionary,Automotive Retail,sp500.csv@58490ec8ea42 (2025-11-16),primary
+BA,BA,Boeing,Industrials,Aerospace & Defense,sp500.csv@58490ec8ea42 (2025-11-16),primary
+BAC,BAC,Bank of America,Financials,Diversified Banks,sp500.csv@58490ec8ea42 (2025-11-16),primary
+BALL,BALL,Ball Corporation,Materials,"Metal, Glass & Plastic Containers",sp500.csv@58490ec8ea42 (2025-11-16),primary
+BAX,BAX,Baxter International,Health Care,Health Care Equipment,sp500.csv@58490ec8ea42 (2025-11-16),primary
+BBY,BBY,Best Buy,Consumer Discretionary,Computer & Electronics Retail,sp500.csv@58490ec8ea42 (2025-11-16),primary
+BDX,BDX,Becton Dickinson,Health Care,Health Care Equipment,sp500.csv@58490ec8ea42 (2025-11-16),primary
+BEN,BEN,Franklin Resources,Financials,Asset Management & Custody Banks,sp500.csv@58490ec8ea42 (2025-11-16),primary
+BF.B,BF-B,Brown–Forman,Consumer Staples,Distillers & Vintners,sp500.csv@58490ec8ea42 (2025-11-16),primary
+BG,BG,Bunge Global,Consumer Staples,Agricultural Products & Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+BIIB,BIIB,Biogen,Health Care,Biotechnology,sp500.csv@58490ec8ea42 (2025-11-16),primary
+BK,BK,BNY Mellon,Financials,Asset Management & Custody Banks,sp500.csv@58490ec8ea42 (2025-11-16),primary
+BKNG,BKNG,Booking Holdings,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",sp500.csv@58490ec8ea42 (2025-11-16),primary
+BKR,BKR,Baker Hughes,Energy,Oil & Gas Equipment & Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+BLDR,BLDR,Builders FirstSource,Industrials,Building Products,sp500.csv@58490ec8ea42 (2025-11-16),primary
+BLK,BLK,BlackRock,Financials,Asset Management & Custody Banks,sp500.csv@58490ec8ea42 (2025-11-16),primary
+BMY,BMY,Bristol Myers Squibb,Health Care,Pharmaceuticals,sp500.csv@58490ec8ea42 (2025-11-16),primary
+BR,BR,Broadridge Financial Solutions,Industrials,Data Processing & Outsourced Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+BRK.B,BRK-B,Berkshire Hathaway,Financials,Multi-Sector Holdings,sp500.csv@58490ec8ea42 (2025-11-16),primary
+BRO,BRO,Brown & Brown,Financials,Insurance Brokers,sp500.csv@58490ec8ea42 (2025-11-16),primary
+BSX,BSX,Boston Scientific,Health Care,Health Care Equipment,sp500.csv@58490ec8ea42 (2025-11-16),primary
+BX,BX,Blackstone Inc.,Financials,Asset Management & Custody Banks,sp500.csv@58490ec8ea42 (2025-11-16),primary
+BXP,BXP,"BXP, Inc.",Real Estate,Office REITs,sp500.csv@58490ec8ea42 (2025-11-16),primary
+C,C,Citigroup,Financials,Diversified Banks,sp500.csv@58490ec8ea42 (2025-11-16),primary
+CAG,CAG,Conagra Brands,Consumer Staples,Packaged Foods & Meats,sp500.csv@58490ec8ea42 (2025-11-16),primary
+CAH,CAH,Cardinal Health,Health Care,Health Care Distributors,sp500.csv@58490ec8ea42 (2025-11-16),primary
+CARR,CARR,Carrier Global,Industrials,Building Products,sp500.csv@58490ec8ea42 (2025-11-16),primary
+CAT,CAT,Caterpillar Inc.,Industrials,Construction Machinery & Heavy Transportation Equipment,sp500.csv@58490ec8ea42 (2025-11-16),primary
+CB,CB,Chubb Limited,Financials,Property & Casualty Insurance,sp500.csv@58490ec8ea42 (2025-11-16),primary
+CBOE,CBOE,Cboe Global Markets,Financials,Financial Exchanges & Data,sp500.csv@58490ec8ea42 (2025-11-16),primary
+CBRE,CBRE,CBRE Group,Real Estate,Real Estate Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+CCI,CCI,Crown Castle,Real Estate,Telecom Tower REITs,sp500.csv@58490ec8ea42 (2025-11-16),primary
+CCL,CCL,Carnival,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",sp500.csv@58490ec8ea42 (2025-11-16),primary
+CDNS,CDNS,Cadence Design Systems,Information Technology,Application Software,sp500.csv@58490ec8ea42 (2025-11-16),primary
+CDW,CDW,CDW Corporation,Information Technology,Technology Distributors,sp500.csv@58490ec8ea42 (2025-11-16),primary
+CEG,CEG,Constellation Energy,Utilities,Electric Utilities,sp500.csv@58490ec8ea42 (2025-11-16),primary
+CF,CF,CF Industries,Materials,Fertilizers & Agricultural Chemicals,sp500.csv@58490ec8ea42 (2025-11-16),primary
+CFG,CFG,Citizens Financial Group,Financials,Regional Banks,sp500.csv@58490ec8ea42 (2025-11-16),primary
+CHD,CHD,Church & Dwight,Consumer Staples,Household Products,sp500.csv@58490ec8ea42 (2025-11-16),primary
+CHRW,CHRW,C.H. Robinson,Industrials,Air Freight & Logistics,sp500.csv@58490ec8ea42 (2025-11-16),primary
+CHTR,CHTR,Charter Communications,Communication Services,Cable & Satellite,sp500.csv@58490ec8ea42 (2025-11-16),primary
+CI,CI,Cigna,Health Care,Health Care Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+CINF,CINF,Cincinnati Financial,Financials,Property & Casualty Insurance,sp500.csv@58490ec8ea42 (2025-11-16),primary
+CL,CL,Colgate-Palmolive,Consumer Staples,Household Products,sp500.csv@58490ec8ea42 (2025-11-16),primary
+CLX,CLX,Clorox,Consumer Staples,Household Products,sp500.csv@58490ec8ea42 (2025-11-16),primary
+CMCSA,CMCSA,Comcast,Communication Services,Cable & Satellite,sp500.csv@58490ec8ea42 (2025-11-16),primary
+CME,CME,CME Group,Financials,Financial Exchanges & Data,sp500.csv@58490ec8ea42 (2025-11-16),primary
+CMG,CMG,Chipotle Mexican Grill,Consumer Discretionary,Restaurants,sp500.csv@58490ec8ea42 (2025-11-16),primary
+CMI,CMI,Cummins,Industrials,Construction Machinery & Heavy Transportation Equipment,sp500.csv@58490ec8ea42 (2025-11-16),primary
+CMS,CMS,CMS Energy,Utilities,Multi-Utilities,sp500.csv@58490ec8ea42 (2025-11-16),primary
+CNC,CNC,Centene Corporation,Health Care,Managed Health Care,sp500.csv@58490ec8ea42 (2025-11-16),primary
+CNP,CNP,CenterPoint Energy,Utilities,Multi-Utilities,sp500.csv@58490ec8ea42 (2025-11-16),primary
+COF,COF,Capital One,Financials,Consumer Finance,sp500.csv@58490ec8ea42 (2025-11-16),primary
+COIN,COIN,Coinbase,Financials,Financial Exchanges & Data,sp500.csv@58490ec8ea42 (2025-11-16),primary
+COO,COO,Cooper Companies (The),Health Care,Health Care Supplies,sp500.csv@58490ec8ea42 (2025-11-16),primary
+COP,COP,ConocoPhillips,Energy,Oil & Gas Exploration & Production,sp500.csv@58490ec8ea42 (2025-11-16),primary
+COR,COR,Cencora,Health Care,Health Care Distributors,sp500.csv@58490ec8ea42 (2025-11-16),primary
+COST,COST,Costco,Consumer Staples,Consumer Staples Merchandise Retail,sp500.csv@58490ec8ea42 (2025-11-16),primary
+CPAY,CPAY,Corpay,Financials,Transaction & Payment Processing Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+CPB,CPB,Campbell's Company (The),Consumer Staples,Packaged Foods & Meats,sp500.csv@58490ec8ea42 (2025-11-16),primary
+CPRT,CPRT,Copart,Industrials,Diversified Support Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+CPT,CPT,Camden Property Trust,Real Estate,Multi-Family Residential REITs,sp500.csv@58490ec8ea42 (2025-11-16),primary
+CRH,CRH,CRH plc,Materials,Construction Materials,sp500.csv@c24b12e2b725 (2026-01-17),fallback
+CRL,CRL,Charles River Laboratories,Health Care,Life Sciences Tools & Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+CRM,CRM,Salesforce,Information Technology,Application Software,sp500.csv@58490ec8ea42 (2025-11-16),primary
+CRWD,CRWD,CrowdStrike,Information Technology,Systems Software,sp500.csv@58490ec8ea42 (2025-11-16),primary
+CSCO,CSCO,Cisco,Information Technology,Communications Equipment,sp500.csv@58490ec8ea42 (2025-11-16),primary
+CSGP,CSGP,CoStar Group,Real Estate,Real Estate Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+CSX,CSX,CSX Corporation,Industrials,Rail Transportation,sp500.csv@58490ec8ea42 (2025-11-16),primary
+CTAS,CTAS,Cintas,Industrials,Diversified Support Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+CTRA,CTRA,Coterra,Energy,Oil & Gas Exploration & Production,sp500.csv@58490ec8ea42 (2025-11-16),primary
+CTSH,CTSH,Cognizant,Information Technology,IT Consulting & Other Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+CTVA,CTVA,Corteva,Materials,Fertilizers & Agricultural Chemicals,sp500.csv@58490ec8ea42 (2025-11-16),primary
+CVNA,CVNA,Carvana,Consumer Discretionary,Automotive Retail,sp500.csv@c24b12e2b725 (2026-01-17),fallback
+CVS,CVS,CVS Health,Health Care,Health Care Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+CVX,CVX,Chevron Corporation,Energy,Integrated Oil & Gas,sp500.csv@58490ec8ea42 (2025-11-16),primary
+D,D,Dominion Energy,Utilities,Multi-Utilities,sp500.csv@58490ec8ea42 (2025-11-16),primary
+DAL,DAL,Delta Air Lines,Industrials,Passenger Airlines,sp500.csv@58490ec8ea42 (2025-11-16),primary
+DASH,DASH,DoorDash,Consumer Discretionary,Specialized Consumer Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+DAY,DAY,Dayforce,Industrials,Human Resource & Employment Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+DD,DD,DuPont,Materials,Specialty Chemicals,sp500.csv@58490ec8ea42 (2025-11-16),primary
+DDOG,DDOG,Datadog,Information Technology,Application Software,sp500.csv@58490ec8ea42 (2025-11-16),primary
+DE,DE,Deere & Company,Industrials,Agricultural & Farm Machinery,sp500.csv@58490ec8ea42 (2025-11-16),primary
+DECK,DECK,Deckers Brands,Consumer Discretionary,Footwear,sp500.csv@58490ec8ea42 (2025-11-16),primary
+DELL,DELL,Dell Technologies,Information Technology,"Technology Hardware, Storage & Peripherals",sp500.csv@58490ec8ea42 (2025-11-16),primary
+DG,DG,Dollar General,Consumer Staples,Consumer Staples Merchandise Retail,sp500.csv@58490ec8ea42 (2025-11-16),primary
+DGX,DGX,Quest Diagnostics,Health Care,Health Care Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+DHI,DHI,D. R. Horton,Consumer Discretionary,Homebuilding,sp500.csv@58490ec8ea42 (2025-11-16),primary
+DHR,DHR,Danaher Corporation,Health Care,Life Sciences Tools & Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+DIS,DIS,Walt Disney Company (The),Communication Services,Movies & Entertainment,sp500.csv@58490ec8ea42 (2025-11-16),primary
+DLR,DLR,Digital Realty,Real Estate,Data Center REITs,sp500.csv@58490ec8ea42 (2025-11-16),primary
+DLTR,DLTR,Dollar Tree,Consumer Staples,Consumer Staples Merchandise Retail,sp500.csv@58490ec8ea42 (2025-11-16),primary
+DOC,DOC,Healthpeak Properties,Real Estate,Health Care REITs,sp500.csv@58490ec8ea42 (2025-11-16),primary
+DOV,DOV,Dover Corporation,Industrials,Industrial Machinery & Supplies & Components,sp500.csv@58490ec8ea42 (2025-11-16),primary
+DOW,DOW,Dow Inc.,Materials,Commodity Chemicals,sp500.csv@58490ec8ea42 (2025-11-16),primary
+DPZ,DPZ,Domino's,Consumer Discretionary,Restaurants,sp500.csv@58490ec8ea42 (2025-11-16),primary
+DRI,DRI,Darden Restaurants,Consumer Discretionary,Restaurants,sp500.csv@58490ec8ea42 (2025-11-16),primary
+DTE,DTE,DTE Energy,Utilities,Multi-Utilities,sp500.csv@58490ec8ea42 (2025-11-16),primary
+DUK,DUK,Duke Energy,Utilities,Electric Utilities,sp500.csv@58490ec8ea42 (2025-11-16),primary
+DVA,DVA,DaVita,Health Care,Health Care Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+DVN,DVN,Devon Energy,Energy,Oil & Gas Exploration & Production,sp500.csv@58490ec8ea42 (2025-11-16),primary
+DXCM,DXCM,Dexcom,Health Care,Health Care Equipment,sp500.csv@58490ec8ea42 (2025-11-16),primary
+EA,EA,Electronic Arts,Communication Services,Interactive Home Entertainment,sp500.csv@58490ec8ea42 (2025-11-16),primary
+EBAY,EBAY,eBay Inc.,Consumer Discretionary,Broadline Retail,sp500.csv@58490ec8ea42 (2025-11-16),primary
+ECL,ECL,Ecolab,Materials,Specialty Chemicals,sp500.csv@58490ec8ea42 (2025-11-16),primary
+ED,ED,Consolidated Edison,Utilities,Multi-Utilities,sp500.csv@58490ec8ea42 (2025-11-16),primary
+EFX,EFX,Equifax,Industrials,Research & Consulting Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+EG,EG,Everest Group,Financials,Reinsurance,sp500.csv@58490ec8ea42 (2025-11-16),primary
+EIX,EIX,Edison International,Utilities,Electric Utilities,sp500.csv@58490ec8ea42 (2025-11-16),primary
+EL,EL,Estée Lauder Companies (The),Consumer Staples,Personal Care Products,sp500.csv@58490ec8ea42 (2025-11-16),primary
+ELV,ELV,Elevance Health,Health Care,Managed Health Care,sp500.csv@58490ec8ea42 (2025-11-16),primary
+EME,EME,Emcor,Industrials,Construction & Engineering,sp500.csv@58490ec8ea42 (2025-11-16),primary
+EMR,EMR,Emerson Electric,Industrials,Electrical Components & Equipment,sp500.csv@58490ec8ea42 (2025-11-16),primary
+EOG,EOG,EOG Resources,Energy,Oil & Gas Exploration & Production,sp500.csv@58490ec8ea42 (2025-11-16),primary
+EPAM,EPAM,EPAM Systems,Information Technology,IT Consulting & Other Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+EQIX,EQIX,Equinix,Real Estate,Data Center REITs,sp500.csv@58490ec8ea42 (2025-11-16),primary
+EQR,EQR,Equity Residential,Real Estate,Multi-Family Residential REITs,sp500.csv@58490ec8ea42 (2025-11-16),primary
+EQT,EQT,EQT Corporation,Energy,Oil & Gas Exploration & Production,sp500.csv@58490ec8ea42 (2025-11-16),primary
+ERIE,ERIE,Erie Indemnity,Financials,Insurance Brokers,sp500.csv@58490ec8ea42 (2025-11-16),primary
+ES,ES,Eversource Energy,Utilities,Electric Utilities,sp500.csv@58490ec8ea42 (2025-11-16),primary
+ESS,ESS,Essex Property Trust,Real Estate,Multi-Family Residential REITs,sp500.csv@58490ec8ea42 (2025-11-16),primary
+ETN,ETN,Eaton Corporation,Industrials,Electrical Components & Equipment,sp500.csv@58490ec8ea42 (2025-11-16),primary
+ETR,ETR,Entergy,Utilities,Electric Utilities,sp500.csv@58490ec8ea42 (2025-11-16),primary
+EVRG,EVRG,Evergy,Utilities,Electric Utilities,sp500.csv@58490ec8ea42 (2025-11-16),primary
+EW,EW,Edwards Lifesciences,Health Care,Health Care Equipment,sp500.csv@58490ec8ea42 (2025-11-16),primary
+EXC,EXC,Exelon,Utilities,Electric Utilities,sp500.csv@58490ec8ea42 (2025-11-16),primary
+EXE,EXE,Expand Energy,Energy,Oil & Gas Exploration & Production,sp500.csv@58490ec8ea42 (2025-11-16),primary
+EXPD,EXPD,Expeditors International,Industrials,Air Freight & Logistics,sp500.csv@58490ec8ea42 (2025-11-16),primary
+EXPE,EXPE,Expedia Group,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",sp500.csv@58490ec8ea42 (2025-11-16),primary
+EXR,EXR,Extra Space Storage,Real Estate,Self-Storage REITs,sp500.csv@58490ec8ea42 (2025-11-16),primary
+F,F,Ford Motor Company,Consumer Discretionary,Automobile Manufacturers,sp500.csv@58490ec8ea42 (2025-11-16),primary
+FANG,FANG,Diamondback Energy,Energy,Oil & Gas Exploration & Production,sp500.csv@58490ec8ea42 (2025-11-16),primary
+FAST,FAST,Fastenal,Industrials,Trading Companies & Distributors,sp500.csv@58490ec8ea42 (2025-11-16),primary
+FCX,FCX,Freeport-McMoRan,Materials,Copper,sp500.csv@58490ec8ea42 (2025-11-16),primary
+FDS,FDS,FactSet,Financials,Financial Exchanges & Data,sp500.csv@58490ec8ea42 (2025-11-16),primary
+FDX,FDX,FedEx,Industrials,Air Freight & Logistics,sp500.csv@58490ec8ea42 (2025-11-16),primary
+FE,FE,FirstEnergy,Utilities,Electric Utilities,sp500.csv@58490ec8ea42 (2025-11-16),primary
+FFIV,FFIV,"F5, Inc.",Information Technology,Communications Equipment,sp500.csv@58490ec8ea42 (2025-11-16),primary
+FICO,FICO,Fair Isaac,Information Technology,Application Software,sp500.csv@58490ec8ea42 (2025-11-16),primary
+FIS,FIS,Fidelity National Information Services,Financials,Transaction & Payment Processing Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+FISV,FISV,Fiserv,Financials,Transaction & Payment Processing Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+FITB,FITB,Fifth Third Bancorp,Financials,Regional Banks,sp500.csv@58490ec8ea42 (2025-11-16),primary
+FIX,FIX,Comfort Systems USA,Industrials,Construction & Engineering,sp500.csv@c24b12e2b725 (2026-01-17),fallback
+FOX,FOX,Fox Corporation (Class B),Communication Services,Broadcasting,sp500.csv@58490ec8ea42 (2025-11-16),primary
+FOXA,FOXA,Fox Corporation (Class A),Communication Services,Broadcasting,sp500.csv@58490ec8ea42 (2025-11-16),primary
+FRT,FRT,Federal Realty Investment Trust,Real Estate,Retail REITs,sp500.csv@58490ec8ea42 (2025-11-16),primary
+FSLR,FSLR,First Solar,Information Technology,Semiconductors,sp500.csv@58490ec8ea42 (2025-11-16),primary
+FTNT,FTNT,Fortinet,Information Technology,Systems Software,sp500.csv@58490ec8ea42 (2025-11-16),primary
+FTV,FTV,Fortive,Industrials,Industrial Machinery & Supplies & Components,sp500.csv@58490ec8ea42 (2025-11-16),primary
+GD,GD,General Dynamics,Industrials,Aerospace & Defense,sp500.csv@58490ec8ea42 (2025-11-16),primary
+GDDY,GDDY,GoDaddy,Information Technology,Internet Services & Infrastructure,sp500.csv@58490ec8ea42 (2025-11-16),primary
+GE,GE,GE Aerospace,Industrials,Aerospace & Defense,sp500.csv@58490ec8ea42 (2025-11-16),primary
+GEHC,GEHC,GE HealthCare,Health Care,Health Care Equipment,sp500.csv@58490ec8ea42 (2025-11-16),primary
+GEN,GEN,Gen Digital,Information Technology,Systems Software,sp500.csv@58490ec8ea42 (2025-11-16),primary
+GEV,GEV,GE Vernova,Industrials,Heavy Electrical Equipment,sp500.csv@58490ec8ea42 (2025-11-16),primary
+GILD,GILD,Gilead Sciences,Health Care,Biotechnology,sp500.csv@58490ec8ea42 (2025-11-16),primary
+GIS,GIS,General Mills,Consumer Staples,Packaged Foods & Meats,sp500.csv@58490ec8ea42 (2025-11-16),primary
+GL,GL,Globe Life,Financials,Life & Health Insurance,sp500.csv@58490ec8ea42 (2025-11-16),primary
+GLW,GLW,Corning Inc.,Information Technology,Electronic Components,sp500.csv@58490ec8ea42 (2025-11-16),primary
+GM,GM,General Motors,Consumer Discretionary,Automobile Manufacturers,sp500.csv@58490ec8ea42 (2025-11-16),primary
+GNRC,GNRC,Generac,Industrials,Electrical Components & Equipment,sp500.csv@58490ec8ea42 (2025-11-16),primary
+GOOG,GOOG,Alphabet Inc. (Class C),Communication Services,Interactive Media & Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+GOOGL,GOOGL,Alphabet Inc. (Class A),Communication Services,Interactive Media & Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+GPC,GPC,Genuine Parts Company,Consumer Discretionary,Distributors,sp500.csv@58490ec8ea42 (2025-11-16),primary
+GPN,GPN,Global Payments,Financials,Transaction & Payment Processing Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+GRMN,GRMN,Garmin,Consumer Discretionary,Consumer Electronics,sp500.csv@58490ec8ea42 (2025-11-16),primary
+GS,GS,Goldman Sachs,Financials,Investment Banking & Brokerage,sp500.csv@58490ec8ea42 (2025-11-16),primary
+GWW,GWW,W. W. Grainger,Industrials,Industrial Machinery & Supplies & Components,sp500.csv@58490ec8ea42 (2025-11-16),primary
+HAL,HAL,Halliburton,Energy,Oil & Gas Equipment & Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+HAS,HAS,Hasbro,Consumer Discretionary,Leisure Products,sp500.csv@58490ec8ea42 (2025-11-16),primary
+HBAN,HBAN,Huntington Bancshares,Financials,Regional Banks,sp500.csv@58490ec8ea42 (2025-11-16),primary
+HCA,HCA,HCA Healthcare,Health Care,Health Care Facilities,sp500.csv@58490ec8ea42 (2025-11-16),primary
+HD,HD,Home Depot (The),Consumer Discretionary,Home Improvement Retail,sp500.csv@58490ec8ea42 (2025-11-16),primary
+HIG,HIG,Hartford (The),Financials,Property & Casualty Insurance,sp500.csv@58490ec8ea42 (2025-11-16),primary
+HII,HII,Huntington Ingalls Industries,Industrials,Aerospace & Defense,sp500.csv@58490ec8ea42 (2025-11-16),primary
+HLT,HLT,Hilton Worldwide,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",sp500.csv@58490ec8ea42 (2025-11-16),primary
+HOLX,HOLX,Hologic,Health Care,Health Care Equipment,sp500.csv@58490ec8ea42 (2025-11-16),primary
+HON,HON,Honeywell,Industrials,Industrial Conglomerates,sp500.csv@58490ec8ea42 (2025-11-16),primary
+HOOD,HOOD,Robinhood Markets,Financials,Investment Banking & Brokerage,sp500.csv@58490ec8ea42 (2025-11-16),primary
+HPE,HPE,Hewlett Packard Enterprise,Information Technology,"Technology Hardware, Storage & Peripherals",sp500.csv@58490ec8ea42 (2025-11-16),primary
+HPQ,HPQ,HP Inc.,Information Technology,"Technology Hardware, Storage & Peripherals",sp500.csv@58490ec8ea42 (2025-11-16),primary
+HRL,HRL,Hormel Foods,Consumer Staples,Packaged Foods & Meats,sp500.csv@58490ec8ea42 (2025-11-16),primary
+HSIC,HSIC,Henry Schein,Health Care,Health Care Distributors,sp500.csv@58490ec8ea42 (2025-11-16),primary
+HST,HST,Host Hotels & Resorts,Real Estate,Hotel & Resort REITs,sp500.csv@58490ec8ea42 (2025-11-16),primary
+HSY,HSY,Hershey Company (The),Consumer Staples,Packaged Foods & Meats,sp500.csv@58490ec8ea42 (2025-11-16),primary
+HUBB,HUBB,Hubbell Incorporated,Industrials,Industrial Machinery & Supplies & Components,sp500.csv@58490ec8ea42 (2025-11-16),primary
+HUM,HUM,Humana,Health Care,Managed Health Care,sp500.csv@58490ec8ea42 (2025-11-16),primary
+HWM,HWM,Howmet Aerospace,Industrials,Aerospace & Defense,sp500.csv@58490ec8ea42 (2025-11-16),primary
+IBKR,IBKR,Interactive Brokers,Financials,Investment Banking & Brokerage,sp500.csv@58490ec8ea42 (2025-11-16),primary
+IBM,IBM,IBM,Information Technology,IT Consulting & Other Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+ICE,ICE,Intercontinental Exchange,Financials,Financial Exchanges & Data,sp500.csv@58490ec8ea42 (2025-11-16),primary
+IDXX,IDXX,Idexx Laboratories,Health Care,Health Care Equipment,sp500.csv@58490ec8ea42 (2025-11-16),primary
+IEX,IEX,IDEX Corporation,Industrials,Industrial Machinery & Supplies & Components,sp500.csv@58490ec8ea42 (2025-11-16),primary
+IFF,IFF,International Flavors & Fragrances,Materials,Specialty Chemicals,sp500.csv@58490ec8ea42 (2025-11-16),primary
+INCY,INCY,Incyte,Health Care,Biotechnology,sp500.csv@58490ec8ea42 (2025-11-16),primary
+INTC,INTC,Intel,Information Technology,Semiconductors,sp500.csv@58490ec8ea42 (2025-11-16),primary
+INTU,INTU,Intuit,Information Technology,Application Software,sp500.csv@58490ec8ea42 (2025-11-16),primary
+INVH,INVH,Invitation Homes,Real Estate,Single-Family Residential REITs,sp500.csv@58490ec8ea42 (2025-11-16),primary
+IP,IP,International Paper,Materials,Paper & Plastic Packaging Products & Materials,sp500.csv@58490ec8ea42 (2025-11-16),primary
+IQV,IQV,IQVIA,Health Care,Life Sciences Tools & Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+IR,IR,Ingersoll Rand,Industrials,Industrial Machinery & Supplies & Components,sp500.csv@58490ec8ea42 (2025-11-16),primary
+IRM,IRM,Iron Mountain,Real Estate,Other Specialized REITs,sp500.csv@58490ec8ea42 (2025-11-16),primary
+ISRG,ISRG,Intuitive Surgical,Health Care,Health Care Equipment,sp500.csv@58490ec8ea42 (2025-11-16),primary
+IT,IT,Gartner,Information Technology,IT Consulting & Other Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+ITW,ITW,Illinois Tool Works,Industrials,Industrial Machinery & Supplies & Components,sp500.csv@58490ec8ea42 (2025-11-16),primary
+IVZ,IVZ,Invesco,Financials,Asset Management & Custody Banks,sp500.csv@58490ec8ea42 (2025-11-16),primary
+J,J,Jacobs Solutions,Industrials,Construction & Engineering,sp500.csv@58490ec8ea42 (2025-11-16),primary
+JBHT,JBHT,J.B. Hunt,Industrials,Cargo Ground Transportation,sp500.csv@58490ec8ea42 (2025-11-16),primary
+JBL,JBL,Jabil,Information Technology,Electronic Manufacturing Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+JCI,JCI,Johnson Controls,Industrials,Building Products,sp500.csv@58490ec8ea42 (2025-11-16),primary
+JKHY,JKHY,Jack Henry & Associates,Financials,Transaction & Payment Processing Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+JNJ,JNJ,Johnson & Johnson,Health Care,Pharmaceuticals,sp500.csv@58490ec8ea42 (2025-11-16),primary
+JPM,JPM,JPMorgan Chase,Financials,Diversified Banks,sp500.csv@58490ec8ea42 (2025-11-16),primary
+KDP,KDP,Keurig Dr Pepper,Consumer Staples,Soft Drinks & Non-alcoholic Beverages,sp500.csv@58490ec8ea42 (2025-11-16),primary
+KEY,KEY,KeyCorp,Financials,Regional Banks,sp500.csv@58490ec8ea42 (2025-11-16),primary
+KEYS,KEYS,Keysight Technologies,Information Technology,Electronic Equipment & Instruments,sp500.csv@58490ec8ea42 (2025-11-16),primary
+KHC,KHC,Kraft Heinz,Consumer Staples,Packaged Foods & Meats,sp500.csv@58490ec8ea42 (2025-11-16),primary
+KIM,KIM,Kimco Realty,Real Estate,Retail REITs,sp500.csv@58490ec8ea42 (2025-11-16),primary
+KKR,KKR,KKR & Co.,Financials,Asset Management & Custody Banks,sp500.csv@58490ec8ea42 (2025-11-16),primary
+KLAC,KLAC,KLA Corporation,Information Technology,Semiconductor Materials & Equipment,sp500.csv@58490ec8ea42 (2025-11-16),primary
+KMB,KMB,Kimberly-Clark,Consumer Staples,Household Products,sp500.csv@58490ec8ea42 (2025-11-16),primary
+KMI,KMI,Kinder Morgan,Energy,Oil & Gas Storage & Transportation,sp500.csv@58490ec8ea42 (2025-11-16),primary
+KO,KO,Coca-Cola Company (The),Consumer Staples,Soft Drinks & Non-alcoholic Beverages,sp500.csv@58490ec8ea42 (2025-11-16),primary
+KR,KR,Kroger,Consumer Staples,Food Retail,sp500.csv@58490ec8ea42 (2025-11-16),primary
+KVUE,KVUE,Kenvue,Consumer Staples,Personal Care Products,sp500.csv@58490ec8ea42 (2025-11-16),primary
+L,L,Loews Corporation,Financials,Multi-line Insurance,sp500.csv@58490ec8ea42 (2025-11-16),primary
+LDOS,LDOS,Leidos,Industrials,Diversified Support Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+LEN,LEN,Lennar,Consumer Discretionary,Homebuilding,sp500.csv@58490ec8ea42 (2025-11-16),primary
+LH,LH,Labcorp,Health Care,Health Care Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+LHX,LHX,L3Harris,Industrials,Aerospace & Defense,sp500.csv@58490ec8ea42 (2025-11-16),primary
+LII,LII,Lennox International,Industrials,Building Products,sp500.csv@58490ec8ea42 (2025-11-16),primary
+LIN,LIN,Linde plc,Materials,Industrial Gases,sp500.csv@58490ec8ea42 (2025-11-16),primary
+LLY,LLY,Lilly (Eli),Health Care,Pharmaceuticals,sp500.csv@58490ec8ea42 (2025-11-16),primary
+LMT,LMT,Lockheed Martin,Industrials,Aerospace & Defense,sp500.csv@58490ec8ea42 (2025-11-16),primary
+LNT,LNT,Alliant Energy,Utilities,Electric Utilities,sp500.csv@58490ec8ea42 (2025-11-16),primary
+LOW,LOW,Lowe's,Consumer Discretionary,Home Improvement Retail,sp500.csv@58490ec8ea42 (2025-11-16),primary
+LRCX,LRCX,Lam Research,Information Technology,Semiconductor Materials & Equipment,sp500.csv@58490ec8ea42 (2025-11-16),primary
+LULU,LULU,Lululemon Athletica,Consumer Discretionary,"Apparel, Accessories & Luxury Goods",sp500.csv@58490ec8ea42 (2025-11-16),primary
+LUV,LUV,Southwest Airlines,Industrials,Passenger Airlines,sp500.csv@58490ec8ea42 (2025-11-16),primary
+LVS,LVS,Las Vegas Sands,Consumer Discretionary,Casinos & Gaming,sp500.csv@58490ec8ea42 (2025-11-16),primary
+LW,LW,Lamb Weston,Consumer Staples,Packaged Foods & Meats,sp500.csv@58490ec8ea42 (2025-11-16),primary
+LYB,LYB,LyondellBasell,Materials,Specialty Chemicals,sp500.csv@58490ec8ea42 (2025-11-16),primary
+LYV,LYV,Live Nation Entertainment,Communication Services,Movies & Entertainment,sp500.csv@58490ec8ea42 (2025-11-16),primary
+MA,MA,Mastercard,Financials,Transaction & Payment Processing Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+MAA,MAA,Mid-America Apartment Communities,Real Estate,Multi-Family Residential REITs,sp500.csv@58490ec8ea42 (2025-11-16),primary
+MAR,MAR,Marriott International,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",sp500.csv@58490ec8ea42 (2025-11-16),primary
+MAS,MAS,Masco,Industrials,Building Products,sp500.csv@58490ec8ea42 (2025-11-16),primary
+MCD,MCD,McDonald's,Consumer Discretionary,Restaurants,sp500.csv@58490ec8ea42 (2025-11-16),primary
+MCHP,MCHP,Microchip Technology,Information Technology,Semiconductors,sp500.csv@58490ec8ea42 (2025-11-16),primary
+MCK,MCK,McKesson Corporation,Health Care,Health Care Distributors,sp500.csv@58490ec8ea42 (2025-11-16),primary
+MCO,MCO,Moody's Corporation,Financials,Financial Exchanges & Data,sp500.csv@58490ec8ea42 (2025-11-16),primary
+MDLZ,MDLZ,Mondelez International,Consumer Staples,Packaged Foods & Meats,sp500.csv@58490ec8ea42 (2025-11-16),primary
+MDT,MDT,Medtronic,Health Care,Health Care Equipment,sp500.csv@58490ec8ea42 (2025-11-16),primary
+MET,MET,MetLife,Financials,Life & Health Insurance,sp500.csv@58490ec8ea42 (2025-11-16),primary
+META,META,Meta Platforms,Communication Services,Interactive Media & Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+MGM,MGM,MGM Resorts,Consumer Discretionary,Casinos & Gaming,sp500.csv@58490ec8ea42 (2025-11-16),primary
+MKC,MKC,McCormick & Company,Consumer Staples,Packaged Foods & Meats,sp500.csv@58490ec8ea42 (2025-11-16),primary
+MLM,MLM,Martin Marietta Materials,Materials,Construction Materials,sp500.csv@58490ec8ea42 (2025-11-16),primary
+MMC,MMC,Marsh McLennan,Financials,Insurance Brokers,sp500.csv@58490ec8ea42 (2025-11-16),primary
+MMM,MMM,3M,Industrials,Industrial Conglomerates,sp500.csv@58490ec8ea42 (2025-11-16),primary
+MNST,MNST,Monster Beverage,Consumer Staples,Soft Drinks & Non-alcoholic Beverages,sp500.csv@58490ec8ea42 (2025-11-16),primary
+MO,MO,Altria,Consumer Staples,Tobacco,sp500.csv@58490ec8ea42 (2025-11-16),primary
+MOH,MOH,Molina Healthcare,Health Care,Managed Health Care,sp500.csv@58490ec8ea42 (2025-11-16),primary
+MOS,MOS,Mosaic Company (The),Materials,Fertilizers & Agricultural Chemicals,sp500.csv@58490ec8ea42 (2025-11-16),primary
+MPC,MPC,Marathon Petroleum,Energy,Oil & Gas Refining & Marketing,sp500.csv@58490ec8ea42 (2025-11-16),primary
+MPWR,MPWR,Monolithic Power Systems,Information Technology,Semiconductors,sp500.csv@58490ec8ea42 (2025-11-16),primary
+MRK,MRK,Merck & Co.,Health Care,Pharmaceuticals,sp500.csv@58490ec8ea42 (2025-11-16),primary
+MRNA,MRNA,Moderna,Health Care,Biotechnology,sp500.csv@58490ec8ea42 (2025-11-16),primary
+MS,MS,Morgan Stanley,Financials,Investment Banking & Brokerage,sp500.csv@58490ec8ea42 (2025-11-16),primary
+MSCI,MSCI,MSCI Inc.,Financials,Financial Exchanges & Data,sp500.csv@58490ec8ea42 (2025-11-16),primary
+MSFT,MSFT,Microsoft,Information Technology,Systems Software,sp500.csv@58490ec8ea42 (2025-11-16),primary
+MSI,MSI,Motorola Solutions,Information Technology,Communications Equipment,sp500.csv@58490ec8ea42 (2025-11-16),primary
+MTB,MTB,M&T Bank,Financials,Regional Banks,sp500.csv@58490ec8ea42 (2025-11-16),primary
+MTCH,MTCH,Match Group,Communication Services,Interactive Media & Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+MTD,MTD,Mettler Toledo,Health Care,Life Sciences Tools & Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+MU,MU,Micron Technology,Information Technology,Semiconductors,sp500.csv@58490ec8ea42 (2025-11-16),primary
+NCLH,NCLH,Norwegian Cruise Line Holdings,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",sp500.csv@58490ec8ea42 (2025-11-16),primary
+NDAQ,NDAQ,"Nasdaq, Inc.",Financials,Financial Exchanges & Data,sp500.csv@58490ec8ea42 (2025-11-16),primary
+NDSN,NDSN,Nordson Corporation,Industrials,Industrial Machinery & Supplies & Components,sp500.csv@58490ec8ea42 (2025-11-16),primary
+NEE,NEE,NextEra Energy,Utilities,Multi-Utilities,sp500.csv@58490ec8ea42 (2025-11-16),primary
+NEM,NEM,Newmont,Materials,Gold,sp500.csv@58490ec8ea42 (2025-11-16),primary
+NFLX,NFLX,Netflix,Communication Services,Movies & Entertainment,sp500.csv@58490ec8ea42 (2025-11-16),primary
+NI,NI,NiSource,Utilities,Multi-Utilities,sp500.csv@58490ec8ea42 (2025-11-16),primary
+NKE,NKE,"Nike, Inc.",Consumer Discretionary,"Apparel, Accessories & Luxury Goods",sp500.csv@58490ec8ea42 (2025-11-16),primary
+NOC,NOC,Northrop Grumman,Industrials,Aerospace & Defense,sp500.csv@58490ec8ea42 (2025-11-16),primary
+NOW,NOW,ServiceNow,Information Technology,Systems Software,sp500.csv@58490ec8ea42 (2025-11-16),primary
+NRG,NRG,NRG Energy,Utilities,Independent Power Producers & Energy Traders,sp500.csv@58490ec8ea42 (2025-11-16),primary
+NSC,NSC,Norfolk Southern,Industrials,Rail Transportation,sp500.csv@58490ec8ea42 (2025-11-16),primary
+NTAP,NTAP,NetApp,Information Technology,"Technology Hardware, Storage & Peripherals",sp500.csv@58490ec8ea42 (2025-11-16),primary
+NTRS,NTRS,Northern Trust,Financials,Asset Management & Custody Banks,sp500.csv@58490ec8ea42 (2025-11-16),primary
+NUE,NUE,Nucor,Materials,Steel,sp500.csv@58490ec8ea42 (2025-11-16),primary
+NVDA,NVDA,Nvidia,Information Technology,Semiconductors,sp500.csv@58490ec8ea42 (2025-11-16),primary
+NVR,NVR,"NVR, Inc.",Consumer Discretionary,Homebuilding,sp500.csv@58490ec8ea42 (2025-11-16),primary
+NWS,NWS,News Corp (Class B),Communication Services,Publishing,sp500.csv@58490ec8ea42 (2025-11-16),primary
+NWSA,NWSA,News Corp (Class A),Communication Services,Publishing,sp500.csv@58490ec8ea42 (2025-11-16),primary
+NXPI,NXPI,NXP Semiconductors,Information Technology,Semiconductors,sp500.csv@58490ec8ea42 (2025-11-16),primary
+O,O,Realty Income,Real Estate,Retail REITs,sp500.csv@58490ec8ea42 (2025-11-16),primary
+ODFL,ODFL,Old Dominion,Industrials,Cargo Ground Transportation,sp500.csv@58490ec8ea42 (2025-11-16),primary
+OKE,OKE,Oneok,Energy,Oil & Gas Storage & Transportation,sp500.csv@58490ec8ea42 (2025-11-16),primary
+OMC,OMC,Omnicom Group,Communication Services,Advertising,sp500.csv@58490ec8ea42 (2025-11-16),primary
+ON,ON,ON Semiconductor,Information Technology,Semiconductors,sp500.csv@58490ec8ea42 (2025-11-16),primary
+ORCL,ORCL,Oracle Corporation,Information Technology,Application Software,sp500.csv@58490ec8ea42 (2025-11-16),primary
+ORLY,ORLY,O’Reilly Automotive,Consumer Discretionary,Automotive Retail,sp500.csv@58490ec8ea42 (2025-11-16),primary
+OTIS,OTIS,Otis Worldwide,Industrials,Industrial Machinery & Supplies & Components,sp500.csv@58490ec8ea42 (2025-11-16),primary
+OXY,OXY,Occidental Petroleum,Energy,Oil & Gas Exploration & Production,sp500.csv@58490ec8ea42 (2025-11-16),primary
+PANW,PANW,Palo Alto Networks,Information Technology,Systems Software,sp500.csv@58490ec8ea42 (2025-11-16),primary
+PAYC,PAYC,Paycom,Industrials,Human Resource & Employment Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+PAYX,PAYX,Paychex,Industrials,Human Resource & Employment Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+PCAR,PCAR,Paccar,Industrials,Construction Machinery & Heavy Transportation Equipment,sp500.csv@58490ec8ea42 (2025-11-16),primary
+PCG,PCG,PG&E Corporation,Utilities,Multi-Utilities,sp500.csv@58490ec8ea42 (2025-11-16),primary
+PEG,PEG,Public Service Enterprise Group,Utilities,Electric Utilities,sp500.csv@58490ec8ea42 (2025-11-16),primary
+PEP,PEP,PepsiCo,Consumer Staples,Soft Drinks & Non-alcoholic Beverages,sp500.csv@58490ec8ea42 (2025-11-16),primary
+PFE,PFE,Pfizer,Health Care,Pharmaceuticals,sp500.csv@58490ec8ea42 (2025-11-16),primary
+PFG,PFG,Principal Financial Group,Financials,Life & Health Insurance,sp500.csv@58490ec8ea42 (2025-11-16),primary
+PG,PG,Procter & Gamble,Consumer Staples,Personal Care Products,sp500.csv@58490ec8ea42 (2025-11-16),primary
+PGR,PGR,Progressive Corporation,Financials,Property & Casualty Insurance,sp500.csv@58490ec8ea42 (2025-11-16),primary
+PH,PH,Parker Hannifin,Industrials,Industrial Machinery & Supplies & Components,sp500.csv@58490ec8ea42 (2025-11-16),primary
+PHM,PHM,PulteGroup,Consumer Discretionary,Homebuilding,sp500.csv@58490ec8ea42 (2025-11-16),primary
+PKG,PKG,Packaging Corporation of America,Materials,Paper & Plastic Packaging Products & Materials,sp500.csv@58490ec8ea42 (2025-11-16),primary
+PLD,PLD,Prologis,Real Estate,Industrial REITs,sp500.csv@58490ec8ea42 (2025-11-16),primary
+PLTR,PLTR,Palantir Technologies,Information Technology,Application Software,sp500.csv@58490ec8ea42 (2025-11-16),primary
+PM,PM,Philip Morris International,Consumer Staples,Tobacco,sp500.csv@58490ec8ea42 (2025-11-16),primary
+PNC,PNC,PNC Financial Services,Financials,Diversified Banks,sp500.csv@58490ec8ea42 (2025-11-16),primary
+PNR,PNR,Pentair,Industrials,Industrial Machinery & Supplies & Components,sp500.csv@58490ec8ea42 (2025-11-16),primary
+PNW,PNW,Pinnacle West Capital,Utilities,Multi-Utilities,sp500.csv@58490ec8ea42 (2025-11-16),primary
+PODD,PODD,Insulet Corporation,Health Care,Health Care Equipment,sp500.csv@58490ec8ea42 (2025-11-16),primary
+POOL,POOL,Pool Corporation,Consumer Discretionary,Distributors,sp500.csv@58490ec8ea42 (2025-11-16),primary
+PPG,PPG,PPG Industries,Materials,Specialty Chemicals,sp500.csv@58490ec8ea42 (2025-11-16),primary
+PPL,PPL,PPL Corporation,Utilities,Electric Utilities,sp500.csv@58490ec8ea42 (2025-11-16),primary
+PRU,PRU,Prudential Financial,Financials,Life & Health Insurance,sp500.csv@58490ec8ea42 (2025-11-16),primary
+PSA,PSA,Public Storage,Real Estate,Self-Storage REITs,sp500.csv@58490ec8ea42 (2025-11-16),primary
+PSKY,PSKY,Paramount Skydance Corporation,Communication Services,Movies & Entertainment,sp500.csv@58490ec8ea42 (2025-11-16),primary
+PSX,PSX,Phillips 66,Energy,Oil & Gas Refining & Marketing,sp500.csv@58490ec8ea42 (2025-11-16),primary
+PTC,PTC,PTC Inc.,Information Technology,Application Software,sp500.csv@58490ec8ea42 (2025-11-16),primary
+PWR,PWR,Quanta Services,Industrials,Construction & Engineering,sp500.csv@58490ec8ea42 (2025-11-16),primary
+PYPL,PYPL,PayPal,Financials,Transaction & Payment Processing Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+Q,Q,Qnity Electronics,Information Technology,Semiconductor Materials & Equipment,sp500.csv@58490ec8ea42 (2025-11-16),primary
+QCOM,QCOM,Qualcomm,Information Technology,Semiconductors,sp500.csv@58490ec8ea42 (2025-11-16),primary
+RCL,RCL,Royal Caribbean Group,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",sp500.csv@58490ec8ea42 (2025-11-16),primary
+REG,REG,Regency Centers,Real Estate,Retail REITs,sp500.csv@58490ec8ea42 (2025-11-16),primary
+REGN,REGN,Regeneron Pharmaceuticals,Health Care,Biotechnology,sp500.csv@58490ec8ea42 (2025-11-16),primary
+RF,RF,Regions Financial Corporation,Financials,Regional Banks,sp500.csv@58490ec8ea42 (2025-11-16),primary
+RJF,RJF,Raymond James Financial,Financials,Investment Banking & Brokerage,sp500.csv@58490ec8ea42 (2025-11-16),primary
+RL,RL,Ralph Lauren Corporation,Consumer Discretionary,"Apparel, Accessories & Luxury Goods",sp500.csv@58490ec8ea42 (2025-11-16),primary
+RMD,RMD,ResMed,Health Care,Health Care Equipment,sp500.csv@58490ec8ea42 (2025-11-16),primary
+ROK,ROK,Rockwell Automation,Industrials,Electrical Components & Equipment,sp500.csv@58490ec8ea42 (2025-11-16),primary
+ROL,ROL,"Rollins, Inc.",Industrials,Environmental & Facilities Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+ROP,ROP,Roper Technologies,Information Technology,Electronic Equipment & Instruments,sp500.csv@58490ec8ea42 (2025-11-16),primary
+ROST,ROST,Ross Stores,Consumer Discretionary,Apparel Retail,sp500.csv@58490ec8ea42 (2025-11-16),primary
+RSG,RSG,Republic Services,Industrials,Environmental & Facilities Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+RTX,RTX,RTX Corporation,Industrials,Aerospace & Defense,sp500.csv@58490ec8ea42 (2025-11-16),primary
+RVTY,RVTY,Revvity,Health Care,Health Care Equipment,sp500.csv@58490ec8ea42 (2025-11-16),primary
+SBAC,SBAC,SBA Communications,Real Estate,Telecom Tower REITs,sp500.csv@58490ec8ea42 (2025-11-16),primary
+SBUX,SBUX,Starbucks,Consumer Discretionary,Restaurants,sp500.csv@58490ec8ea42 (2025-11-16),primary
+SCHW,SCHW,Charles Schwab Corporation,Financials,Investment Banking & Brokerage,sp500.csv@58490ec8ea42 (2025-11-16),primary
+SHW,SHW,Sherwin-Williams,Materials,Specialty Chemicals,sp500.csv@58490ec8ea42 (2025-11-16),primary
+SJM,SJM,J.M. Smucker Company (The),Consumer Staples,Packaged Foods & Meats,sp500.csv@58490ec8ea42 (2025-11-16),primary
+SLB,SLB,Schlumberger,Energy,Oil & Gas Equipment & Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+SMCI,SMCI,Supermicro,Information Technology,"Technology Hardware, Storage & Peripherals",sp500.csv@58490ec8ea42 (2025-11-16),primary
+SNA,SNA,Snap-on,Industrials,Industrial Machinery & Supplies & Components,sp500.csv@58490ec8ea42 (2025-11-16),primary
+SNDK,SNDK,Sandisk,Information Technology,"Technology Hardware, Storage & Peripherals",sp500.csv@c24b12e2b725 (2026-01-17),fallback
+SNPS,SNPS,Synopsys,Information Technology,Application Software,sp500.csv@58490ec8ea42 (2025-11-16),primary
+SO,SO,Southern Company,Utilities,Electric Utilities,sp500.csv@58490ec8ea42 (2025-11-16),primary
+SOLV,SOLV,Solventum,Health Care,Health Care Technology,sp500.csv@58490ec8ea42 (2025-11-16),primary
+SPG,SPG,Simon Property Group,Real Estate,Retail REITs,sp500.csv@58490ec8ea42 (2025-11-16),primary
+SPGI,SPGI,S&P Global,Financials,Financial Exchanges & Data,sp500.csv@58490ec8ea42 (2025-11-16),primary
+SRE,SRE,Sempra,Utilities,Multi-Utilities,sp500.csv@58490ec8ea42 (2025-11-16),primary
+STE,STE,Steris,Health Care,Health Care Equipment,sp500.csv@58490ec8ea42 (2025-11-16),primary
+STLD,STLD,Steel Dynamics,Materials,Steel,sp500.csv@58490ec8ea42 (2025-11-16),primary
+STT,STT,State Street Corporation,Financials,Asset Management & Custody Banks,sp500.csv@58490ec8ea42 (2025-11-16),primary
+STX,STX,Seagate Technology,Information Technology,"Technology Hardware, Storage & Peripherals",sp500.csv@58490ec8ea42 (2025-11-16),primary
+STZ,STZ,Constellation Brands,Consumer Staples,Distillers & Vintners,sp500.csv@58490ec8ea42 (2025-11-16),primary
+SW,SW,Smurfit Westrock,Materials,Paper & Plastic Packaging Products & Materials,sp500.csv@58490ec8ea42 (2025-11-16),primary
+SWK,SWK,Stanley Black & Decker,Industrials,Industrial Machinery & Supplies & Components,sp500.csv@58490ec8ea42 (2025-11-16),primary
+SWKS,SWKS,Skyworks Solutions,Information Technology,Semiconductors,sp500.csv@58490ec8ea42 (2025-11-16),primary
+SYF,SYF,Synchrony Financial,Financials,Consumer Finance,sp500.csv@58490ec8ea42 (2025-11-16),primary
+SYK,SYK,Stryker Corporation,Health Care,Health Care Equipment,sp500.csv@58490ec8ea42 (2025-11-16),primary
+SYY,SYY,Sysco,Consumer Staples,Food Distributors,sp500.csv@58490ec8ea42 (2025-11-16),primary
+T,T,AT&T,Communication Services,Integrated Telecommunication Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+TAP,TAP,Molson Coors Beverage Company,Consumer Staples,Brewers,sp500.csv@58490ec8ea42 (2025-11-16),primary
+TDG,TDG,TransDigm Group,Industrials,Aerospace & Defense,sp500.csv@58490ec8ea42 (2025-11-16),primary
+TDY,TDY,Teledyne Technologies,Information Technology,Electronic Equipment & Instruments,sp500.csv@58490ec8ea42 (2025-11-16),primary
+TECH,TECH,Bio-Techne,Health Care,Life Sciences Tools & Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+TEL,TEL,TE Connectivity,Information Technology,Electronic Manufacturing Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+TER,TER,Teradyne,Information Technology,Semiconductor Materials & Equipment,sp500.csv@58490ec8ea42 (2025-11-16),primary
+TFC,TFC,Truist Financial,Financials,Diversified Banks,sp500.csv@58490ec8ea42 (2025-11-16),primary
+TGT,TGT,Target Corporation,Consumer Staples,Consumer Staples Merchandise Retail,sp500.csv@58490ec8ea42 (2025-11-16),primary
+TJX,TJX,TJX Companies,Consumer Discretionary,Apparel Retail,sp500.csv@58490ec8ea42 (2025-11-16),primary
+TKO,TKO,TKO Group Holdings,Communication Services,Movies & Entertainment,sp500.csv@58490ec8ea42 (2025-11-16),primary
+TMO,TMO,Thermo Fisher Scientific,Health Care,Life Sciences Tools & Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+TMUS,TMUS,T-Mobile US,Communication Services,Wireless Telecommunication Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+TPL,TPL,Texas Pacific Land Corporation,Energy,Oil & Gas Exploration & Production,sp500.csv@58490ec8ea42 (2025-11-16),primary
+TPR,TPR,"Tapestry, Inc.",Consumer Discretionary,"Apparel, Accessories & Luxury Goods",sp500.csv@58490ec8ea42 (2025-11-16),primary
+TRGP,TRGP,Targa Resources,Energy,Oil & Gas Storage & Transportation,sp500.csv@58490ec8ea42 (2025-11-16),primary
+TRMB,TRMB,Trimble Inc.,Information Technology,Electronic Equipment & Instruments,sp500.csv@58490ec8ea42 (2025-11-16),primary
+TROW,TROW,T. Rowe Price,Financials,Asset Management & Custody Banks,sp500.csv@58490ec8ea42 (2025-11-16),primary
+TRV,TRV,Travelers Companies (The),Financials,Property & Casualty Insurance,sp500.csv@58490ec8ea42 (2025-11-16),primary
+TSCO,TSCO,Tractor Supply,Consumer Discretionary,Other Specialty Retail,sp500.csv@58490ec8ea42 (2025-11-16),primary
+TSLA,TSLA,"Tesla, Inc.",Consumer Discretionary,Automobile Manufacturers,sp500.csv@58490ec8ea42 (2025-11-16),primary
+TSN,TSN,Tyson Foods,Consumer Staples,Packaged Foods & Meats,sp500.csv@58490ec8ea42 (2025-11-16),primary
+TT,TT,Trane Technologies,Industrials,Building Products,sp500.csv@58490ec8ea42 (2025-11-16),primary
+TTD,TTD,Trade Desk (The),Communication Services,Advertising,sp500.csv@58490ec8ea42 (2025-11-16),primary
+TTWO,TTWO,Take-Two Interactive,Communication Services,Interactive Home Entertainment,sp500.csv@58490ec8ea42 (2025-11-16),primary
+TXN,TXN,Texas Instruments,Information Technology,Semiconductors,sp500.csv@58490ec8ea42 (2025-11-16),primary
+TXT,TXT,Textron,Industrials,Aerospace & Defense,sp500.csv@58490ec8ea42 (2025-11-16),primary
+TYL,TYL,Tyler Technologies,Information Technology,Application Software,sp500.csv@58490ec8ea42 (2025-11-16),primary
+UAL,UAL,United Airlines Holdings,Industrials,Passenger Airlines,sp500.csv@58490ec8ea42 (2025-11-16),primary
+UBER,UBER,Uber,Industrials,Passenger Ground Transportation,sp500.csv@58490ec8ea42 (2025-11-16),primary
+UDR,UDR,"UDR, Inc.",Real Estate,Multi-Family Residential REITs,sp500.csv@58490ec8ea42 (2025-11-16),primary
+UHS,UHS,Universal Health Services,Health Care,Health Care Facilities,sp500.csv@58490ec8ea42 (2025-11-16),primary
+ULTA,ULTA,Ulta Beauty,Consumer Discretionary,Other Specialty Retail,sp500.csv@58490ec8ea42 (2025-11-16),primary
+UNH,UNH,UnitedHealth Group,Health Care,Managed Health Care,sp500.csv@58490ec8ea42 (2025-11-16),primary
+UNP,UNP,Union Pacific Corporation,Industrials,Rail Transportation,sp500.csv@58490ec8ea42 (2025-11-16),primary
+UPS,UPS,United Parcel Service,Industrials,Air Freight & Logistics,sp500.csv@58490ec8ea42 (2025-11-16),primary
+URI,URI,United Rentals,Industrials,Trading Companies & Distributors,sp500.csv@58490ec8ea42 (2025-11-16),primary
+USB,USB,U.S. Bancorp,Financials,Diversified Banks,sp500.csv@58490ec8ea42 (2025-11-16),primary
+V,V,Visa Inc.,Financials,Transaction & Payment Processing Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+VICI,VICI,Vici Properties,Real Estate,Hotel & Resort REITs,sp500.csv@58490ec8ea42 (2025-11-16),primary
+VLO,VLO,Valero Energy,Energy,Oil & Gas Refining & Marketing,sp500.csv@58490ec8ea42 (2025-11-16),primary
+VLTO,VLTO,Veralto,Industrials,Environmental & Facilities Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+VMC,VMC,Vulcan Materials Company,Materials,Construction Materials,sp500.csv@58490ec8ea42 (2025-11-16),primary
+VRSK,VRSK,Verisk Analytics,Industrials,Research & Consulting Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+VRSN,VRSN,Verisign,Information Technology,Internet Services & Infrastructure,sp500.csv@58490ec8ea42 (2025-11-16),primary
+VRTX,VRTX,Vertex Pharmaceuticals,Health Care,Biotechnology,sp500.csv@58490ec8ea42 (2025-11-16),primary
+VST,VST,Vistra Corp.,Utilities,Electric Utilities,sp500.csv@58490ec8ea42 (2025-11-16),primary
+VTR,VTR,Ventas,Real Estate,Health Care REITs,sp500.csv@58490ec8ea42 (2025-11-16),primary
+VTRS,VTRS,Viatris,Health Care,Pharmaceuticals,sp500.csv@58490ec8ea42 (2025-11-16),primary
+VZ,VZ,Verizon,Communication Services,Integrated Telecommunication Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+WAB,WAB,Wabtec,Industrials,Construction Machinery & Heavy Transportation Equipment,sp500.csv@58490ec8ea42 (2025-11-16),primary
+WAT,WAT,Waters Corporation,Health Care,Life Sciences Tools & Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+WBD,WBD,Warner Bros. Discovery,Communication Services,Broadcasting,sp500.csv@58490ec8ea42 (2025-11-16),primary
+WDAY,WDAY,"Workday, Inc.",Information Technology,Application Software,sp500.csv@58490ec8ea42 (2025-11-16),primary
+WDC,WDC,Western Digital,Information Technology,"Technology Hardware, Storage & Peripherals",sp500.csv@58490ec8ea42 (2025-11-16),primary
+WEC,WEC,WEC Energy Group,Utilities,Electric Utilities,sp500.csv@58490ec8ea42 (2025-11-16),primary
+WELL,WELL,Welltower,Real Estate,Health Care REITs,sp500.csv@58490ec8ea42 (2025-11-16),primary
+WFC,WFC,Wells Fargo,Financials,Diversified Banks,sp500.csv@58490ec8ea42 (2025-11-16),primary
+WM,WM,Waste Management,Industrials,Environmental & Facilities Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+WMB,WMB,Williams Companies,Energy,Oil & Gas Storage & Transportation,sp500.csv@58490ec8ea42 (2025-11-16),primary
+WMT,WMT,Walmart,Consumer Staples,Consumer Staples Merchandise Retail,sp500.csv@58490ec8ea42 (2025-11-16),primary
+WRB,WRB,W. R. Berkley Corporation,Financials,Property & Casualty Insurance,sp500.csv@58490ec8ea42 (2025-11-16),primary
+WSM,WSM,"Williams-Sonoma, Inc.",Consumer Discretionary,Homefurnishing Retail,sp500.csv@58490ec8ea42 (2025-11-16),primary
+WST,WST,West Pharmaceutical Services,Health Care,Health Care Supplies,sp500.csv@58490ec8ea42 (2025-11-16),primary
+WTW,WTW,Willis Towers Watson,Financials,Insurance Brokers,sp500.csv@58490ec8ea42 (2025-11-16),primary
+WY,WY,Weyerhaeuser,Real Estate,Timber REITs,sp500.csv@58490ec8ea42 (2025-11-16),primary
+WYNN,WYNN,Wynn Resorts,Consumer Discretionary,Casinos & Gaming,sp500.csv@58490ec8ea42 (2025-11-16),primary
+XEL,XEL,Xcel Energy,Utilities,Multi-Utilities,sp500.csv@58490ec8ea42 (2025-11-16),primary
+XOM,XOM,ExxonMobil,Energy,Integrated Oil & Gas,sp500.csv@58490ec8ea42 (2025-11-16),primary
+XYL,XYL,Xylem Inc.,Industrials,Industrial Machinery & Supplies & Components,sp500.csv@58490ec8ea42 (2025-11-16),primary
+XYZ,XYZ,"Block, Inc.",Financials,Transaction & Payment Processing Services,sp500.csv@58490ec8ea42 (2025-11-16),primary
+YUM,YUM,Yum! Brands,Consumer Discretionary,Restaurants,sp500.csv@58490ec8ea42 (2025-11-16),primary
+ZBH,ZBH,Zimmer Biomet,Health Care,Health Care Equipment,sp500.csv@58490ec8ea42 (2025-11-16),primary
+ZBRA,ZBRA,Zebra Technologies,Information Technology,Electronic Equipment & Instruments,sp500.csv@58490ec8ea42 (2025-11-16),primary
+ZTS,ZTS,Zoetis,Health Care,Pharmaceuticals,sp500.csv@58490ec8ea42 (2025-11-16),primary

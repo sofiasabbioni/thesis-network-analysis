@@ -1,0 +1,2 @@
+threshold,n_nodes,n_edges,n_isolated_nodes,n_nodes_with_neighbours,same_sector_edge_share,random_benchmark_same_sector_share,same_sector_ratio_vs_random,sector_assortativity,mean_same_sector_share,median_same_sector_share,share_dominant_equals_official,n_dominant_equals_official,n_dominant_sector_tied,n_official_in_dominant_tie
+0.500000,474,17106,41,433,0.282708,0.107590,2.627629,0.137108,0.408691,0.313333,0.609700,264,17,13

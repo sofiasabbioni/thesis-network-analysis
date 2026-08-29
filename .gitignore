@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Generated data and results.
+#
+# Everything under data/ and outputs/ is produced by `python main.py`, so it is
+# not tracked: a repository must never contain a price panel or a set of
+# figures whose provenance (real download vs `--synthetic` self-test) cannot be
+# checked from the commit alone.
+#
+# When the thesis is finalised, freeze the exact data set behind it with
+#     git add -f data/raw/adjusted_close_prices.csv
+# so that the reported figures can be reproduced byte for byte.
+data/raw/*
+data/processed/*
+outputs/figures/*
+outputs/tables/*
+outputs/logs/*
+!**/.gitkeep
+
+# Everything a `--synthetic` self-test produces lives here and is never
+# thesis material.
+outputs_synthetic/
+
+# OS noise
+.DS_Store
+
+# --- Large-network extension -----------------------------------------------
+# Large-network raw/processed price caches remain ignored.
+# The frozen thesis outputs under outputs_large/ are tracked so the repository
+# matches the reproducibility materials described in the thesis.
+data/large/raw/*
+data/large/processed/*
+data/large_synthetic/
+
+# Everything a --synthetic self-test of the extension produces. Never a result.
+outputs_large_synthetic/
+
+# Keep the empty directory structure, as above.
+!**/.gitkeep
+
+# network_exports/ is deliberately NOT ignored: the supervisor asked for the
+# network itself to be reusable directly from the repository.
